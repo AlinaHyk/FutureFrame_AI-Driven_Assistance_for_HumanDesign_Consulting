@@ -2068,7 +2068,12 @@ import base64
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import pdfkit
+
+try:
+    import pdfkit
+    PDFKIT_AVAILABLE = True
+except ImportError:
+    PDFKIT_AVAILABLE = False
 import networkx as nx
 from pyvis.network import Network
 import tempfile
@@ -2967,7 +2972,9 @@ def display_chunk_relevance(top_chunks):
 # PDF Report Generation function
 def generate_pdf_report(chat_history, analysis_data=None, user_name="User"):
     """Generate a PDF report from the chat history and analysis data."""
-    current_date = datetime.now().strftime("%B %d, %Y")
+    if not PDFKIT_AVAILABLE:
+        st.error("PDF generation is not available in this environment.")
+        return None
     
     # Create HTML content for the report
     html_content = f"""
