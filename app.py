@@ -2053,87 +2053,21 @@
 
 
 import streamlit as st
-import os
-import sys
-import traceback
 
-st.set_page_config(page_title="Debug App", layout="wide")
+# Set page config
+st.set_page_config(
+    page_title="Human-Design AI Assistant",
+    page_icon="🧠",
+    layout="wide"
+)
 
-st.title("Debugging Information")
+st.title("Human Design AI Assistant")
+st.write("Welcome to the Human Design AI Assistant")
 
-# Environment info
-st.subheader("System Information")
-st.write(f"Python version: {sys.version}")
-st.write(f"Working directory: {os.getcwd()}")
-st.write(f"Directory contents: {os.listdir('.')}")
+# Basic UI elements
+user_query = st.text_input("What would you like to know about Human Design?")
+submit_button = st.button("Submit")
 
-# Try to list contents of specific folders
-try:
-    st.write(f"Static directory contents: {os.listdir('./static')}")
-except Exception as e:
-    st.write(f"Error listing static directory: {str(e)}")
-
-# Check for specific files
-file_paths = [
-    "embedded_data.json",
-    "static/manifest.json",
-    "static/service-worker.js",
-    "static/icon-192.png",
-    "static/icon-512.png"
-]
-
-for path in file_paths:
-    st.write(f"File {path} exists: {os.path.exists(path)}")
-    if os.path.exists(path):
-        st.write(f"  - Size: {os.path.getsize(path) / (1024*1024):.2f} MB")
-
-# Display environment variables (redacted for security)
-env_vars = {}
-for key in os.environ:
-    if "key" in key.lower() or "secret" in key.lower() or "password" in key.lower() or "token" in key.lower():
-        env_vars[key] = "[REDACTED]"
-    else:
-        env_vars[key] = os.environ[key]
-
-st.subheader("Environment Variables (Sensitive Values Redacted)")
-st.json(env_vars)
-
-# Try importing key dependencies
-st.subheader("Dependency Check")
-import_errors = []
-
-dependencies = [
-    "streamlit", "numpy", "pandas", "openai", "plotly", "networkx", 
-    "python-dotenv", "beautifulsoup4"
-]
-
-for dep in dependencies:
-    try:
-        if dep == "python-dotenv":
-            import dotenv
-            st.write(f"✅ {dep} (imported as dotenv): {dotenv.__version__}")
-        else:
-            module = __import__(dep)
-            st.write(f"✅ {dep}: {getattr(module, '__version__', 'unknown version')}")
-    except ImportError as e:
-        st.write(f"❌ {dep}: {str(e)}")
-        import_errors.append((dep, str(e)))
-
-if import_errors:
-    st.error(f"Failed to import {len(import_errors)} dependencies")
-else:
-    st.success("All dependencies imported successfully")
-
-# Try to load embedded_data.json
-st.subheader("Try Loading Embedded Data")
-try:
-    import json
-    with open("embedded_data.json", "r") as f:
-        # Just read the first few bytes to check if it's accessible
-        data_preview = f.read(1000)
-    st.success("Successfully accessed embedded_data.json")
-    st.write("Data preview (first 1000 bytes):")
-    st.code(data_preview)
-except Exception as e:
-    st.error(f"Error loading embedded_data.json: {str(e)}")
-    st.code(traceback.format_exc())
+if submit_button and user_query:
+    st.write(f"Your query: {user_query}")
+    st.write("This is a placeholder response. The full version will connect to the embedded data and OpenAI API.")
