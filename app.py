@@ -2052,29 +2052,5 @@
 
 import streamlit as st
 
-st.set_page_config(
-    page_title="Human-Design AI Assistant",
-    page_icon="🧠",
-    layout="wide"
-)
-
-st.title("Human-Design AI Assistant")
-st.write("This is a minimal test app to verify deployment works.")
-
-st.success("If you can see this, the app is working correctly!")
-
-# Show system info
-st.subheader("System Information")
-import sys
-st.write(f"Python version: {sys.version}")
-st.write(f"Streamlit version: {st.__version__}")
-
-import pandas as pd
-import numpy as np
-st.write(f"Pandas version: {pd.__version__}")
-st.write(f"NumPy version: {np.__version__}")
-
-# Add a simple interactive element
-if st.button("Click me!"):
-    st.balloons()
-    st.write("Everything is working properly!")
+st.title("Hello World")
+st.write("This is a test app.")
