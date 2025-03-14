@@ -3162,6 +3162,7 @@ def build_knowledge_graph(embedded_data, max_nodes=30):
     return G
 
 # Function to visualize the knowledge graph
+# Function to visualize the knowledge graph
 def visualize_knowledge_graph(G):
     """Create an interactive visualization of the knowledge graph."""
     if not PYVIS_AVAILABLE:
@@ -3182,6 +3183,7 @@ def visualize_knowledge_graph(G):
             st.write(f"- {node}: {degree} connections")
             
         return None
+        
     # Create a Pyvis network
     net = Network(height="500px", width="100%", bgcolor="#1E1E2E", font_color="white")
     
