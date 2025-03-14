@@ -2127,6 +2127,7 @@ if OPENAI_AVAILABLE:
     openai.api_key = os.getenv("OPENAI_API_KEY")
 import os
 from dotenv import load_dotenv
+import random
 
 # Load environment variables from .env file
 load_dotenv()
@@ -2931,7 +2932,7 @@ def create_metrics_dashboard(chat_history):
             f"""
             <div class="metric-card">
                 <div class="metric-label">Session Time</div>
-                <div class="metric-value">{random.randint(5, 30)} min</div>
+                <div class="metric-value">-- min</div>
             </div>
             """, 
             unsafe_allow_html=True
