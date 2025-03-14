@@ -2075,7 +2075,13 @@ try:
 except ImportError:
     PDFKIT_AVAILABLE = False
 import networkx as nx
-from pyvis.network import Network
+try:
+    import networkx as nx
+    from pyvis.network import Network
+    PYVIS_AVAILABLE = True
+except ImportError:
+    import networkx as nx  # Keep networkx as it should be available
+    PYVIS_AVAILABLE = False
 import tempfile
 import os
 import re
@@ -3158,6 +3164,24 @@ def build_knowledge_graph(embedded_data, max_nodes=30):
 # Function to visualize the knowledge graph
 def visualize_knowledge_graph(G):
     """Create an interactive visualization of the knowledge graph."""
+    if not PYVIS_AVAILABLE:
+        st.error("Interactive graph visualization is not available in this environment.")
+        
+        # Create a simple text representation instead
+        nodes = list(G.nodes())
+        edges = list(G.edges())
+        
+        st.write(f"Graph contains {len(nodes)} concepts and {len(edges)} connections")
+        st.write("Top concepts by connections:")
+        
+        # Show top nodes by degree
+        degrees = dict(G.degree())
+        top_nodes = sorted(degrees.items(), key=lambda x: x[1], reverse=True)[:10]
+        
+        for node, degree in top_nodes:
+            st.write(f"- {node}: {degree} connections")
+            
+        return None
     # Create a Pyvis network
     net = Network(height="500px", width="100%", bgcolor="#1E1E2E", font_color="white")
     
@@ -3633,14 +3657,17 @@ def main():
                         - Click on nodes to focus
                     """, unsafe_allow_html=True
                 )
-            
-            # Generate the graph visualization
-            try:
-                graph_html = visualize_knowledge_graph(G)
-                
+
+            if PYVIS_AVAILABLE:
+                try:
+                    graph_html = visualize_knowledge_graph(G)
+        
                 # Display the graph
-                st.components.v1.html(graph_html, height=600)
-                
+                    if graph_html:
+                        st.components.v1.html(graph_html, height=600)
+                except Exception as e:
+                    st.error(f"Error rendering knowledge graph: {str(e)}")
+
                 # Option to download the graph data
                 graph_data = export_knowledge_graph(G)
                 download_json = json.dumps(graph_data)
@@ -3652,6 +3679,9 @@ def main():
                 )
             except Exception as e:
                 st.error(f"Error rendering knowledge graph: {str(e)}")
+            else:
+                st.warning("Interactive graph visualization requires pyvis which is not available. Using simplified visualization instead.")
+                visualize_knowledge_graph(G)  # Will show the text-based alternative
     else:
         # Show a placeholder and instructions when the graph hasn't been generated yet
         st.info("Click the 'Generate Knowledge Graph' button to build and visualize relationships between Human Design concepts.")
