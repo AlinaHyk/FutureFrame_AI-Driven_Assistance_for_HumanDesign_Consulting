@@ -1,36 +1,9 @@
-# Document handling
-pdfplumber==0.9.0
-python-docx==0.8.11
-textract==1.6.5
-beautifulsoup4==4.11.1
-
-# Core dependencies
-openai==0.27.0 # For OpenAI API access including embeddings
-whisper==1.1.10  # OpenAI's Whisper model for audio transcription
-# Whisper for audio transcription (requires ffmpeg)
-openai-whisper==20230314
-numpy>=1.20.0  # Required by various data processing functions
-nltk>=3.6.0  # Natural Language Toolkit for text processing
-requests==2.28.2
-
-# Web application
-streamlit>=1.19.0 # Web interface framework
-plotly>=5.5.0  # Interactive visualization library
-pdfkit>=1.0.0  # For PDF generation
-pyvis>=0.3.0  # Network visualization
-
-# Data processing
-pandas>=1.3.0  # Data manipulation and analysis
-networkx>=2.7.0  # Graph modeling for knowledge graph
-python-dotenv>=0.19.0  # Environment variable management
-
-# Additional UI components
-streamlit-elements>=0.1.0  # Additional Streamlit components
-
-# File handling
-papaparse>=5.3.0  # CSV parsing in JavaScript
-sheetjs>=0.18.0  # Excel file processing
-
-# Optional dependencies
-matplotlib>=3.5.0  # For potential additional visualizations
-scikit-learn>=1.0.0  # For potential ML applications
+streamlit>=1.31.0
+openai==0.28.1
+numpy>=1.26.0
+pandas>=2.1.0
+requests==2.31.0
+python-dotenv>=1.0.0
+plotly>=5.18.0
+networkx>=3.2.0
+beautifulsoup4>=4.12.0
