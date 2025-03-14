@@ -2053,21 +2053,108 @@
 
 
 import streamlit as st
+import os
+from datetime import datetime
 
 # Set page config
 st.set_page_config(
     page_title="Human-Design AI Assistant",
     page_icon="🧠",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
-st.title("Human Design AI Assistant")
-st.write("Welcome to the Human Design AI Assistant")
+# Custom CSS (simplified version)
+def load_css():
+    return """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+    
+    :root {
+        --primary: #6C63FF;
+        --accent: #BD93F9;
+        --dark: #1E1E2E;
+        --light: #F8F9FA;
+    }
+    
+    /* Main styles */
+    html, body, [data-testid="stAppViewContainer"] {
+        background: linear-gradient(135deg, var(--dark), #292D3E);
+        color: var(--light);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    h1 {
+        background: linear-gradient(90deg, var(--primary), var(--accent));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5em;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    /* Basic responsive styling */
+    @media screen and (max-width: 768px) {
+        h1 { font-size: 1.8rem !important; }
+    }
+    </style>
+    """
 
-# Basic UI elements
-user_query = st.text_input("What would you like to know about Human Design?")
-submit_button = st.button("Submit")
+def main():
+    # Apply custom CSS
+    st.markdown(load_css(), unsafe_allow_html=True)
+    
+    # Initialize session state variables
+    if 'chat_history' not in st.session_state:
+        st.session_state.chat_history = []
+    
+    # Main header
+    st.markdown("<h1>Human Design AI Assistant</h1>", unsafe_allow_html=True)
+    st.write("This demo version works across different devices and screen sizes.")
+    
+    # Basic chat interface
+    with st.container():
+        # Display chat messages
+        for message in st.session_state.chat_history:
+            if message["role"] == "user":
+                st.markdown(f"**You:** {message['content']}")
+            else:
+                st.markdown(f"**Assistant:** {message['content']}")
+        
+        # Input area
+        user_input = st.text_area("What would you like to know about Human Design?", height=100)
+        
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            submit_button = st.button("Send")
+        with col2:
+            clear_button = st.button("Clear Chat")
+        
+        # Handle clear button
+        if clear_button:
+            st.session_state.chat_history = []
+            st.experimental_rerun()
+        
+        # Handle submit button
+        if submit_button and user_input:
+            # Add user message to chat history
+            st.session_state.chat_history.append({"role": "user", "content": user_input})
+            
+            # Generate a simple demo response
+            current_time = datetime.now().strftime("%H:%M:%S")
+            demo_response = f"This is a demo response at {current_time}. In the full version, I would provide detailed information about Human Design concepts based on your query: '{user_input}'"
+            
+            # Add assistant response to chat history
+            st.session_state.chat_history.append({"role": "assistant", "content": demo_response})
+            
+            # Rerun to update the UI
+            st.experimental_rerun()
+    
+    # Footer
+    st.markdown("---")
+    st.markdown("Demo version - Human Design AI Assistant")
 
-if submit_button and user_query:
-    st.write(f"Your query: {user_query}")
-    st.write("This is a placeholder response. The full version will connect to the embedded data and OpenAI API.")
+# Run the application
+if __name__ == "__main__":
+    main()
