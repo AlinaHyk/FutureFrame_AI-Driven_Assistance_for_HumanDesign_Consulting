@@ -3160,9 +3160,7 @@ def build_knowledge_graph(embedded_data, max_nodes=30):
             continue
     
     return G
-
-# Function to visualize the knowledge graph
-# Function to visualize the knowledge graph
+#Function to visualize the knowledge graph
 def visualize_knowledge_graph(G):
     """Create an interactive visualization of the knowledge graph."""
     if not PYVIS_AVAILABLE:
@@ -3210,6 +3208,7 @@ def visualize_knowledge_graph(G):
         os.unlink(temp_path)
         
         return graph_html
+        
 # Function to find related concepts
 def find_related_concepts(G, concept, max_distance=2):
     """Find concepts related to a given concept up to a certain distance in the graph."""
