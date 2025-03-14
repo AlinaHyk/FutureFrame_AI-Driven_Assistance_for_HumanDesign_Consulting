@@ -3678,8 +3678,8 @@ def main():
                     file_name="human_design_knowledge_graph.json",
                     mime="application/json"
                 )
-            except Exception as e:
-                st.error(f"Error rendering knowledge graph: {str(e)}")
+            # except Exception as e:
+            #     st.error(f"Error rendering knowledge graph: {str(e)}")
             else:
                 st.warning("Interactive graph visualization requires pyvis which is not available. Using simplified visualization instead.")
                 visualize_knowledge_graph(G)  # Will show the text-based alternative
