@@ -1,0 +1,1103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5 – 15. Канал ритма | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"BCXNtVjo3Pk7J1Ebl0rig-U3g-ZflPITN3bNv-MCzjI", "js":{"u002Fjquery-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.js*/:1, "u002Fjquery.once-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-4.js"/*tpa=http://greasp.com/page/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.form.js*/:1, "u002Fajax-2.js"/*tpa=http://greasp.com/page/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-4.js"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-2.js"/*tpa=http://greasp.com/page/misc/u002Fprogress.js*/:1, "u002Fis_useful-1.js"/*tpa=http://greasp.com/page/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-4.css"/*tpa=http://greasp.com/page/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-4.css"/*tpa=http://greasp.com/page/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-4.css"/*tpa=http://greasp.com/page/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-4.css"/*tpa=http://greasp.com/page/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-4.css"/*tpa=http://greasp.com/page/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-4.css"/*tpa=http://greasp.com/page/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-4.css"/*tpa=http://greasp.com/page/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-4.css"/*tpa=http://greasp.com/page/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-4.css"/*tpa=http://greasp.com/page/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-4.css"/*tpa=http://greasp.com/page/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-4.css"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-4.css"/*tpa=http://greasp.com/page/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-4.css"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/page/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5 – 15. Канал ритма
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Дизайн пребывания в потоке.
+
+
+КОНТУР:
+ Контур Понимания.
+
+
+ТИП КАНАЛА:
+ Генерируемый.
+
+
+КРАТКАЯ ХАРАКТЕРИСТИКА:
+ Вы очень притягательный человек. Вы втягиваете любого, кого встречаете, в свой собственный ритм. Если мир кажется вам хаотичным, это потому, что вы таковы. Если вы находитесь в потоке, то все, что вы делаете, не требует усилий.
+
+
+
+
+Эти люди рождены, чтобы привести нас в гармонию с жизненными силами и самим творчеством, сонастраивая нас с глубочайшими паттернами жизни. У них свой неповторимый ритм, и их присутствие может быть очень привлекательным. Они могут подстроить свой собственный ритм под изменяющиеся обстоятельства, они являются хронометрами с врожденным чувством времени и чуткостью к окружению. Они не могут опаздывать или приходить раньше времени. Они всегда в своем ритме и автоматически включают любого, кто находится в их ауре, в свой собственный ритм. Откликаясь на проявления жизни, эти люди всегда находятся в замечательном потоке со всей жизнью.
+
+
+Соединение 5-15 между двумя людьми может приносить вызов в интимные отношения, поскольку два совершенно разных жизненных ритма находятся в прямом конфликте. 5-м воротам нужны неизменные ритмы, а 15-м нужны изменяющиеся.
+
+
+Канал Ритма лежит в основе нашего био-жизненного процесса. Будучи частью дизайна всех других форм жизни, включая отдельную клетку, он является сутью Логического процесса и того, как жизнь двигается в будущее с помощью паттернов. Сочетание разнообразия паттернов и спектра ритмов ведет к определению этого канала, создавая сам поток жизни. Люди с этим каналом являются очень притягательными, обладая Коллективным магнетизмом, который втягивает других. Этот канал делится своим потоком и магнетизмом с другими и отвечает за создание паттерна и потока самой жизни на планете. Как таковые, это не те реки, которые вы могли бы легко повернуть вспять.
+
+
+Поскольку это генерируемый канал, то человек с определенным Ритмом естественно откликается в соответствии с паттерном. Но когда ложное Я инициирует Ритм, это создает искаженный поток, который втягивает других в поток, не корректный для них. Будучи корректным, человек создает надлежащий поток, и те, кто притягивается его магнетизмом, притягиваются к чему-то ценному. Это обеспечивает безопасный выход, помогающий им двигаться в будущее.
+
+
+И то, что выходит из концентрации фокуса (52-9), – это ритм. Есть понимание, есть ритм. Это то, что говорит психология. Каждый ребенок до 4-х лет проходит определенный процесс, в том смысле, как работает их ум и развивается их понимание. Это то, как созревает человеческий мозг. Это любой фокус, возьмите, например, работу, и у вас есть новый ритм в вашей жизни. Любую деятельность, которую вы начинаете за пределами вашей работы – у вас опять же новый ритм. Каждый четверг с 3 до 6 вы недоступны ни для кого, потому что у вас есть занятие. Так что когда у вас есть какой-то фокус, этот фокус в жизни определяет ваш ритм. КАНАЛ РИТМА – это ДИЗАЙН ПРЕБЫВАНИЯ В ПОТОКЕ. Это значит никогда, никогда, никогда не торопиться. И это возможно, только если у вас корректный фокус, потому что если у вас есть корректный фокус, фокус, который вам нравится, то тогда неважно, какой будет ваш поток, какой будет ваш ритм, вы будете течь все время от того, что вам нравится, к тому, что вам нравится. Это волшебно – быть в потоке со своим собственным временем.
+
+
+Люди, у которых есть этот канал, имеют действительно фиксированный ритм. Когда человек с этим каналом находится в группе, группа двигается с его ритмом. До тех пор, пока они получают удовольствие от того, что они в потоке в определенном месте, все будет весело. Как только им уже хватит, это будут те люди, которые скажут: «Ну все, пошли!» И вы скажете: «Ой! Давай еще немножко побудем». – «Нет, пошли!» И вы почувствуете, что лучше идти. Это невероятная сила. Это очень мощный магнетизм. Воплощение коллективного ритма.
+
+
+Это жизненная сила Сакрального центра, которая усиливает мою идентичность, мое «я». Это вся моя энергия, вся моя сила, которая фокусируется на деятельности, потому что это генерируемый канал. И это создано для того, чтобы быть деятельным, чтобы работать, но это создано для того, чтобы быть деятельным с тем, с чем я могу себя отождествить в самой своей сути. Это не только то, что я люблю делать для самого себя. Это что-то, чем я люблю делиться с другими. И это невероятная мощь, чтобы притягивать других в свой поток. Нет ничего более прекрасного, чем видеть человека, который находится в потоке. Он не беспокоится, он не закрыт, он не невежественный, он не под давлением. Просто в потоке. И это потенциал для любого Генератора, энергия которого отдана той деятельности, которую он любит, той деятельности, которая является правильной для него, той работе, которую он любит.
+
+
+И еще один момент об этом канале. Это единственный универсальный канал. Существует матрица для растений, которая очень сильно отличается от нашей. Есть матрица для млекопитающих, которая отличается от матрицы животных и рептилий и отличается от нашей. Есть дизайн любого неодушевленного предмета. У камней тоже есть дизайн. Есть дизайн насекомых. Вы не заметили, что у насекомых есть предпочтения? Они не любят кровь любого. Им нравится кровь определенных людей, потому что у этих людей есть ворота комаров. Есть такие ворота комаров. Поймите, в этом нет какой-то загадки или тайны, опубликованы матрицы других животных и всего, чего угодно. Мы – единственный вид, у которого есть все ворота комаров, но у комаров нет тех ворот, которые есть у нас. У нас есть все ворота, которые есть у растений, но у них – не все, которые есть у нас. Есть люди, которые соединяются с растениями, есть люди, которые соединяются с неодушевленными предметами. Я знаю людей, они разговаривают со своими автомобилями. Они разговаривают с деревьями. Это единственный канал, который присутствует в любой форме жизни, каждой клетки. Дизайн клетки – только этот канал и еще маленький хвостик в канале мутации, который имеет возможность мутировать, видоизменять саму клетку.
+
+
+Поймите, что все в природе находится в потоке на своем месте. Мы являемся единственными, кто застрял, кто торопится, кто беспокоится. В природе все ждет. Вам нужно ждать вашего ритма, так же, как вы ждете сна. Вы не делаете сон, вы ждете. Когда вы прыгаете через скакалку, вам нужно дождаться правильного момента, чтобы впрыгнуть. Вам нужно научиться настраивать себя на природу. Настраивать себя на то, что находится вокруг вас. Это то, в чем эти люди хороши, пытаясь жить со своей энергией, со всем тем, что находится вокруг них.
+
+
+Также это канал ЛЮБВИ К ЧЕЛОВЕЧЕСТВУ. «Я люблю всех». Да, это правда. Это относительно, но это правда. Это люди, которые могут быть очень фрустрирующими, когда они не в потоке, когда они не откликаются, когда они инициируют, и их ум заставляет их торопиться, и когда они пытаются притянуть вас в свой торопящийся поток: «Ты все еще не готов?». Это люди, которые могут вам создать много трудностей, если они вынуждены ждать вас хотя бы 3 секунды. Но если вы будете ждать их 3 дня – это нормально. Однако если они будут вас ждать 3 секунды – «А-а-а-а!». Поток останавливается. Вы нарушаете поток. Поймите и научитесь всегда видеть темную и светлую стороны каждого канала, потому что это все есть.
+
+
+
+
+Теги: 
+
+
+
+
+
+
+HD
+ 
+
+
+
+
+Контур Понимания
+ 
+
+
+
+
+Каналы
+ 
+
+
+
+
+Генерируемые каналы
+ 
+
+
+
+
+
+
+
+
+64: 
+
+
+
+
+
+
+5
+ 
+
+
+
+
+15
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(5) Да
+(0) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/page/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

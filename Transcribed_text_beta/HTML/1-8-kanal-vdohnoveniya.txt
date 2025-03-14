@@ -1,0 +1,1133 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 - 8. Канал вдохновения | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"6fck4KaHq9YPSSZ8UedivIPa29-uGwAVaqpRlgodnTg", "js":{"u002Fjquery-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.js*/:1, "u002Fjquery.once-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-4.js"/*tpa=http://greasp.com/page/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.form.js*/:1, "u002Fajax-2.js"/*tpa=http://greasp.com/page/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-4.js"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-2.js"/*tpa=http://greasp.com/page/misc/u002Fprogress.js*/:1, "u002Fis_useful-1.js"/*tpa=http://greasp.com/page/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-4.css"/*tpa=http://greasp.com/page/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-4.css"/*tpa=http://greasp.com/page/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-4.css"/*tpa=http://greasp.com/page/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-4.css"/*tpa=http://greasp.com/page/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-4.css"/*tpa=http://greasp.com/page/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-4.css"/*tpa=http://greasp.com/page/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-4.css"/*tpa=http://greasp.com/page/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-4.css"/*tpa=http://greasp.com/page/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-4.css"/*tpa=http://greasp.com/page/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-4.css"/*tpa=http://greasp.com/page/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-4.css"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-4.css"/*tpa=http://greasp.com/page/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-4.css"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/page/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 - 8. Канал вдохновения
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Дизайн творческой Ролевой Модели.
+
+
+КОНТУР:
+ Контур Знания (Творческий канал).
+
+
+ТИП КАНАЛА:
+ Проецируемый.
+
+
+КРАТКАЯ ХАРАКТЕРИСТИКА:
+ Вы рождены для того, чтобы в своем творчестве отличаться от всех. Ваша жизнь требует храбрости, чтобы позволить себе выделяться из толпы. Просто будучи собой, вы всегда получите то признание, которого заслуживаете.
+
+
+
+
+У этих людей есть природные творческие способности и таланты, чтобы выразить себя неповторимым способом. Это «индивидуалы», усиливающие других просто благодаря своей непохожести и способности вдохновлять. Это творческий канал.
+
+
+Эти люди могут принести в мир такое необычное творчество, что они могут стать ролевыми моделями, вдохновляющими других быть такими же дерзкими. Так же, как 13-33 и 7-31, это канал лидерства, хотя эти люди не особенно беспокоятся о том, чтобы за ними следовали. Они просто представляют собой пример человека, который знает, куда он идет.
+
+
+Эти люди могут оказывать воздействие на других, создавая замечательное чувство творческого и необычного присутствия, например, они могут выделяться из толпы своим внешним видом или манерой одеваться. Для человека с каналом 1-8 нет ничего хуже, чем услышать, что он кого-то напоминает. Они созданы, чтобы быть уникальными! Им нужно, чтобы их признали и пригласили выразить свою неповторимость для того, чтобы получить то уважение, которого они заслуживают.
+
+
+Вдохновение – это центральное выражение Индивидуальной темы усиления. Будучи жизненной энергией артикуляции, 8-1 – это Творческая Ролевая Модель в том, как она выражает свой Вклад, или Вклад, который она делает через свое выражение. Индивидуальность ограничена в своей способности влиять на социум. Чтобы усиливать других своим Вкладом, человек должен быть очень искусным в том, как он это выражает.
+
+
+Этот канал всегда должен демонстрировать свою идентичность, свое Я, и, делая это, усиливать других, потому что, в конечном итоге, в этом заключен потенциал глубоко мутационной энергии. Во многом это является выражением идентичности в настоящем моменте и выражением творческого потенциала направления в человеческой жизни. В то время как человек с этим каналом демонстрирует, что он может внести вклад, он делает это лучше всего, оставаясь Индивидуалом.
+
+
+Например, 8-1 очень часто встречается у музыкантов. Им нужно быть способными продемонстрировать и привлечь внимание к своему вкладу. И в то же самое время, поскольку их выражение уникально, они должны быть в состоянии выразить себя в социальном единении с другими. В конечном счете, это делает мутацию Творческой Ролевой Модели более приемлемой для Коллективного и для Племени. Будучи творческим образцом, 8-1 может усиливать других людей. Например, вы идете на концерт эстрадного артиста с 8-1, и это наполняет вас Вдохновением, чтобы научиться играть на инструменте так, как он.
+
+
+КАНАЛ ВДОХНОВЕНИЯ, ДИЗАЙН ТВОРЧЕСКОЙ РОЛЕВОЙ МОДЕЛИ. Это глубочайшая потребность в самовыражении. Это глубочайшая потребность в том, чтобы другие увидели, как я сильно отличаюсь и насколько я творческий человек. Это возможность трансформировать это индивидуальное отличие во вклад, в контрибуцию. «Я не приношу замешательство. Я не приношу сомнение. Я несу синтез. Я несу знание. Я несу усиление. Вам не нужно верить мне, просто посмотрите на меня. Я являюсь воплощением того, о чем я говорю. Я знаю».
+
+
+В Испании есть поговорка: «Знание не требует места». Память занимает место, но знание – это не память. Знание – это пустота. Это место тишины, покоя внутри, для знания не нужно думать. Вы можете думать только до тех пор, пока вы не знаете. Когда вы знаете, мышления нет, есть только тишина. Этот канал 1-8 говорит: «Я знаю, что я могу сделать вклад». О! Это люди, которые постоянно делают вклад. Другой вопрос, чем. Это люди, которые каждый день делают вклад своей горечью. Люди, которые делают вклад своей нерешительностью. Люди, которые делают вклад своей ежедневной депрессией.
+
+
+Многие люди испытывают депрессию, но вы не видите этого. Есть разница ? не просто черное и белое между депрессией, там есть очень много серых оттенков. Но депрессию вы можете видеть не в любом канале этого контура, потому что они так отличаются. Канал 1-8, соединенный с Горлом, т.е. все это выражено с помощью языка тела, вы это можете видеть. То, насколько я глубоко в депрессии, – это тоже способ показать, насколько я отличаюсь. То, что всех делает счастливыми, не делает меня счастливым, я не вижу духа в этом счастье. Моему духу нужно было бы что-то совсем другое, не знаю, что, никогда этого не видел, никогда не нашел, никогда не слышал, все то, что я знаю, это горечь, та же самая горечь каждый день.
+
+
+Весь контур Знания наполнен депрессией, потому что он постоянно, постоянно ждет, что что-то большое случится, каждый момент будет моментом мутации, каждый момент будет моментом правды, вдохновения, экстаза. Эволюция так не работает. Эволюция очень скучная, это не возбуждает. Мы возбуждающи. Эволюция очень скучная: каждый день свет – тьма, свет – тьма. Каждый год: весна, лето, осень, зима. Что в этом такого возбуждающего? Вы уже знаете все заранее. Вы можете планировать: через три месяца я поеду кататься на лыжах, все так предсказуемо. А мы – нет. Мы возбуждающи. Мы можем забыть, что сейчас зима, и ходить обнаженными в доме, как будто бы сейчас лето, раскрасить стены цветами, поставить солярий на крыше, привести пару женщин и думать, что мы в Индии.
+
+
+И это сила нашего ума, что мы можем воссоздать природу в любых ее формах. Но вы не ожидаете скачка в эволюции каждые пять минут. Вам придется играть с тем, что есть, придется играть с теми возможностями, которые заложены там. Люди с этим контуром всю свою жизнь ждут этого большого момента, что жизнь превратится вдруг во что-то великолепное, потому что однажды у них было такое мгновение, и они думают, что так должно быть все время. И конечно, это неправда. Это было бы несправедливо, что у одного было бы все время все здорово.
+
+
+Если у вас есть определенность в этом контуре, вам нужно перестать ждать, что нечто невероятно большое случится, и начать находить такие маленькие моменты, которые делают жизнь прекрасной: ваша работа, разговор в баре, девочка, которая мимо двери каждый день проходит, просто маленькие такие моменты. Вместо слона вы просто видите эту маленькую милую девочку, которая проходит мимо. Волшебство в этих маленьких вещах. Вам нужны для этого глаза! И в то время, когда эти люди мечтают об этих больших вещах, которые могут случиться, они не видят этих маленьких красивых моментов. Все кажется полной ерундой по сравнению с этим большим моментом.
+
+
+Эти люди, у которых есть определенность в этом контуре, знают: все одно и то же. И они живут такой плоской жизнью, потому что им неинтересны маленькие моменты. Они не хотят принимать участия в вечеринках, они не хотят быть в команде с другими людьми. Они не хотят того, чего хотят все остальные. Они действительно ждут чего-то своего. Просто та самая вещь, которую они ждут для себя, это не с этой планеты. И внутри они испытывают глубокую печаль, потому что это никогда не происходит, это просто ощущение внутри, что чего-то не хватает, чего-то всегда не хватает: нет духа, нет любви, нет правды, нет красоты. И это только ваш ум, который все переворачивает. На самом деле хватает всего! Если вы просто отпустите свой ум, вы мгновенно можете вернуться в то время своего детства, когда вы еще не знали всего и все было так интересно!
+
+
+Но это также те люди, которые больше не хотят никого идеализировать, когда из идол разбивается. Почему нет? Один идол разбился, возьми другого! Если ты мужчина, то у тебя есть три миллиарда женщин – три миллиарда идолов, которых можно разбить! Потому что это не связано с идолом, это связано с твоей страстью. Все дело в твоей страсти и в ясности твоей страсти! Объективности и зрелости твоей страсти или незрелости и инфантильности твоей страсти. Это все в маленьких вещах.
+
+
+Еще один комментарий по поводу этого канала. Соединение между центром Джи и Горлом – это выражение контура, это идентичность этого контура, это то, для чего этот контур существует. Знание нужно, чтобы вдохновлять нас. Индивидуальное отличие – для того, чтобы вдохновлять нас. Оно не для того, чтобы становиться проблемой. Оно нужно, чтобы вдохновлять нас в том, чем мог бы быть наш потенциал. Вам нужно видеть, что каждый контур связан с тем, чтобы дать лучшее из него. Более того, вы увидите то, как работает творчество в каждом контуре, будет отличаться.
+
+
+Канал 1-8 вдохновение – это творческое самовыражение. 99 % его творчества – это вдохновение, 1 % – это техника. 99 % – вдохновение, поэтому мы и говорим о таких людях: «Это гений!», потому что они делают самое лучшее из очень малого. Из чего-то очень маленького, незначительного они делают произведение искусства. А ведь они даже не думали, что получилось произведение искусства. Они просто были собой.
+
+
+Например, живет художник, очень романтичная натура, и у него есть подружка. Они поссорились. Во время ссоры они ведут себя как индивидуалы. «Ты иди к себе домой, я пойду к себе». Сгоряча он напивается. Потом берет все краски, кисти и все это разбивает об стену, и разрушает все в комнате. Затем падает и засыпает. Через день или два он просыпается с головной болью, кажется, что он в аду – не узнает места. И начинает убирать беспорядок, медленно, но верно. Что делать? Он убирает все, все раскладывает по местам. Когда доходит до этой стены, по которой размазаны краски, он говорит: «Я это оставлю, как напоминание, что я лучше не буду ссориться со своей подругой, я оставлю это как урок для себя».
+
+
+Через три дня у него день рождения, приглашены все друзья на вечеринку. Друзья у художника – это артисты, художники, люди с высоким эстетическим вкусом, когда они сидят там, один парень говорит: «А мне нравится то, что ты сделал! Когда ты начал увлекаться таким стилем?» -«Нет, это было у меня много лет в голове. Ты здесь давно уже не был, мне вот удалось поэкспериментировать с этим только последнее время. Ну, знаете, как люди со своими интимными делами». А тот парень смотрит и говорит: «Это выглядит здорово, но ты можешь это улучшить. Если ты сделаешь это с трубкой, или так, или так, ты можешь добиться значительного эффекта». Когда вечеринка заканчивается, все уходят домой, художник начинает развивать технику, навыки, чтобы сделать что-то подобное.
+
+
+Художник не думал ни о какой технике, он просто был собой, беспомощный, потерянный в своем собственном безумном способе выражения себя, и, не желая того, создал красоту. Это мы. Никакой техники, искусство бытия, просто то, чем ты являешься. Вдохновение, никакой техники. Это очень сильно отличается. Его друг был не из этого контура. Он был из контура логики, где вдохновение – это только 1 % и 99 % – это повторение, практика, дисциплина, повторение. Этот художник сделал это однажды и больше уже не повторял. Искусство. Это искусство жизни, искусство бытия.
+
+
+Этот человек все будет делать с такой же тотальностью: если он пьет, то пьет четыре бутылки, если творит – это будет шедевр. И он не сравнивает то, что он делает. Все, что он знает – это не похоже, это отличается. Это самое главное для него, чтобы это было не похоже. Если бы это было похоже на что-то, то тогда ему пришлось бы сравнивать. Сделай это настолько непохожим, чтобы сравнение было бессмысленным. Это творчество, это называется – быть оригинальным. И мы все -оригинальные формы. И люди с этим каналом усиливают нас доверять тому, что мы все уникальны. Они не только хороши в том, чтобы выразить свое собственное отличие, но они также хорошо признают отличие в других людях.
+
+
+
+
+Теги: 
+
+
+
+
+
+
+HD
+ 
+
+
+
+
+Каналы
+ 
+
+
+
+
+Контур Знания
+ 
+
+
+
+
+Проецируемые каналы
+ 
+
+
+
+
+
+
+
+
+64: 
+
+
+
+
+
+
+1
+ 
+
+
+
+
+8
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(4) Да
+(0) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/page/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1843 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"wSbMUQTaKCybyzvYrFB7dle8obA4LTgCGBbke_ab3x4", "js":{"u002Fjquery.js"/*tpa=http://greasp.com/misc/u002Fjquery.js*/:1, "u002Fjquery.once.js"/*tpa=http://greasp.com/misc/u002Fjquery.once.js*/:1, "u002Fdrupal.js"/*tpa=http://greasp.com/misc/u002Fdrupal.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels.js"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1}, "css":{"u002Fsystem.base.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator.css"/*tpa=http://greasp.com/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment.css"/*tpa=http://greasp.com/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom.css"/*tpa=http://greasp.com/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield.css"/*tpa=http://greasp.com/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode.css"/*tpa=http://greasp.com/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll.css"/*tpa=http://greasp.com/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch.css"/*tpa=http://greasp.com/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser.css"/*tpa=http://greasp.com/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum.css"/*tpa=http://greasp.com/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews.css"/*tpa=http://greasp.com/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome.css"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools.css"/*tpa=http://greasp.com/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels.css"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Для зарегистрированных пользователей доступен чат!
+
+
+При регистрации вы можете добавить свою рейв-карту в профиль. Список всех, кто добавил свою рейв-карту, можно посмотреть в разделе 
+Сообщество
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SaLuSa, July 30, 2012
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 08/01/2012 - 17:52
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+Дорогие наши, как вы узнаете из множества других источников, достигнута точка, когда были отданы Божественные распоряжения приступить к действиям по объявлению нашего присутствия без всякого промедления. Мы проявляли крайнее терпение и предоставляли вашим лидерам много возможностей предпринять шаги, направленные на ваше освобождение от контроля Иллюминатов. Мы знаем, что они также, как и многие люди, боятся их, но этот страх нужно отбросить в сторону, чтобы позволить появиться истине. Олимпийские Игры являются предметом мирового внимания, и мы не можем придумать лучший способ чтобы дать о себе знать. Время стремительно летит, и мы должны получить возможность представиться вам.
+
+
+Некоторые все еще выберут не верить нашим посланиям, и это их свободный выбор, который мы почитаем. Тем не менее, существует важный вопрос Вознесения, и много чего нужно сделать в эти последние дни, и мы не можем больше ждать. Наши союзники зашли так далеко, как того можно было ожидать, и им нужна полная свобода чтобы в полном объеме приступить к своим последним задачам. Поэтому очень скоро процесс зачистки можно будет осуществлять без дальнейших помех со стороны Темных сил. Ваши жизни в определенной степени будут перевернуты вверх тормашками, хотя некоторые люди уже готовы к этому. Мы надеемся, что некоторые лидеры обратят внимание на нашу просьбу, и не будут ждать, пока мы не будем вынуждены вмешаться, но если нам придется это сделать, то мы полностью готовы.
+
+
+
+
+
+
+
+
+Салуса
+ 
+
+
+
+
+Сириус
+ 
+
+
+
+
+текущие энергии
+ 
+
+
+
+
+Раскрытие
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о SaLuSa, July 30, 2012
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31.07
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 08/01/2012 - 17:00
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+После продолжительного отдыха я снова включаюсь в работу большими силами, которую частично проводил уже последние пару недель. После того, как были достигнуты прорывы в технологиях повышения вибрационки Земли и более общих систем как вы помните был необходим откат для того, чтобы более плавно пошли изменения. Плюс к тому же примененные технологии при использовании несут слишком большую интенсивность для земного сознания людей и планеты: все было сделано мощно, быстро. Это были работы конца второй половины июня этого года.
+
+
+Мы активизировали внешние орбиты Солнечной Системы планет, провели их на Землю. Далее активизировали сверх Галактические уровни для проникновения к Земле по проложенным магистралям Нептуна. Но у нас проблемы с восприятием этой энергии, ее пропиской в системах, ее якорением - это был слишком большой разрыв в качествах, о чем упоминали даже Земные тонкие службы в ченеллингах. И у нас по прежнему есть проблема - Сатурн. Это - ядро старой системы. Мы могли бы провести изменения и дальше усилять мощность потоков а главное их вибрационную составляющую, но вместе со старыми структурами много будет повреждений и разрушений. Вы и так можете видеть начавшиеся с июня аномалии по погоде, стихиям, воде и пр.
+
+
+
+
+
+
+
+
+Сатурн
+ 
+
+
+
+
+Система
+ 
+
+
+
+
+текущие энергии
+ 
+
+
+
+
+Максим Садовник
+ 
+
+
+
+
+Юпитер
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о 31.07
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21. Благородная жизнь
+
+
+
+
+
+
+
+
+ 
+СИДДХИ
+: Доблесть
+
+
+ДАР
+: Власть
+
+
+ТЕНЬ
+: Контроль 
+
+
+ПРОГРАММНЫЙ ПАРТНЁР
+: 48-й Генный Ключ.
+
+
+КОДОНОВОЕ КОЛЬЦО
+: Кольцо Человечества (10, 17, 21, 25, 38, 51) 
+
+
+ФИЗИОЛОГИЯ
+: Лёгкие.
+
+
+АМИНОКИСЛОТА
+: Аргинин 
+
+
+ 
+
+
+Подробнее
+ о 21. Благородная жизнь
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+День ВНЕ Времени
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 07/25/2012 - 12:30
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Варианты 
+
+
+
+
+ 
+да 
+
+
+
+
+
+
+ 
+нет 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+Подробнее
+ о День ВНЕ Времени
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Информационный Банк Вселенной
+
+
+
+
+
+
+
+
+Опубликовано 
+пн, 07/23/2012 - 18:33
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Сейчас у вас на планете появились многочисленные системы коммуникаций, откуда вы можете черпать информацию не в метафизическом плане а физически, через книги, интернет , телевидение и пр. Это тоже не случайно. Все что происходит задано уровнем развития вашей планеты и вас лично. Ведь есть люди, живущие в Африке, и не знающие интернет. Есть женщины, живущие в арабских странах, которым не дают воспользоваться данными коммуникациями. Есть дети, которых родители не допускают к информации. А есть компьютерные гении, которые сами создают эти системы. Все это не случайно и зависит от степени вашего развития.
+
+
+	Появление множества средств внешней коммуникации взаимосвязано и с появлением множества средств внутренней коммуникации человека со вселенной и наоборот. Вы не задумывались над этим ? Произошел скачок технического прогресса, но все взаимосвязано. На вашей планете произошел скачок внутреннего прогресса. И что первичнее – не имеет значение, это грани одного процесса.
+
+
+	А именно многие люди стали получать информацию об устройстве вселенной, внутреннем божественном развитии, устройстве вашего мира взаимодействуя с другими сущностями во вселенной через так называемые ченеллинги. У многих из вас открылся канал связи с вселенной. Точнее сказать, он всегда был открыт, но вы им не пользовались, поскольку либо не верили в его существование, либо не знали о его наличии, либо боялись им пользоваться.
+
+
+
+
+
+
+
+
+ченнелинг
+ 
+
+
+
+
+частоты
+ 
+
+
+
+
+инфополе
+ 
+
+
+
+
+ноосфера
+ 
+
+
+
+
+эзотерический киберпанк
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Информационный Банк Вселенной
+1 комментарий
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RAVE @ SWAMP (Москва)
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+Друзья! Вот уже в 4-й раз мы приглашаем Вас провести выходные в лесу под очень интерсную и не обычную электронную музыку.
+
+	Данное мероприятие уже традиционно представляет некоммерческие underground проекты музыкантов и диждеев из различных городов России.
+
+
+ 
+Underground must be free!
+
+
+ 
+
+
+Подробнее
+ о RAVE @ SWAMP (Москва)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Об аромате смысла нашей речи
+
+
+
+
+
+
+
+
+Опубликовано 
+чт, 07/19/2012 - 16:36
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Древнее Писание гласит: «При многословии не миновать греха», потому что в потоке слов на нынешней стадии человеческой эволюции многие слова произносятся бесцельно или же по мотивам, которые, как выясняется (при анализе), свойственны исключительно личности. Чем дальше прогресс на пути к Мистериям, тем большую осторожность должен проявлять стремящийся. Необходимо это по трём причинам.
+
+
+
+
+
+
+
+
+Горло
+ 
+
+
+
+
+Звук
+ 
+
+
+
+
+Аджна
+ 
+
+
+
+
+речь
+ 
+
+
+
+
+русский язык
+ 
+
+
+
+
+ментал
+ 
+
+
+
+
+оккультизм
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Об аромате смысла нашей речи
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+День Вне Времени - 25.07.2012
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 07/18/2012 - 18:32
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+План Вознесения Земли всё время меняется. Старая программа полностью ликвидирована. Включился «Резервный код реальности», согласно которому сейчас проходит Эволюция Земли и всего живого на этой планете. Мы не можем как-то интерпретировать этот Код и Реальность, которую он несёт в себе. Так как он имеет характер Галактической Секретности.
+Но, в связи с включением этого «Резервного кода», согласно информации переданной Мастером Крайоном, 
+«Земля начала интенсивно стягивать энергию в центр, что ускоряет все процессы сворачивания внешней и внутренней иллюзии трёхмреного существования»
+.
+
+
+	В связи с этим мы не будем проводить масштабное празднование так, как это планировалось, потому что происходит глобальное обнуление всех процессов, по крайней мере в нашем регионе точно. Сейчас у нас просто нет энергии на проведение этого массового мероприятия, энергия оттягивается планетой в центр, Гайя не даёт нам возможности заниматься более чем-то, отвлекающим внимание от самой главной цели каждого человека - 
+полное пробуждение и развитие сердечности и теплоты
+.
+
+
+
+
+
+
+
+
+Крайон
+ 
+
+
+
+
+переход
+ 
+
+
+
+
+Земля
+ 
+
+
+
+
+Радужный мост
+ 
+
+
+
+
+Календарь майя
+ 
+
+
+
+
+День Вне Времени
+ 
+
+
+
+
+ченнелинг
+ 
+
+
+
+
+Сефера
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о День Вне Времени - 25.07.2012
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Время истока
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 07/18/2012 - 14:37
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Дорогие Друзья, я приветствую вас, Я Есмь Крайон.
+
+
+	Сегодня я прибыл для того, чтобы передать вам это Новое Послание о Времени, которое передано в качестве подготовки вашего сознания и клеток к эволюции временных циклов в вас самих. Это для вашей подготовки к великому сдвигу сознания в иную систему временных координат. Этот сдвиг уже начал происходить. Вы уже не узнаёте свою реальность. Многие из вас перестали ощущать этот мир, вкус земной пищи и ароматы. Здесь ваши ощущения могут значительно притупляться. А на новую реальность вы ещё настроены не полностью, поэтому многие из Работников Света в замешательстве и даже в состоянии тихой паники. Вы как бы зависли в нейтральной полосе между двумя мирами. Сейчас очень особенный и острый, но скрытый процесс вашего внутреннего переживания временных изменений, которые происходят внутри вас и с вашей планетой.
+
+
+	Колесо старого времени вращается уже совсем медленно, оно почти остановилось. С другой стороны великое колесо времени Новой Высшей Реальности ещё не набрало свою скорость, вы между двумя процессами. Между двумя реальностями. И это нормальная, позитивная часть вашего Перехода. Отпускайте всё старое, и принимайте Новый Мир. Даже если он вам ещё не понятен и вы никак не можете его интерпретировать. Это вопрос резонанса. Постепенно ваше восприятие установит необходимый и полный резонанс с Новой Реальностью, и вы осознаете себя уже за гранью Великого Перехода.
+
+
+
+
+
+
+
+
+
+
+вселенная
+ 
+
+
+
+
+время
+ 
+
+
+
+
+ченнелинг
+ 
+
+
+
+
+Крайон
+ 
+
+
+
+
+Сефера
+ 
+
+
+
+
+Земля
+ 
+
+
+
+
+электро-магнетизм
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Время истока
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Перестройка наших целей из 3-х в 5-мерность.
+
+
+
+
+
+
+
+
+Опубликовано 
+вт, 07/17/2012 - 09:52
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+
+
+Добро пожаловать домой!
+
+
+Итак, мы уже официально в новом мире. Мы пережили целую серию небесных событий и теперь готовы воссоздавать нашу жизнь заново. В последние 6 недель у нас было все, кроме перестройки нашей ДНК, наши операционные системы были, буквально и фигурально, рекалиброваны и перезагружены, и сейчас, когда мы стали добросовестными членами пятимерного сознания, мы, как обычно, далеки от дела.
+
+
+	Мы все еще интегрируем эти изменения (особенно на клеточном уровне) и пытаемся найти свое место в новой области. Но одно можно сказать определенно: для тех, кто проделал большую и необходимую внутреннюю работу, трехмерная голографическая система реальности больше не находится в центре внимания. Пятимерность является сейчас нашим домом, и хотя мы все еще будем в течение некоторого времени взаимодействовать с миром 3Д, мы приняли сейчас присягу мастерства миру сознания Единства, оставляя наш внутренний мир дуальности навсегда позади.
+
+
+
+
+
+
+
+
+Плеядианский Высший Совет
+ 
+
+
+
+
+астрология
+ 
+
+
+
+
+Лорен Горго
+ 
+
+
+
+
+Ян Лысаков
+ 
+
+
+
+
+ченнелинг
+ 
+
+
+
+
+текущие энергии
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Перестройка наших целей из 3-х в 5-мерность.
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+Страницы
+« первая
+‹ предыдущая
+…
+8
+9
+10
+11
+12
+13
+14
+15
+16
+следующая ›
+последняя »
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

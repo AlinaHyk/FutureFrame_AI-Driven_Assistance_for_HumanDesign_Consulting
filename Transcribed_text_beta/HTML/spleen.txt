@@ -1,0 +1,1386 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Центр селезёнки | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"pZwHCBZ2ScOi_gC5bN6u6xWk6ggVC59mtxrvUi2aXQ8", "js":{"u002Fjquery-9.js"/*tpa=http://greasp.com/hd/misc/u002Fjquery.js*/:1, "u002Fjquery.once-9.js"/*tpa=http://greasp.com/hd/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-9.js"/*tpa=http://greasp.com/hd/misc/u002Fdrupal.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-9.js"/*tpa=http://greasp.com/hd/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-9.js"/*tpa=http://greasp.com/hd/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-9.js"/*tpa=http://greasp.com/hd/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-9.js"/*tpa=http://greasp.com/hd/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1}, "css":{"u002Fsystem.base-9.css"/*tpa=http://greasp.com/hd/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-9.css"/*tpa=http://greasp.com/hd/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-9.css"/*tpa=http://greasp.com/hd/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-9.css"/*tpa=http://greasp.com/hd/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-9.css"/*tpa=http://greasp.com/hd/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-9.css"/*tpa=http://greasp.com/hd/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-9.css"/*tpa=http://greasp.com/hd/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-9.css"/*tpa=http://greasp.com/hd/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-9.css"/*tpa=http://greasp.com/hd/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-9.css"/*tpa=http://greasp.com/hd/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-9.css"/*tpa=http://greasp.com/hd/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-9.css"/*tpa=http://greasp.com/hd/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-9.css"/*tpa=http://greasp.com/hd/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-9.css"/*tpa=http://greasp.com/hd/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-9.css"/*tpa=http://greasp.com/hd/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-9.css"/*tpa=http://greasp.com/hd/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-9.css"/*tpa=http://greasp.com/hd/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-9.css"/*tpa=http://greasp.com/hd/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"0-9.85.htm"/*tpa=http://greasp.com/hd/0.85*/, "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Центр селезёнки
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Центр селезёнки
+
+
+
+
+
+
+
+
+ 
+
+
+Биологическое соответствие:
+ лимфатическая система, селезенка, бета-клетки.
+
+
+Ключевые слова: интуиция, телесная осознанность, страхи, связанные с выживанием, обеспечивающие здоровье, благополучие, вкус.
+
+
+Это центр осознанности, отвечающий за выживание человека на физическом уровне. Он связан со страхами физического тела.
+
+
+Определен примерно у 53 % людей. У них сильная интуиция и иммунная система. Им нужно доверять своему чутью, своим интуитивным озарениям. Они дают ощущение благополучия (ощущение, что все хорошо) другим людям. Такие люди хорошо справляются со своими страхами (выживание, прошлое, будущее) фиксированным способом, и это дает им ощущение безопасности. Чтобы быть здоровым, им нужно следовать своей интуиции, что бы ни говорил ум.
+
+
+Неопределен / открыт у 47 % людей. Им нельзя доверять своей интуиции, а спонтанность может их убить. Иммунная система менее сильная, и поэтому они могут научиться чувствовать свое тело. Эти люди открыты любым страхам, и иногда им трудно справляться с ними. В то же время страхи, которые они чувствуют, – не их, они приходят извне.
+
+
+ 
+
+
+Подробнее
+ о Центр селезёнки
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44. Ворота бдительности
+
+
+
+
+
+
+
+
+ 
+Гексаграмма И-Цзин
+:
+ '
+Переченье
+'
+
+
+Гармонические Ворота
+:
+ 
+26, Ворота Эгоиста
+
+
+Центр Селезенки, Контур Эго
+
+
+Капиталистический дизайн, предпринимательский. Инстинкт и память, предназначенные для передачи эго племени. Инстинктивная память в настоящем, подсказанная образцами опыта. Острая, инстинктивная память. Предложение индивидуальной лояльности и доступа к ресурсам памяти в обмен на силу эго. Ворота Страха перед прошлым.
+
+
+ 
+
+
+Подробнее
+ о 44. Ворота бдительности
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18. Ворота Корректировки
+
+
+
+
+
+
+
+
+ 
+Гексаграмма И-Цзин
+:
+ '
+Исправление
+'
+
+
+Гармонические Ворота
+:
+ 
+58, Ворота Живости
+
+
+Центр Селезенки, Контур Понимания
+
+
+В центре внимания стоит суждение о неудовлетворённости. Ворота обязательного обучения ребёнка родителями. Установление стандартов через глубокое родительское обусловливание. Использование сравнения для коррекции. Пожизненный процесс наполнения необходимой коррекции и улучшений. Нужда в совершенствовании, оттачивающая крайне важные навыки и понимание.
+
+
+ 
+
+
+Подробнее
+ о 18. Ворота Корректировки
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+57. Ворота Интуитивного Прозрения
+
+
+
+
+
+
+
+
+ 
+Гексаграмма И-Цзин:
+ '
+Проникновение
+'
+
+
+Гармонические Ворота: 
+34, Ворота Силы
+
+
+Центр Селезёнки, Контур Знания
+
+
+Иногда называемые психическими, ворота о знании в настоящем моменте. Они дают постоянную энергию для опыта интуиции и знаний за пределами физической реальности. Открывает доступ к способности непосредственного узнавания реальности.
+
+
+Экстраординарная сила ясности. Интуитивное прозрение, имеющее возможность проникать в самое сердце "сейчас". Трансформирует уроки полученные путём проб и ошибок. Страх будущего, который может быть уничтожен, если прислушиваться к инстинктам в данный момент. 
+
+
+ 
+
+
+Подробнее
+ о 57. Ворота Интуитивного Прозрения
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50. Ворота Ценностей
+
+
+
+
+
+
+
+
+ 
+Гексаграмма И-Цзин:
+ '
+Жертвенник
+'
+
+
+Гармонические Ворота:
+ 
+27, Ворота Заботы
+
+
+Центр Селезёнки, Контур Защиты
+
+
+Ворота ценностей и правил. Они контролируют или диктуют правила для племени. Эти правила целиком о заботе и уверенности в том, что племя сохраняет целостность. Правила часто связаны с питанием и припасами.
+
+
+Традиционные ценности, которые обогащают и служат настоящему и будущему. Ворота племенного закона, который регулирует вкусы, интуицию и инстинкт. Ключевые ворота для благополучного процесса бытия. Личный иммунитет и наша способность оценивать и обороняться. Правила заботы в качестве фундаментального ингридиента выживания. Здесь лежит страх ответственности.
+
+
+ 
+
+
+Подробнее
+ о 50. Ворота Ценностей
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32. Ворота Непрерывности
+
+
+
+
+
+
+
+
+ 
+Гексаграмма И-Цзин:
+ '
+Постоянство
+'
+
+
+Гармонические Ворота:
+ 
+54, Ворота Амбиций
+
+
+Центр Селезёнки, Контур Эго
+
+
+Инстинктивные ворота дают энергию приспосабливаться к переменам и продолжать действовать. Стремление к следованию социальному поведению. С течением времени поведение социума меняется и у тебя есть способность быстро адаптироваться.
+
+
+Единственная вещь, которая переживается при переменах. Потенциал осознанности в адаптации текущему моменту и продолжительной поддержке. Место в теле, где заякорены инстинктивные импринты. Потенциальная осознанность в том, что может быть трансформировано, а что — нет. Страх неудачи, поддерживающий агонию в решениях, которые включают в себя риск. Постоянно находится под давлением быть ведомым трансформацией. 
+
+
+ 
+
+
+Подробнее
+ о 32. Ворота Непрерывности
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28. Ворота Игрока
+
+
+
+
+
+
+
+
+ 
+Гексаграмма И-Цзин:
+ '
+Переразвитие великого
+'
+
+
+Гармонические Ворота:
+ 
+38, Ворота Воина
+
+
+Центр селезёнки, Контур Знания
+
+
+Это энергия борьбы за смысл жизни, борьба ради нахождения своей связи с божественным. Через борьбу ты обретаешь мудрость о жизни. Теневая сторона этих ворот – страх, что жизнь лишена смысла.
+
+
+Осознанность относительно того, стоит или нет бороться в данный момент. Убежище нашего самого глубокого страха смерти. Где жизнь сама по себе это вызов, сражение и игра. Риски и последствия — это индивидуальные процессы, которые в итоге приводят к «знанию в сейчас». Это Знание информирует коллективное о своей текущей мутации и может вовлечь коллективное в мутацию, если они принимают («покупают») это.
+
+
+ 
+
+
+Подробнее
+ о 28. Ворота Игрока
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48. Ворота Глубины
+
+
+
+
+
+
+
+
+ 
+Гексаграмма И-Цзин:
+ '
+Колодец
+'
+
+
+Гармонические Ворота:
+ 
+16, Ворота Умений
+
+
+Центр Селезёнки, Контур Понимания
+
+
+С этими воротами, у тебя проявляется тенденция к анализу вещей с великой глубиной. Ты смотришь на размер и охват этого с огромной детализацией. Иногда ты можешь бороться с чувством, что твоя работа не адекватна, учитывая стремление к такой глубине процесса.
+
+
+Глубина, которая определяется форматом фокусировки и концентрацией на шаблонах. Распознавание того, какие шаблоны являются жизненно важными, чтобы фокусироваться и концентрироваться на них. Основа для таланта. Глубина, которой надо делится, будь она тривиальной или существенной.
+
+
+ 
+
+
+Подробнее
+ о 48. Ворота Глубины
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Теменной Центр
+Аджна
+Горловой центр
+Джи-Центр
+Сердечный центр (эго)
+Сакральный центр
+Центр Селезёнки
+Центр Солнечного сплетения
+Корневой Центр
+Внутренний Авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="Рейтинг@Mail-9.ru.htm"/*tpa=http://greasp.com/hd/Рейтинг@Mail.ru*/ style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

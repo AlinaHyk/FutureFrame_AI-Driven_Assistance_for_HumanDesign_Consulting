@@ -1,0 +1,1381 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Манифестирующий Генератор как отдельный от Генератора тип | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"0azmXgPs28nK3OldEZSotJhqzcOrz0kTfg-48ufYoxs", "js":{"u002Fjquery-17.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.js*/:1, "u002Fjquery.once-17.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-17.js"/*tpa=http://greasp.com/comment/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-6.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-6.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.form.js*/:1, "u002Fajax-6.js"/*tpa=http://greasp.com/comment/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-17.js"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-17.js"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-17.js"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-17.js"/*tpa=http://greasp.com/comment/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-6.js"/*tpa=http://greasp.com/comment/misc/u002Fprogress.js*/:1, "u002Fis_useful-5.js"/*tpa=http://greasp.com/comment/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-17.css"/*tpa=http://greasp.com/comment/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-17.css"/*tpa=http://greasp.com/comment/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-17.css"/*tpa=http://greasp.com/comment/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-17.css"/*tpa=http://greasp.com/comment/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-17.css"/*tpa=http://greasp.com/comment/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-17.css"/*tpa=http://greasp.com/comment/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-17.css"/*tpa=http://greasp.com/comment/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-17.css"/*tpa=http://greasp.com/comment/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-17.css"/*tpa=http://greasp.com/comment/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-17.css"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-17.css"/*tpa=http://greasp.com/comment/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-17.css"/*tpa=http://greasp.com/comment/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/comment/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Манифестирующий Генератор как отдельный от Генератора тип
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Опубликовано 
+вт, 08/21/2012 - 14:23
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Автор - 
+Eleanor Haspel-Portner, Ph.D.
+
+
+Определение Терминов
+
+
+Наука установила, что Манифестирующий Генератор (MG) представляет особый Тип, отличный от Генератора (G)
+ 
+(cf. “Revised Research Verifies 5 Types in the Human Design System.” Eleanor Haspel-Portner, PhD. Unified Life Sciences. August, 2001,2003 & “The Triple Design Matrix: Type Statistically Verified Across the Matrix,” Eleanor Haspel-Portner, Ph.D., Unified Life Sciences, August 2001, 2003) 
+По Определению в Дизайне MG - это человек с определённым Сакральным Центром и определённым Мотором тела, который может быть Сакральным Центром или не быть им, но соединён с Горловым Центром. С другой стороны, G - это человек с определённым Сакральным Центром, который не соединяется с Горловым Центром ни прямым, ни обходным способом. Таким образом, Генератор - это человек, которому обычно мы говорим, "вы должны быть спрошены. Ваша стратегия - не-инициирование. Вы здесь, чтобы откликаться." Когда индивидуальность спрошена, у Сакрального Центра есть возможность реализовать его энергию. Когда такой человек пытается инициировать действие, ответ будет не правильным, так как Внутренний Авторитет для правильного ответа идёт из корректной конфигурации энергии Сакрального Центра.
+
+
+Соображения
+
+
+В любом обсуждении Типов неоходимо учитывать важность многих переменных в Троичной Матрице Дизайна (Triple Design Matrix). Многие люди, являющиеся Генераторами или Манифестирующими Генераторами, имеют определённый центр Солнечного Сплетения, который искажает отклик Сакрального Центра, и это надо принять во внимание энергетически, когда мы рассматриваем личность. В добавок, работа с Единичной, Двойной, Тройной и Четвертичной Определённостями вносит свои поправки и нюансы в шаблон отклика любого человека. В основном, фокус этой статьи в том, чтобы увеличить количество интересных клинических наблюдений для вашего рассмотрения и исследования.
+
+
+Из-за того, что MG, также относимый к Генераторам, статистически измеряется как отличный от Генератора Тип в SDC (Waking Solar Design Chart) и похоже что их парность также разделяется в других Матрицах. Статистически, MG держится отдельным типом в SSD (Solar Sleep Design Chart) и LSD (Lunar Sleep Design Chart) с частотой и паттерном, который относит MG скорее к Манифесторам (M), нежели G. Таким образом, у нас есть хорошая основа для теоретизирования о том, что процесс Манифестирующего Генератора содержит в себе нечто иное, отличное как от процесса М так и от процесса G. В SDC у Манифест.Генератора происходит трёхступенчатый процесс опыта, а не одноступенчатый.
+
+
+Гипотеза и Интерпретации
+
+
+MG имеет определённый Сакральный Центр и Мотор, который может и не быть Сакралом, соединённый с Горловым Центром. Первый шаг для любого процесса у такого человека, кто в первую очередь Генератор, - это не-инициирование, "ожидание запроса", быть восприимчивым для того, чтобы отклик Сакрального Центра мог быть распознан. После того, как происходит отклик Сакрала у MG, манифестирующий процесс начинает визуализацию себя по всему контуру схемы человека. Часто для MG, это всего лишь первые семена манифестирующего процесса, который проводит проверку интегрированных аспектов Троичной Матрицы на предмет того, действительно ли MG манифестирует истинный и корректный ответ для всех слоёв его существа. Основанные на Троичной Матрице Дизайна результаты показывают, что этот истинный или корректный ответ в MG может быть взят из другого аспекта или слоя программирующего поля нежели у Генератора.
+
+
+Эта гипотеза соотносится с различными описаниями опытов, которые мы клинически получали от MG в сравнении с чистыми Генератороми. К тому же, так как мы живём в Поле Обусловленности, MG необходимо изучить стретегию Действования, как будто манифестация начинается до того, как будет принято окончательное решение о процессе. Только на один раз, пока корректность процесса не будет подтверждена отлкиком Сакрального Центра и через другие слои программирования в MG. Все Генераторы, включая Манифестирующего, тестируют свои отклики, потому что они взаимодействуют со многими аспектами, которые встречают в жизни, то есть с условностями. Таким образом, для них важно быть в ясном контакте с их собственным откликом из Сакрала и других Центров, которые являются для них Авторитетами. В идеальном мире, соответствие выражению Сакрального отклика для Манифест.Генератора позволит мягкий и необременённый текучий процесс, поскольку отклики Сакрального центра естественныи образом Манифестируют в них, сквозь их контур. Тем не менее, поскольку мы не живём в мире, где каждый почитает себя, мы видим разные способы, которым процесс проявляется и имеем возможность рассмотреть его, исследуя разные его компоненты. Так как Горловой Центр не является ни центром Осознанности, ни Мотором, он несёт определённые помехи для истины Сакрала. Это тот аспект Дизайна Манифестирующего Генератора в SDC, который возможно будет являться результатом исследований изложенных здесь.
+
+
+В Троичной Матрице мы видим, что Манифестор и Манифест.Генератор похожи; оба имеют драматичную смену Типа, когда меняется SSD (Solar Sleep Design). Часть важности данных из разделения Троичной Матрицы Дизайна заключается в том, что это выявляет дополнительную информацию и понимание механики MG и отличий между MG и G. Мы знаем, что когда MG отдаляется от особой истины Сакрала, для них открывается дверь к боли. Когда их Манифестирующий аспект поворачивает в сторону от отклика Сакрального центра, сам их манифестирующий потенциал становится главным источником их боли в жизни, особенно если их манифестирование дополнительно не согласовано с их Solar Sleep и Lunar Sleep Дизайнами. Очень может быть, что уязвимость MG в SDC ведёт манифестацию путём, не почитающим их Сакральный отклик, который имеет корни в Solar Sleep и Lunar Sleep Design картах. Из работы над этими матрицами мы знаем, что они несут архетипическую коллективную осознанность Целого; и MG, и Манифесторы чаще всего становятся Рефлекторами в SSD и LSD, где программирование с этих уровней осознанности могут принуждать их манифестировать. В Манифест.Генераторе этот толчок к инициированию в SDC может происходить без уважения к отклику их Сакрального Центра. Это может быть тот самый конфликт, который устанавливает двоичный процесс, который мы наблюдали в нашей клинической работе в ULS. К тому же, в свете данных полученных из Троичной Матрицы Дизайна, похоже, что слои осознанности, программируемые в MG, связаны с архетипической информацией, которую они получают во время сна. Этот слой информации заставляет их Сакрал откликаться на что-то иное на скрытых слоях мироздания, нежели это происходит у чистых Генераторов.
+
+
+Пример
+
+
+Для Генератора вопрос "Хочешь пойти пообедать?" может вызвать отклик или "да\ага", или "нет\неа" из Сакрала. Как только отклик получен, человек идёт с энергией заряженного Сакрального Центра и процесс получает корректное начало. Для Манифестирующего Генератора это совсем другая история. Когда он спрошен "Хочешь пойти пообедать?", он сперва получает тот же отклик "да\нет" из Сакрала, но только в моменты после отклика MG знает был ли отклик корректный или же нет. Другими словами, если ответ был "угу", он уже встаёт одеваться, т.е. находится в активности, в начале выхода из отклика и в нём получает ясность был ли отклик корректным. Это то, как MG получает истинный авторитет как и Манифестор для инициирования следущей части процесса. К этому времени, человек знает, что корректно для него или неё. Если в процессе действия, как только он начинается, возникает пересмотр ответа из "живота", который является местом расположения Авторитета Сакрального Центра, человеку необходимо изменить курс, чтобы получить действительно здоровый выход, соответствующий его Самости. В добавление, MG тогда знает о корректности отклика, когда следует стратегии своего Манифестирующего аспекта, который заключается в информировании или быть информированным активирует и действие из отклика нуждается в коммуникации с другими. Мы теоритизируем, что источник этой разницы в "правильности" информации идущей от отклика Сакрального центра в том, что отклику приходится иметь дело с программирующей информацией полученной во время REM-процесса (Rapid Eye Movement), происходящего во время сна, и того, как эта информация была записана в ассоциативные области мозга в это время. Поскольку во время REM-сна активна Многоматричная система существа (мы работали только с Троичной Матрицей Дизайна вместо Мультиматричной, когда была написана эта статья), программирование происходит на всех уровнях матрицы, включая Solar Design и поэтому в MG Манифесторская часть Матрицы также подвергается воздействию архетипического программирования, которое задаёт ему манифесторские задачи, которые он должен выполнить для Целого.
+
+
+Итог
+
+
+Мы в курсе комплексности ситуации. Мы предупреждаем вас осторожно смотреть на Троичную Матрицу Дизайна людей, с которыми вы работаете (сейчас Мультислои доступны через модуль компьютерной программы ULS NTW). Вы наверняка обнаружите, что Типы личностей изменяются сквозь матрицу осозанности и поэтому определяют людей по-разному в разное время. MG, который полностью становится Рефлектором в SSD и LSD, это совершенно отличный человек по фактам и по собственным опытам нежели MG, который становится Рефлектором в SSD и Генератором , например, в LSD. Пока эти данные выглядят комплексными и совокупными для понимания, мы побуждаем вас внимательно прочесть информацию из всех ваших карт и оценить значимость этого.
+
+
+Перевод - 
+Harhor
+
+
+
+
+Tags: 
+
+
+
+
+
+
+манифестирующий генератор
+ 
+
+
+
+
+Типы
+ 
+
+
+
+
+внутренний авторитет
+ 
+
+
+
+
+принятие решений
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(6) Да
+(0) Не знаю
+(4) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+Комментарии
+
+
+
+
+
+
+
+
+я вот ощущал, что есть
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+пт, 08/31/2012 - 22:48
+ пользователем 
+Schwarz
+
+
+
+
+
+
+ 
+я вот ощущал, что есть разница
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+Что такое аббревиатура SSD и
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вс, 10/21/2012 - 11:39
+ пользователем 
+Irynairy
+
+
+
+
+
+
+ 
+Что такое аббревиатура SSD и LSD?
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+в тексте расшифровка дана.
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вс, 10/21/2012 - 16:46
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+в тексте расшифровка дана.
+
+
+SSD (Solar Sleep Design Chart) и LSD (Lunar Sleep Design Chart)
+
+
+ 
+
+
+ 
+om mane padme hum! shiwa om!
+
+
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+Солнечный и лунный дизайн сна
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+пн, 10/22/2012 - 12:14
+ пользователем 
+Irynairy
+
+
+
+
+
+
+ 
+Солнечный и лунный дизайн сна? А как посчитать? В программе, я так поняла, этой функции нет.  
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+в MMI такой функции нет. это
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+пн, 10/22/2012 - 15:31
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+в MMI такой функции нет. это надо программу этого центра скачивать , называется Neutrinos Through Windows (вот тут качать http://newsunware.com/eng/Download/Neutrinos30Setup.asp , главное не запутайтесь че качать)) там сайт мудрёный какой-то, плюс это демо-версия, полная платно)
+
+
+Там есть все эти планы и матрицы , но честно говоря это мало что мне, например, дало. хотя безусловно любопытно)
+
+
+ 
+
+
+ 
+om mane padme hum! shiwa om!
+
+
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+Спасибо! Попробую разобраться
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вт, 10/23/2012 - 10:32
+ пользователем 
+Irynairy
+
+
+
+
+
+
+ 
+Спасибо! Попробую разобраться.
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Манифестор
+Генератор
+Манифестирующий Генератор
+Проектор
+Рефлектор
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+106
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+83
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/comment/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

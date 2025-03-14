@@ -1,0 +1,1073 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Лунные узлы. Текущий транзит Лунных Узлов. | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"aV6WEynZc9bMAvV3Zu86omMmE4eL7HDIaXiLiHGkQxc", "js":{"u002Fjquery-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.js*/:1, "u002Fjquery.once-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-4.js"/*tpa=http://greasp.com/page/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.form.js*/:1, "u002Fajax-2.js"/*tpa=http://greasp.com/page/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-4.js"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-2.js"/*tpa=http://greasp.com/page/misc/u002Fprogress.js*/:1, "u002Fis_useful-1.js"/*tpa=http://greasp.com/page/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-4.css"/*tpa=http://greasp.com/page/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-4.css"/*tpa=http://greasp.com/page/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-4.css"/*tpa=http://greasp.com/page/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-4.css"/*tpa=http://greasp.com/page/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-4.css"/*tpa=http://greasp.com/page/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-4.css"/*tpa=http://greasp.com/page/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-4.css"/*tpa=http://greasp.com/page/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-4.css"/*tpa=http://greasp.com/page/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-4.css"/*tpa=http://greasp.com/page/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-4.css"/*tpa=http://greasp.com/page/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-4.css"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-4.css"/*tpa=http://greasp.com/page/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-4.css"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/page/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Лунные узлы. Текущий транзит Лунных Узлов.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Одна из ключевых черт Узлов – это то, что Узлы, на самом деле, не планетарные объекты как Солнце и Земля, но они скорее относительная позиция положения Луны, это Северный и Южный Узел, которые образуют траекторию Луны, когда она проходит вокруг Земли и идет вокруг Солнца. Северный Узел всегда также находится в оппозиции Южному Узлу, так же как Солнце и Земля эти два Узла связаны генетически.
+
+
+Лунные Узлы дают нам наши звезды. Это своего рода окна....
+ Они важны и задают направление. 
+ Среда тоже важна, но направление создаёт среду. 
+ Они всегда активны и посылают нам чистый свет наших звезд.
+ Узлы - это энергия звезд, которая не встречается с планетами.
+ Это окно, которое находится за Богами и это то, что приводит нас к звездам......
+ 
+
+
+Лунные Узлы – это двери, это окна, которые впускают звездный свет, неотъемлемый продукт нейтрино, проникающий через центральные двери. И мы имеем дело с тем как мы смотрим через свои Лунные Узлы.
+
+
+Когда мы далеки от своего истинного «я» и не знаем своего Внутреннего Авторитета, то мы живем в царстве глубокой-глубокой гомогенизации. Программа устанавливает и контролирует всё, чтобы поддерживать человечество как вид в своем выживании. Так что то, что она делает – она обеспечивает конкретную точку зрения для вида.
+ И каждый из нас разработан, чтобы видеть очень определенную часть Майи и ничего больше. Это то для чего мы здесь. Когда мы не видим определенным способом, то мы остаемся с тем, что видим то, что программа хочет, чтобы мы видели. Это способ объединить человечество.
+
+
+
+
+Узлы формируют точку зрения, через которую Программа хочет, чтобы мы посмотрели на ежедневную тему. Когда мы говорим об Узлах в терминах ежедневного прогноза, то, что люди видят в гомогенизированном мире. И важность этого, значение – невероятно. И это то, что делают ежедневные Узлы. Они обеспечивают конкретную точку зрения человечества.
+ Но, заметим, что это не имеет никакого отношения к вашему уникальному способу виденья. Прийти к своей уникальности и уникальному способу виденья Вы можете с помощью своего Внутреннего Авторитета.
+
+
+Лунные узлы на близжайшее время: 
+
+
+Программа на ближайшее время нас обеспечит определённой точкой зрения. И это будет виденье мира очень занятого тем, чтобы мысли превращались в дела в настоящем моменте. Эта тема наблюдения. Это действительно та тема, которую мы можем видеть и наблюдать в течение достаточно длительного времени до 29 августа 2012 года.
+
+
+И мы будем смотреть на мир обусловленных Манифестирующих Генераторов с каналом Харизмы 20/34, которые не знают куда корректно направить свою энергию, чтобы она приносила им удовлетворение, двигаясь во всевозможную деятельность без должного руководства и получая истощение и гнев от того, что получают сопротивление от их начинаний. Повсюду мы можем видеть людей, которые заняты какими либо делами. Они хотят воплотить в реальность те мысли и идеи, которые у них появляются в уме, и хотят сразу же действовать из этих мыслей превращая мысли в слова или дела. Но когда люди не знают сколько силы корректно потратить, то приходит истощение и опустошение и не возможность что либо делать. Поэтому вы можете наблюдать за людьми которые очень заняты тем, что им чаще всего не нравится, или как противоположность им, очень злых, расстроенных и истощённых людей, которые жалуются, что у них нет ни на что сил, они истощены и у них нет энергии.  
+
+
+В это время мы может видеть это постоянное жужжание и занятость. И здесь есть так же индивидуальная глухота к тому, чтобы вас корректно направили. Очень сложно вмешаться в этот процесс занятости и повсюду можно слышать: «Извини, но я занят», «Я занят, давай в другой раз» и т.д. и т.п. Люди могут застревать в этой активности, не зная сколько сил и энергии корректно потратить на определённое дело.
+
+
+И если вы не осознанны, если вы отождествлены с этой темой программы, то так же можете попасть под влияние программы и ума и быть занятыми некорректными для вас делами. И это всегда в сейчас. Мне нужно быть занятым этим сейчас. Я должен сделать это сейчас. Сейчас я занят и т.п. Как итог, вы так же можете быть перенапряжены излишней деятельностью из ума, воплощая мысли в дела и слова, истощая некорректно свою энергию и страдая от расстройства и сопротивления, когда вы используете чрезмерное количество силы для воплощения задуманного.
+
+
+Посмотрите, где вы находитесь сейчас. Если вы заняты, то вы заняты чем-то из Стратегии и Авторитета, или это что-то, что вы подумали, что вам нужно делать? Прежде всего, остановитесь, сделайте глубокий вдох и выдох… и вернитесь к Своей Стратегии и Своему Внутреннему Авторитету. Если вы доверяете своей Стратегии и Внутреннему Авторитету, то это время будет просто давать вам больше сил на то, чтобы что-то было сделано, то, что корректно для вас сделать из вашего Авторитета, но не из ума. И так же, это просто время за наблюдением того, как происходит жизнь, как гудит мир… Но вы остаётесь лишь наблюдателем. Удачи на пути к себе…
+
+
+http://keys-of-life.ru/nodes.html 
+
+
+
+
+Теги: 
+
+
+
+
+
+
+Лунные Узлы
+ 
+
+
+
+
+текущие энергии
+ 
+
+
+
+
+HD
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(1) Да
+(1) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+106
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+83
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/page/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

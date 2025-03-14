@@ -1,0 +1,1495 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GCDL 008: VA - Тёмная Жатва (2012) | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+@import url("jplayer.css-mgcj6r.css")/*tpa=http://greasp.com/modules/jplayer/theme/jplayer.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"ui6BqYVMiEBVpYER9xVcPQYEXKSxeY7AEt7fIWoXZrU", "js":{"u002Fjplayer-5.js"/*tpa=http://greasp.com/comment/modules/u002Fjplayer/u002Ftheme/u002Fjplayer.js*/:1, "u002Fjquery-17.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.js*/:1, "u002Fjquery.once-17.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-17.js"/*tpa=http://greasp.com/comment/misc/u002Fdrupal.js*/:1, "u002Fjquery.jplayer.min-5.js"/*tpa=http://greasp.com/comment/sites/u002Fall/u002Flibraries/u002Fjplayer/u002Fjquery.jplayer.min.js*/:1, "u002Fjquery.cookie-6.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-6.js"/*tpa=http://greasp.com/comment/misc/u002Fjquery.form.js*/:1, "u002Fajax-6.js"/*tpa=http://greasp.com/comment/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-17.js"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-17.js"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-17.js"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-17.js"/*tpa=http://greasp.com/comment/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-6.js"/*tpa=http://greasp.com/comment/misc/u002Fprogress.js*/:1, "u002Fis_useful-5.js"/*tpa=http://greasp.com/comment/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-17.css"/*tpa=http://greasp.com/comment/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-17.css"/*tpa=http://greasp.com/comment/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-17.css"/*tpa=http://greasp.com/comment/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-17.css"/*tpa=http://greasp.com/comment/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-17.css"/*tpa=http://greasp.com/comment/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-17.css"/*tpa=http://greasp.com/comment/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-17.css"/*tpa=http://greasp.com/comment/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-17.css"/*tpa=http://greasp.com/comment/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-17.css"/*tpa=http://greasp.com/comment/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-17.css"/*tpa=http://greasp.com/comment/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-17.css"/*tpa=http://greasp.com/comment/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-17.css"/*tpa=http://greasp.com/comment/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-17.css"/*tpa=http://greasp.com/comment/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fjplayer-5.css"/*tpa=http://greasp.com/comment/modules/u002Fjplayer/u002Ftheme/u002Fjplayer.css*/:1, "u002Fat.base-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-17.css"/*tpa=http://greasp.com/comment/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/comment/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "jplayerInstances":{"jplayer-node-421-field-audio-1360969369":{"files":[ {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F01._syrinx_-_energy_of_my_thoughts.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F02._per_aspera_-_luna_ex_alter_sol.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F03._party_animals_-_have_you_ever_been_mellow_dj_denoizer_noise_edition.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F04._neuromancer_-_tranceworld.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F05._nagato_the_infernal_brothers_-_to_fuck_the_brain_tib_edit.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F06._dukstrab_-_dance_in_a_laundry.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F07._deztructor_-_magic_rabbit.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F08._tatlum_-_talisman.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F09._harhor_-_diavol.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F10._dj_infraschall_-_soman_vs_mono-amine_-_waste.mp3"}, {"mp3":"http:\u002F\u002Fgreasp.com\u002Ftemp\u002Faudio\u002F11._lunohod_-_weird_mechanism.mp3"} ], "solution":"html, flash", "supplied":"mp3,mp3,mp3,mp3,mp3,mp3,mp3,mp3,mp3,mp3,mp3", "preload":"metadata", "volume":0.8, "muted":false, "autoplay":false, "repeat":"all", "backgroundColor":"000000"}}, "jPlayer":{"swfPath":"\u002Fsites\u002Fall\u002Flibraries\u002Fjplayer", "showHour":false, "showMin":true, "showSec":true, "padHour":false, "padMin":true, "padSec":true, "sepHour":":", "sepMin":":", "sepSec":""}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GCDL 008: VA - Тёмная Жатва (2012)
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Опубликовано 
+вс, 10/14/2012 - 02:07
+ пользователем 
+DeZtructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+play
+
+
+pause
+
+
+stop
+
+
+mute
+
+
+unmute
+
+
+previous
+
+
+next
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+01. Syrinx - Energy Of My Thoughts
+
+
+02. Per Aspera - Luna Ex Alter Sol
+
+
+03. Party Animals - Have You Ever Been Mellow (DJ Denoizer noise edition)
+
+
+04. Neuromancer - Tranceworld
+
+
+05. Nagato & The Infernal Brothers - To Fuck The Brain (TIB Edit)
+
+
+06. Dukstrab - Dance In A Laundry
+
+
+07. DeZtructor - Magic Rabbit
+
+
+08. Tatlum - Talisman
+
+
+09. Harhor - Diavol
+
+
+10. DJ Infraschall - Soman VS Mono-Amine - Waste
+
+
+11. Lunohod - Weird Mechanism
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+
+
+Компиляция в поддержку мероприятия 
+ТЁМНАЯ ЖАТВА
+, прошедшего 12 октября 2012 года в Москве. 
+(подробней - 
+http://vk.com/oktoberun
+)
+
+
+Каталог # 
+GCDL 008
+Дата релиза: 14 октября 2012г. 
+Производитель : Россия 
+Формат: Compilation, CD, WEB
+Жанр: I
+ndustrial Hardcore, Breakcore, TBM, Powernoise, Hard Techno
+Битрейт аудио: MP3 CBR 320 kbps, FLAC
+Продолжительность: 00:51:45 
+
+
+ 
+
+
+Треклист
+:
+
+
+Syrinx - Energy Of My Thoughts
+Per Aspera - Luna Ex Alter Sol
+Party Animals - Have You Ever Been Mellow (DJ Denoizer noise edition)
+Neuromancer - Tranceworld
+Nagato & The Infernal Brothers - To Fuck The Brain (TIB Edit)
+Dukstrab - Dance In A Laundry
+DeZtructor - Magic Rabbit
+Tatlum - Talisman
+Harhor - Diavol
+DJ Infraschall - Soman VS Mono-Amine - Waste
+Lunohod – Weird Mechanism
+
+
+КУПИТЬ, ПОДДЕРЖАВ СООБЩЕСТВО И ЛЕЙБЛ:
+
+
+
+
+СКАЧАТЬ
+:
+
+
+FLAC
+
+
+MP3
+
+
+ 
+
+
+
+
+Стиль: 
+
+
+
+
+
+
+industrial hardcore
+ 
+
+
+
+
+breakcore
+ 
+
+
+
+
+tbm
+ 
+
+
+
+
+powernoise
+ 
+
+
+
+
+hard techno
+ 
+
+
+
+
+
+
+Дата: 
+14.10.2012
+
+
+Каталог: 
+
+
+
+
+
+
+GCDL 008: VA - Тёмная Жатва
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(4) Да
+(0) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+Комментарии
+
+
+
+
+
+
+
+
+оперативно!)))
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вс, 10/14/2012 - 09:54
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+оперативно!)))
+
+
+ 
+
+
+ 
+om mane padme hum! shiwa om!
+
+
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+а то)
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вс, 10/14/2012 - 12:59
+ пользователем 
+DeZtructor
+
+
+
+
+
+
+ 
+а то)
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+кстати сборник зачетный,
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вс, 10/14/2012 - 13:18
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+кстати сборник зачетный, многие треки взгрели прям 
+
+
+ 
+
+
+ 
+om mane padme hum! shiwa om!
+
+
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+да, удачный сборник вышел
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вс, 10/14/2012 - 16:29
+ пользователем 
+Schwarz
+
+
+
+
+
+
+ 
+да, удачный сборник вышел
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+Солидарен с вами 
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+вс, 10/14/2012 - 18:55
+ пользователем 
+DeZtructor
+
+
+
+
+
+
+ 
+Солидарен с вами 
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+106
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+83
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/comment/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

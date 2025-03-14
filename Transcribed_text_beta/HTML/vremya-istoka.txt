@@ -1,0 +1,1097 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Время истока | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"R9MvBKu0_zMqwf48ARBk4ZovonR4-8f-P3TNRD9ceNY", "js":{"u002Fjquery-8.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.js*/:1, "u002Fjquery.once-8.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-8.js"/*tpa=http://greasp.com/post/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-4.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-4.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.form.js*/:1, "u002Fajax-4.js"/*tpa=http://greasp.com/post/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-8.js"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-8.js"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-8.js"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-8.js"/*tpa=http://greasp.com/post/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-4.js"/*tpa=http://greasp.com/post/misc/u002Fprogress.js*/:1, "u002Fis_useful-3.js"/*tpa=http://greasp.com/post/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-8.css"/*tpa=http://greasp.com/post/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-8.css"/*tpa=http://greasp.com/post/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-8.css"/*tpa=http://greasp.com/post/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-8.css"/*tpa=http://greasp.com/post/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-8.css"/*tpa=http://greasp.com/post/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-8.css"/*tpa=http://greasp.com/post/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-8.css"/*tpa=http://greasp.com/post/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-8.css"/*tpa=http://greasp.com/post/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-8.css"/*tpa=http://greasp.com/post/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-8.css"/*tpa=http://greasp.com/post/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-8.css"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-8.css"/*tpa=http://greasp.com/post/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-8.css"/*tpa=http://greasp.com/post/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/post/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Время истока
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 07/18/2012 - 14:37
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Дорогие Друзья, я приветствую вас, Я Есмь Крайон.
+
+
+	Сегодня я прибыл для того, чтобы передать вам это Новое Послание о Времени, которое передано в качестве подготовки вашего сознания и клеток к эволюции временных циклов в вас самих. Это для вашей подготовки к великому сдвигу сознания в иную систему временных координат. Этот сдвиг уже начал происходить. Вы уже не узнаёте свою реальность. Многие из вас перестали ощущать этот мир, вкус земной пищи и ароматы. Здесь ваши ощущения могут значительно притупляться. А на новую реальность вы ещё настроены не полностью, поэтому многие из Работников Света в замешательстве и даже в состоянии тихой паники. Вы как бы зависли в нейтральной полосе между двумя мирами. Сейчас очень особенный и острый, но скрытый процесс вашего внутреннего переживания временных изменений, которые происходят внутри вас и с вашей планетой.
+
+
+	Колесо старого времени вращается уже совсем медленно, оно почти остановилось. С другой стороны великое колесо времени Новой Высшей Реальности ещё не набрало свою скорость, вы между двумя процессами. Между двумя реальностями. И это нормальная, позитивная часть вашего Перехода. Отпускайте всё старое, и принимайте Новый Мир. Даже если он вам ещё не понятен и вы никак не можете его интерпретировать. Это вопрос резонанса. Постепенно ваше восприятие установит необходимый и полный резонанс с Новой Реальностью, и вы осознаете себя уже за гранью Великого Перехода.
+
+
+	Я пришёл к вам, чтобы быть ближе, чтобы обнять и успокоить многих из вас. Так как многие напуганы грядущими изменениями Земли. Многие говорят, что мы не предупреждали и не сообщали об этом. Позвольте с вами не согласиться, МЫ СООБЩАЛИ И МЫ ПРЕДУПРЕЖДАЛИ. И суть наших предупреждений заключается главным образом в том, что изменений Земли не нужно бояться, но к ним нужно быть ДУХОВНО готовыми. Это важнейшая часть нашего послания об этом времени. Кто-то решил пропустить эту информацию, кто-то её забыл, каждый понял ПРЕДУПРЕЖДЕНИЕ по-своему. Сейчас весь ПЛАН Земли начал вскрываться, всё поднимается, всё очищается и трансформируется. И снова я вам скажу - ПРИВЕТСТВУЙТЕ ЭТИ ИЗМЕНЕНИЯ, ИБО ОНИ ВО БЛАГО ЦЕЛОГО. Дух не обещал вам спокойную жизнь во время вашего Перехода. Потому что это время Эволюции и принятия вызова Стихии Свободы.
+
+
+	Если вы хотите убедиться, перечитайте внимательно наши послания.
+
+
+	Я передаю вам ВРЕМЯ ИСТОКА через это послание, чтобы вы могли лучше понять Новую Реальность и быть сонастроенными с вибрационными изменениями вашей планеты. Время Истока - это определённая космическая энергия, она живая, изначальная, совершенная и целостная. И я называю её временем лишь условно. Эта энергия живёт в центре вашей планеты, в центре вашего Солнца, в центре Центрального Магнитного Солнца, в Центре Галактики, в центре Вселенной, в центре любой звезды и планеты, в центре вашего собственного сознания. Да, это центральное время Тишины. И это та энергия, в которую вам предстоит переместиться на время или навсегда в процессе вашего Перехода. Конечно, эта энергия обладает высочайшей вибрацией Духа. Не просто высочайшей, а наивысшей. Потому что это энергия Живого, Единого Времени. В сердце вашей планеты есть пульс, и в самой сердцевине источника этого пульса есть эта изначальная субстанция времени. Это Время Истока. Этот Исток един для Земли, Солнца, Центрального Солнца, Галактики, Вселенной и каждой звезды во Вселенной. Да, на уровне этой сердцевины все они абсолютно едины. И в центре Земли вы найдёте центр Вселенной, Солнца и вашей Галактики. Это ваше НОВОЕ ВРЕМЯ. Время ВЕЧНОГО ЗДЕСЬ И СЕЙЧАС. Сейчас на поверхности Земли время сильно ускоряется, потому что исчерпывается линейность. Это происходит потому, что сроки существования экспериментального третьего измерения ограниченного искусственно искусственными временными рамками подошло к логическому и полному завершению. Настраиваясь на Время Истока, которое живёт в центре вашей планеты, вы начнёте Переходить в Энергию Новой Жизни и Высшей Божественной Реальности, потому что это древнее и вечное время Истока это именно тот уровень изначальной вибрации жизни, на котором существует Прекрасный Единый Мир. Это время едино и многомерно. Настраиваясь на него, вы получаете эту чудесную энергию в ваши клетки и ваше сознание легче адаптируется к новым пространственно-временным сдвигам. Вы полностью перестраиваетесь. Вы можете получать эту энергию напрямую от центра Земли. С каждым днём оборот линейного времени вращается всё быстрее. И каждый день в своей сонастройке вы должны уходить всё глубже во Время Истока. Это вечность, целостность и полнота Божественного Присутствия.
+
+
+	День за днём вы будете уходить в это время, пока иллюзия старой и тяжёлой инертности искусственного времени полностью не свернётся для вас. Но вместо неё вы увидите удивительную и бесконечную Реальность Бога. Потому что Время Истока - это и есть Божественное Время. Это Время Духа. Это та частота, которая вам нужна сейчас для адаптации в Новом Мире. Земля к вам ближе всего. Станьте ещё более близкими с вашей планетой. Настройтесь на сердцевинное, Нирваническое Время и оно польётся в ваши жизни, как щедрый водопад золотого огня и света. Эта энергия нежна и она, как лёгкий цветок, только сейчас начинает открываться в центре Земли для того, чтобы открыть для вас чистую, изначальную энергию. Настраиваясь на эту энергию, вы больше не будете торопиться, вас полностью покинет страх и тяжёлые эмоции и мысли. Вы начнёте жить в Новом Времени - во времени Истока, которое есть Бог. Земля, Солнце, Вселенная, всё Сущее начнёт полноценно питать вас этой Силой, и постепенно вы сами начнёте излучать её в мир людей и помогать внешнему контуру Земли полностью перестроиться. Время Истока - это время вашего сердца. Это Тишина, которая предшествовала Сотворению Мира. Это Покой и Нежность. Через эту универсальную энергию вам будет намного легче настроиться на любой уровень любого Мира Света. И вскоре вы научитесь легко и быстро перемещаться в этой энергии по мирам.
+
+
+	Время Истока - это Время Нирваны. Но это Время не в обычном понимании линейного отсчёта. Это Время Вечности. Или Время Бесконечного Полёта. Настраиваясь на эту целостную энергию, вы увеличите свой собственный энергетический потенциал. Вы всегда можете прибегнуть к этой энергии для своего исцеления и очищения. Когда вы в самом центре бушующего ускорения настроитесь на центральное истинное Время Планеты, на то Духовное Время, в котором истинно существует Её Сознание, вы действительно откроете для себя новый мир. И естественно соединитесь с Нирваническим Телом Света Гайя. Изменив при этом вибрации внешнего проявления земной жизни. Во Времени Истока существуем все мы, Семья Света. А так же эльфы, ангелы, элементалы Земли и всей Вселенной. Настраиваясь на НАШЕ ВРЕМЯ, вы научитесь видеть и осязать нас. И знайте, что здесь нет и не может быть никакого подвоха. Это Духовное Время Света. Вам, Дорогие Работники Света, пора уже как можно меньше прибегать к использованию электронной техники, ибо именно она ускоряет время. Уделяйте больше внимания вашей сонастройке с НАШИМ ВРЕМЕНЕМ, в которое вы Переходите, и в котором вам всем предстоит вскоре существовать. Когда вы будете настраиваться на Время Истока в центре вашей планеты и запрашивать своим намерением дополнительную энергию этого Времени для своего высшего Блага и для Блага и Эволюции всех окружающих, Земля начнёт генерировать это время для каждого из вас постоянно. В результате это Новое Время начнёт выходить через зоны пересечения магнитной Решётки и через изумрудную и Радужную Решётки на поверхность вашего мира. Конечно, это разделение реальности и это огромный сдвиг во всём. Но это необходимо и это неизбежно. Вы должны увидеть Новый Мир первыми, для того, чтобы знать, куда и как провести всех остальных, кто ещё не снял покров со своих глаз.
+
+
+	Время Истока полностью вас изменит духовно. Приход этой энергии в вашу жизнь завершит все преобразования и трансформацию Души и тела.
+
+
+	Не смотрите на часы так часто. Делайте это реже. Вместо того, чтобы посмотреть на часы лучше настройтесь на НАШЕ ВРЕМЯ, загляните через своё сердце в истинный Мир. Сонастройте эти два мира через своё единое присутствие во Вселенной. Настройка на сердцевинное вермя даст вам большое равновесие и духовную силу, потому что, настраиваясь на НАС, вы обретёте самих себя. Когда я говорю на нас, я имею в виду ВРЕМЯ ЕДИНОГО ВЫСШЕГО МИРА. Постепенно вы начнёте осознанно жить в этом мире. Другими словами можно сказать, что время Истока - это центр всех ваших Медитаций, искренних молитв и чистого намерения. Да, наш Мир - это Мир Намерения Духа. И это так. Да, этот Мир так многомерен, что мы говорим о нём, как о бесконечном мире. Это мир возможности и равновесия. Время Истока всегда внутри вас. Оно в Земле. В Солнце, в центре духовной сущности каждого растения, насекомого или животного. Чем больше вы будете познавать это время, тем более широко для вас откроются двери ваших сердец, тем более богатым и счастливым станет ваш собственный мир. Ибо Время Истока — это Время Счастья, Красоты и Гармонии всего Сущего.
+
+
+	Многие из вас заметили в последнее время, как уплотняется иллюзия вокруг вас, как уплотнилась завеса. Это происходит по двум причинам, которые по своей природе являются частями одного целого. Первое — ускоряется время. Оно ускоряется, сжимаясь. Второе – готовится критическая масса энергии из энергии вашего времени, для квантового прорыва в изначальность, в Мир Высокой Материи, Единой с Духом. Старое время используется Землёй, как творческий материал, который, сжимаясь, обретает громадную энергетическую массу для своеобразного мистического взрыва и трансформации на всех уровнях Земли. Конечно, это не материальный взрыв, это не есть взрыв формы. Это, как рождение новой Звезды или Новой Вселенной из сверхплотной материи, которая преобразована через вас токами вашей собственной эволюции. Поэтому настройтесь уже сейчас на новое время, на время безмерности и бесконечности. И вам станет намного легче переживать изменения, которые происходят.
+
+
+	Вы все сейчас очень остро чувствуете Землю. Старые вибрации выходят на поверхность сознания Земли для преобразования. Это происходит через вас и вместе с вами. Да, перед скачком энергии чувствительность в десятки раз обостряется. Вы становитесь, как чуткие и мудрые животные, которые чувствуют все изменения на Земле. Это электро-магнитное поле волнует вас по ночам, когда вы не можете спать. Изменение частотных колебаний внутри ваши атомов, всех атомов Земли. Вы все - ОДНО СУЩЕСТВО. Почувствуйте это сейчас и успокойтесь, просто будьте спокойными. Началось то Золотое Время, которое вы так долго ждали, и только от вас зависит негативно или позитивно вы будете воспринимать все изменения Земли. Это Переход, празднуйте это! Пребывайте во времени Истока, если вы хотите действительно помочь Земле и самим себе. Это великая энерго-вибрационная помощь - провести эту энергию сюда, в это измерение. Когда-то об этом можно было только мечтать. Сейчас Земля настолько изменилась, что здесь уже допускается рождение чудесного времени, которое происходит через вас, родные, уже сейчас. И это воистину Великое Время и Великой Шаг. Будьте Благословенны. Пребывайте в Нирване Единой Вселенной Света. И да пребудет со всеми вами вечная и изначальная Любовь Бога.
+
+
+
+
+Tags: 
+
+
+
+
+
+
+вселенная
+ 
+
+
+
+
+время
+ 
+
+
+
+
+ченнелинг
+ 
+
+
+
+
+Крайон
+ 
+
+
+
+
+Сефера
+ 
+
+
+
+
+Земля
+ 
+
+
+
+
+электро-магнетизм
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(0) Да
+(0) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+106
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+83
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/post/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

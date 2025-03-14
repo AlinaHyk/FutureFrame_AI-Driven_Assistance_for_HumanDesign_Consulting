@@ -1,0 +1,1198 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+58. Радость | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"ihB4qvMlTFMkRJSUt9cLUPQ7QUL8TKG3ygb--RKq_2c", "js":{"u002Fjquery-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.js*/:1, "u002Fjquery.once-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-4.js"/*tpa=http://greasp.com/page/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.form.js*/:1, "u002Fajax-2.js"/*tpa=http://greasp.com/page/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-4.js"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-2.js"/*tpa=http://greasp.com/page/misc/u002Fprogress.js*/:1, "u002Fis_useful-1.js"/*tpa=http://greasp.com/page/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-4.css"/*tpa=http://greasp.com/page/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-4.css"/*tpa=http://greasp.com/page/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-4.css"/*tpa=http://greasp.com/page/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-4.css"/*tpa=http://greasp.com/page/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-4.css"/*tpa=http://greasp.com/page/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-4.css"/*tpa=http://greasp.com/page/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-4.css"/*tpa=http://greasp.com/page/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-4.css"/*tpa=http://greasp.com/page/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-4.css"/*tpa=http://greasp.com/page/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-4.css"/*tpa=http://greasp.com/page/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-4.css"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-4.css"/*tpa=http://greasp.com/page/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-4.css"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/page/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+58. Радость
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Дуй (Радость)
+: открытая поверхность, область контакта, взаимодействие, взаимное проникновение; выражать, убеждать, побуждать; веселье, радость, удовольствие; свободный, отзывчивый; собирать, менять, обмениваться, торговать; слова, исходящие изо рта; туман над водой. Иероглиф изображает говорящего человека.
+
+
+Свершение.
+ Благоприятна стойкость.
+
+
+
+
+Это время для общения, удовольствия и взаимовыгодного обмена. Открыто выражайте свою личность. Веселите и радуйте людей. Приобретайте, торгуйтесь, обменивайтесь информацией. Это время, чтобы людей посмотреть и себя показать. Встречайтесь с друзьями для общения и совместных мероприятий. Вдохновляйте их. Помните: если вы объясните, что к чему, прежде чем люди примутся за работу, они забудут о том, как тяжела эта работа. Если вы объясните причины происходящего, то они будут готовы перенести любые невзгоды. Такова сила вдохновляющих слов и радостного, открытого общения.
+
+
+Если проникновение приводит к достижению известной цели, то в достижении цели человек находит большое удовлетворение. Это удовлетворение приводит его к переживанию радости. С одной стороны, в радости достигается выражение самодовольства, с другой стороны, в радости легко может наступить рассеяние. Поэтому данная гексаграмма рассматривает процесс, возникающий в переживании человека после того, как им что-нибудь достигнуто, и наступает этот процесс радости. Самое существенное – то, что такая радость должна быть на только достоянием самого человека, но и простираться на его окружение, ибо в противном случае, если бы он оставался только замкнутым в себе, это привело бы его лишь к злоупотреблению той радостью, которая была бы им достигнута на предыдущей ступени. Здесь нужно достичь развития радости, расширения ее. Но это возможно только в том случае, если человек не отдается целиком радости, не захвачен ею всем своим существом, а сознательно следит за правильностью своих поступков и отдает свою радость окружению.
+
+
+ 
+Внешний и Внутренний миры:
+ Водоем (Туман) и Водоем (Туман)
+
+
+ Радость распространяется повсюду, вдохновляя людей и проясняя суть вещей.
+
+
+ 
+Скрытая возможность: 
+37 (Домашние)
+
+
+ Мягкое проникновение в ситуацию содержит скрытую возможность превращения конфликта в творческое противоречие.
+
+
+ 
+Последовательность
+
+
+ Проникновение предшествует вдохновению. Вдохновение рождает радость.
+
+
+ 
+Определение
+
+
+ Радость подразумевает открытое взаимодействие.
+
+
+ 
+Символ
+
+
+ Туманы соединяются. Радость.
+ Благородный человек обращается к друзьям и близким, чтобы дать свои объяснения.
+
+
+ 
+
+
+Линии гексаграммы
+
+
+Линия 1
+
+
+ 
+Вначале девятка
+
+
+Радость — от согласия. Счастье.
+
+
+Перед вами открывается возможность гармоничного развития. Путь открыт.
+
+
+На первой ступени радость наступает непосредственно от достижения. В достижении можно найти большое согласие между сделанным и результатом действия. Таким образом, здесь можно говорить о гармонии. Это именно гармония приводит человека к переживанию радости.
+
+
+Линия 2
+
+
+ 
+Девятка вторая
+
+
+ 
+Радость от правоты. Счастье.
+ Раскаяние исчезнет.
+
+
+Связь с миром духов позволяет вам пользоваться его энергией и благосклонностью. Путь открыт. Ваши печали и сомнения исчезнут.
+
+
+Во внутреннем аспекте радость является большой правдивостью. Она закончена в самой себе.
+
+
+Линия 3
+
+
+ 
+Шестерка третья
+
+
+Радость — от прихода. Несчастье.
+
+
+Кажется, что вам предоставляется хорошая возможность, но на самом деле в ней ничего нет. Путь закрыт. Вам нужно обратить взор в другое место.
+
+
+Мы уже видели не раз, что движение в гексаграмме предполагается от нижней черты к верхней. Это – движение вовне, уход, как называет это “Книга Перемен”. С другой стороны, обратное движение сверху вниз – переход от внешнего к внутреннему – называется приходом. По сути данной гексаграммы, которую мы видели в вводном замечании, радость должна здесь распространяться на других людей. Всякое замыкание в себе того, кто переживает радость, отрывает его от окружающей среды и приводит к неудачным действиям. Поэтому радость, которая возникает и погружена в себя все время, когда следовало бы, наоборот, выйти со своей радостью к людям, не может привести ни к чему иному, как к неудачному исходу.
+
+
+Линия 4
+
+
+ 
+Девятка четвертая
+
+
+Радость — от договоренности, но еще нет равенства.
+ Если же стороны поспешат, то будет и веселье.
+
+
+После кризиса наступает гармония. Вы договариваетесь с людьми, пусть между сторонами и нет полного равенства. Чем быстрее осуществится такое примирение, тем радостнее оно будет.
+
+
+После того как пережито состояние кризиса, на четвертой позиции уже наступает возможность дойти до известной гармонии. Эта гармония, как мы видели выше, является характерной чертой радости. Но здесь после кризиса она должна быть опять восстановлена. Пусть четвертая позиция, с одной стороны, имеет за собой опасную третью позицию, с другой стороны, впереди максимально выявляющую данную пятую позицию, все-таки между этими сторонами нет равенства, и, тем не менее, если возможно достичь примирения обеих сторон, то возможен и благоприятный исход данной позиции.
+
+
+ 
+
+
+Линия 5
+
+
+ 
+Девятка пятая
+
+
+ 
+Если оправдаешь разорителей, это будет ужасно.
+
+
+ Вы проявляете неразборчивость. Распространяя благие намерения на дурных людей, вы изменяете свое положение к худшему. Пора исправить эту ситуацию.
+
+
+Когда перед человеком стоит задача с полной положительностью отдать свою радость окружающим людям, то при максимальном выявлении его радости он может не различать положительных и отрицательных типов людей. Он может отдавать ее всем. При таком устремлении своей радости вовне без учета качества окружающих людей и именно из-за того, что эта радость передается даже отрицательным людям, положение может показаться человеку ужасным. Тем не менее, этот этап должен быть пережит, и лишь впоследствии может наступить то, что гармонирует его и определяет место того или иного человека в окружающей среды. Пятая позиция по своему характеру предрасположена к тому, чтобы действие, исходящее из нее, не ограничилась нуждами и интересами самого человека. Здесь именно можно очень многое создать в своем окружении. А как мы увидим дальше, данная ситуация в целом подготовляет ту индивидуализацию, в результате которой возникает не один, а множество отдельных индивидуумов. Поэтому здесь вопреки опасности, которая все-таки упоминается “Книгой Перемен”, необходимо действие, характеризующее данную позицию.
+
+
+Линия 6
+
+
+ 
+Наверху шестерка
+
+
+ 
+Влекущая радость.
+
+
+ Выражайте свои мысли и идеалы. Если вы замкнетесь в себе, то даже радость не принесет удовлетворения. Воодушевляйте людей, увлекайте их за собой.
+
+
+Этап творчества ради других, распространение радости на других уже целиком было изжито на предыдущей ступени. Поэтому на шестой позиции речь может идти только о личном переживании своей собственной радости. Человек замыкается со своей радостью в себе. Конечно, по общему ходу данной ситуации это не соответствует задачам, которые ставятся перед человеком его окружением. Тем не менее, поскольку все, что нужно было отдать, уже отдано, человек сам остается со своим переживанием радости, и это не приводит все-таки его к несчастью.
+
+
+
+
+Теги: 
+
+
+
+
+
+
+Гексаграммы
+ 
+
+
+
+
+
+
+
+
+64: 
+
+
+
+
+
+
+58
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(1) Да
+(0) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/page/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

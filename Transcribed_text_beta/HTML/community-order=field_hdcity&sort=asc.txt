@@ -1,0 +1,3121 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сообщество Greasp | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"m-97ODAFpMnKP5jsky1McP6dsaBDgiEpiKvugOuuD10", "js":{"u002Fjquery.js"/*tpa=http://greasp.com/misc/u002Fjquery.js*/:1, "u002Fjquery.once.js"/*tpa=http://greasp.com/misc/u002Fjquery.once.js*/:1, "u002Fdrupal.js"/*tpa=http://greasp.com/misc/u002Fdrupal.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels.js"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1}, "css":{"u002Fsystem.base.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator.css"/*tpa=http://greasp.com/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment.css"/*tpa=http://greasp.com/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom.css"/*tpa=http://greasp.com/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield.css"/*tpa=http://greasp.com/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode.css"/*tpa=http://greasp.com/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll.css"/*tpa=http://greasp.com/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch.css"/*tpa=http://greasp.com/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser.css"/*tpa=http://greasp.com/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum.css"/*tpa=http://greasp.com/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews.css"/*tpa=http://greasp.com/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome.css"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools.css"/*tpa=http://greasp.com/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels.css"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сообщество Greasp
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+administrator
+ 
+
+
+ 
+М. Генератор
+ 
+
+
+ 
+2/4
+ 
+ 
+
+
+
+
+ 
+Ryaba Dobraya
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Greasp Comm
+ 
+
+
+ 
+Генератор
+ 
+
+
+ 
+1/3
+ 
+ 
+
+
+
+
+ 
+imperator
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Greasp Comm
+ 
+
+
+ 
+Манифестор
+ 
+
+
+ 
+6/2
+ 
+ 
+
+
+
+
+ 
+gleb_DATA
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Greasp Comm
+ 
+
+
+ 
+Генератор
+ 
+
+
+ 
+3/5
+ 
+ 
+
+
+
+
+ 
+Schwarz
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Muzak
+ 
+
+
+ 
+М. Генератор
+ 
+
+
+ 
+2/4
+ 
+ 
+
+
+
+
+ 
+Urukhai
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Автор \ Переводчик
+ 
+
+
+ 
+М. Генератор
+ 
+
+
+ 
+2/4
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+DeZtructor
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Muzak
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+YaMuS
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Автор \ Переводчик
+ 
+
+
+ 
+Генератор
+ 
+
+
+ 
+3/5
+ 
+ 
+
+
+
+
+ 
+Citycat
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Автор \ Переводчик
+ 
+
+
+ 
+Проектор
+ 
+
+
+ 
+4/6
+ 
+ 
+
+
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Автор \ Переводчик
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+skazki_2012
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+Автор \ Переводчик
+ 
+
+
+ 
+Проектор
+ 
+
+
+ 
+3/5
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Имя пользователя
+ 
+
+
+
+
+HD Тип
+ 
+
+
+
+
+HD Профиль
+ 
+
+
+
+
+С нами
+ 
+
+
+
+
+Рейв-Карта
+ 
+
+
+
+
+Город рождения
+ 
+
+
+
+            Время рождения          
+
+
+
+
+
+
+
+
+
+
+
+
+варя
+ 
+
+
+
+            Манифестор          
+
+
+
+            1/3          
+
+
+
+            3 месяца 1 неделя          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+04/16/1987 04:20 am
+ 
+
+
+
+
+
+
+
+
+Marina
+ 
+
+
+
+            Генератор          
+
+
+
+            5/1          
+
+
+
+            3 месяца 3 недели          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Irynairy
+ 
+
+
+
+            М. Генератор          
+
+
+
+            5/2          
+
+
+
+            3 месяца 3 недели          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+01/06/1978   08:00
+ 
+
+
+
+
+
+
+
+
+francofioletty
+ 
+
+
+
+            Проектор          
+
+
+
+            3/5          
+
+
+
+            2 месяца 1 неделя          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bodhidharma
+ 
+
+
+
+            Генератор          
+
+
+
+            2/4          
+
+
+
+            5 месяцев 1 неделя          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+23/01/1983 06:00 pm
+ 
+
+
+
+
+
+
+
+
+anna-barn
+ 
+
+
+
+            М. Генератор          
+
+
+
+            4/1          
+
+
+
+            2 месяца 2 недели          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gleb_DATA
+ 
+
+
+
+            Генератор          
+
+
+
+            3/5          
+
+
+
+            6 месяцев 2 недели          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sonnei
+ 
+
+
+
+            Генератор          
+
+
+
+            2/4          
+
+
+
+            1 месяц 2 дня          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ryaba Dobraya
+ 
+
+
+
+            Генератор          
+
+
+
+            1/3          
+
+
+
+            7 месяцев 1 неделя          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Livert
+ 
+
+
+
+            М. Генератор          
+
+
+
+            4/6          
+
+
+
+            3 месяца 1 неделя          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ДLaDiosa
+ 
+
+
+
+            М. Генератор          
+
+
+
+            1/4          
+
+
+
+            1 месяц 1 неделя          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Arina
+ 
+
+
+
+            Генератор          
+
+
+
+            1/3          
+
+
+
+            4 месяца 6 дней          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Luta
+ 
+
+
+
+            Манифестор          
+
+
+
+            5/2          
+
+
+
+            6 месяцев 6 дней          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mirspirsmirs
+ 
+
+
+
+            М. Генератор          
+
+
+
+            4/6          
+
+
+
+            2 месяца 4 недели          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+imperator
+ 
+
+
+
+            Манифестор          
+
+
+
+            6/2          
+
+
+
+            7 месяцев 3 дня          
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Алена
+ 
+
+
+
+            Манифестор          
+
+
+
+            3/5          
+
+
+
+            4 месяца 1 день          
+
+
+
+
+ 
+
+
+
+             Россия  г.Омск          
+
+
+
+
+09/12/1983 11:54 pm
+ 
+
+
+
+
+
+
+
+
+natalyka
+ 
+
+
+
+            Генератор          
+
+
+
+            2/4          
+
+
+
+            2 месяца 1 неделя          
+
+
+
+
+ 
+
+
+
+            1968          
+
+
+
+
+12/21/2012 08:00 am
+ 
+
+
+
+
+
+
+
+
+KVITKA
+ 
+
+
+
+            Генератор          
+
+
+
+            6/2          
+
+
+
+            2 месяца 6 дней          
+
+
+
+
+ 
+
+
+
+            1971          
+
+
+
+
+05/04/1971 02:00 am
+ 
+
+
+
+
+
+
+
+
+Elleana
+ 
+
+
+
+            М. Генератор          
+
+
+
+            3/5          
+
+
+
+            1 месяц 3 недели          
+
+
+
+
+ 
+
+
+
+            Chisinau          
+
+
+
+
+03/15/1989 02:53 pm
+ 
+
+
+
+
+
+
+
+
+buchlazy
+ 
+
+
+
+            Генератор          
+
+
+
+            5/1          
+
+
+
+            3 месяца 3 недели          
+
+
+
+
+ 
+
+
+
+            gusev          
+
+
+
+
+12/13/1981 07:40 am
+ 
+
+
+
+
+
+
+
+
+tochka
+ 
+
+
+
+            Генератор          
+
+
+
+            5/1          
+
+
+
+            5 дней 10 часов          
+
+
+
+
+ 
+
+
+
+            hisar, Bulgaria          
+
+
+
+
+02/15/2013 08:00 pm
+ 
+
+
+
+
+
+
+
+
+zoi
+ 
+
+
+
+            Генератор          
+
+
+
+            4/6          
+
+
+
+            4 недели 1 день          
+
+
+
+
+ 
+
+
+
+            Jambol -Bulgaria          
+
+
+
+
+06/11/ 1957 / 11:00 am
+ 
+
+
+
+
+
+
+
+
+lizaelectric
+ 
+
+
+
+            Проектор          
+
+
+
+            5/1          
+
+
+
+            3 месяца 2 недели          
+
+
+
+
+ 
+
+
+
+            Kazan          
+
+
+
+
+31.05.1979
+ 
+
+
+
+
+
+
+
+
+Елена
+ 
+
+
+
+            Проектор          
+
+
+
+            1/3          
+
+
+
+            1 месяц 4 дня          
+
+
+
+
+ 
+
+
+
+            Makhachkala          
+
+
+
+
+04/10/1969 23:55 am1969
+ 
+
+
+
+
+
+
+
+
+StasON
+ 
+
+
+
+            Манифестор          
+
+
+
+            4/6          
+
+
+
+            1 неделя 1 день          
+
+
+
+
+ 
+
+
+
+            Moscow          
+
+
+
+
+06/23/1988 03:45 am
+ 
+
+
+
+
+
+
+
+
+Andy
+ 
+
+
+
+            М. Генератор          
+
+
+
+            3/5          
+
+
+
+            1 месяц 1 день          
+
+
+
+
+ 
+
+
+
+            Novomoskovsk          
+
+
+
+
+02/27/1975 09:28 am
+ 
+
+
+
+
+
+
+
+
+lusia
+ 
+
+
+
+            М. Генератор          
+
+
+
+            2/4          
+
+
+
+            3 месяца 1 неделя          
+
+
+
+
+ 
+
+
+
+            perm          
+
+
+
+
+05/22/1981 08:15 pm
+ 
+
+
+
+
+
+
+
+
+Lorchik
+ 
+
+
+
+            Генератор          
+
+
+
+            1/3          
+
+
+
+            1 месяц 1 неделя          
+
+
+
+
+ 
+
+
+
+            Ukraine          
+
+
+
+
+09/09/1969 11:00 am
+ 
+
+
+
+
+
+
+
+
+LUIWADJOGS
+ 
+
+
+
+            Генератор          
+
+
+
+            1/3          
+
+
+
+            3 месяца 2 недели          
+
+
+
+
+ 
+
+
+
+            Vitebsk          
+
+
+
+
+10/09/1989 05:00 am
+ 
+
+
+
+
+
+
+
+
+Marin
+ 
+
+
+
+            Проектор          
+
+
+
+            5/1          
+
+
+
+            1 месяц 3 недели          
+
+
+
+
+ 
+
+
+
+            Владивосток          
+
+
+
+
+05/31/1968 10:49 pm
+ 
+
+
+
+
+
+
+
+
+primavera7771
+ 
+
+
+
+            Генератор          
+
+
+
+            4/6          
+
+
+
+            3 месяца 5 дней          
+
+
+
+
+ 
+
+
+
+            г Токсово          
+
+
+
+
+07/16/1969 03:00 am
+ 
+
+
+
+
+
+
+
+
+natka961
+ 
+
+
+
+            Генератор          
+
+
+
+            6/2          
+
+
+
+            4 дня 11 часов          
+
+
+
+
+ 
+
+
+
+            Г. Ковров Владимирской обл.          
+
+
+
+
+27 апреля 1961.
+ 
+
+
+
+
+
+
+
+
+Namaste
+ 
+
+
+
+            Манифестор          
+
+
+
+            1/3          
+
+
+
+            1 месяц 3 недели          
+
+
+
+
+ 
+
+
+
+            Запорожье, Украина          
+
+
+
+
+03/30/1993 08:40 am
+ 
+
+
+
+
+
+
+
+
+Яся
+ 
+
+
+
+            Проектор          
+
+
+
+            6/2          
+
+
+
+            1 месяц 1 неделя          
+
+
+
+
+ 
+
+
+
+            Киев          
+
+
+
+
+
+
+
+
+
+
+
+
+imi
+ 
+
+
+
+            М. Генератор          
+
+
+
+            4/6          
+
+
+
+            3 недели 3 дня          
+
+
+
+
+ 
+
+
+
+            Кокшетау          
+
+
+
+
+04/20/1974 12:30 am
+ 
+
+
+
+
+
+
+
+
+una
+ 
+
+
+
+            Генератор          
+
+
+
+            2/4          
+
+
+
+            2 месяца 1 неделя          
+
+
+
+
+ 
+
+
+
+            Львов          
+
+
+
+
+30.08.1980, 14:20
+ 
+
+
+
+
+
+
+
+
+Яд
+ 
+
+
+
+            М. Генератор          
+
+
+
+            2/4          
+
+
+
+            2 месяца 3 дня          
+
+
+
+
+ 
+
+
+
+            Москва          
+
+
+
+
+
+
+
+
+
+
+
+
+Methuselah
+ 
+
+
+
+            Проектор          
+
+
+
+            4/1          
+
+
+
+            3 недели 9 часов          
+
+
+
+
+ 
+
+
+
+            Москва          
+
+
+
+
+
+
+
+
+
+
+
+
+Mo.Flying
+ 
+
+
+
+            М. Генератор          
+
+
+
+            2/4          
+
+
+
+            4 месяца 4 дня          
+
+
+
+
+ 
+
+
+
+            Москва          
+
+
+
+
+09/05/1984 09:50 pm
+ 
+
+
+
+
+
+
+
+
+Женек
+ 
+
+
+
+            М. Генератор          
+
+
+
+            1/3          
+
+
+
+            2 недели 6 дней          
+
+
+
+
+ 
+
+
+
+            Москва          
+
+
+
+
+07/01/1984 04:30 pm
+ 
+
+
+
+
+
+
+
+
+Raznocvet
+ 
+
+
+
+            М. Генератор          
+
+
+
+            3/5          
+
+
+
+            1 месяц 1 день          
+
+
+
+
+ 
+
+
+
+            Новомосковск Украина          
+
+
+
+
+02/15/1975 09:30 am
+ 
+
+
+
+
+
+
+
+
+Harhor
+ 
+
+
+
+            М. Генератор          
+
+
+
+            2/4          
+
+
+
+            7 месяцев 1 неделя          
+
+
+
+
+ 
+
+
+
+            Обнинск          
+
+
+
+
+09/17/1986 04:44 am
+ 
+
+
+
+
+
+
+
+
+dim4ik241
+ 
+
+
+
+            Проектор          
+
+
+
+            2/4          
+
+
+
+            1 неделя 2 дня          
+
+
+
+
+ 
+
+
+
+            Обнинск          
+
+
+
+
+24.01.1987 02:45
+ 
+
+
+
+
+
+
+
+
+skazki_2012
+ 
+
+
+
+            Проектор          
+
+
+
+            3/5          
+
+
+
+            2 месяца 1 неделя          
+
+
+
+
+ 
+
+
+
+            Обнинск          
+
+
+
+
+04/25/1978 12:40 am
+ 
+
+
+
+
+
+
+
+
+РаДо Свет
+ 
+
+
+
+            М. Генератор          
+
+
+
+            1/3          
+
+
+
+            3 недели 1 день          
+
+
+
+
+ 
+
+
+
+            Ростов-на-дону          
+
+
+
+
+02/14/1972 10:45 pm
+ 
+
+
+
+
+
+
+
+
+Shine
+ 
+
+
+
+            М. Генератор          
+
+
+
+            6/2          
+
+
+
+            3 месяца 1 день          
+
+
+
+
+ 
+
+
+
+            Санкт-Петербург          
+
+
+
+
+27/05/1990 - 00.45
+ 
+
+
+
+
+
+
+
+
+Ninel
+ 
+
+
+
+            Проектор          
+
+
+
+            6/2          
+
+
+
+            2 месяца 12 часов          
+
+
+
+
+ 
+
+
+
+            Украина          
+
+
+
+
+05/14/1984 04:07 pm
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

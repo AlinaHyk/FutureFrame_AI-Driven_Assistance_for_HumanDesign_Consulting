@@ -1,0 +1,1123 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012.n.v. | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"TRFU6bX6iMLL0Lte-tYUGy12DD5WwjiP36GfysjDPLo", "js":{"u002Fjquery-5.js"/*tpa=http://greasp.com/blog/misc/u002Fjquery.js*/:1, "u002Fjquery.once-5.js"/*tpa=http://greasp.com/blog/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-5.js"/*tpa=http://greasp.com/blog/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-3.js"/*tpa=http://greasp.com/blog/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-3.js"/*tpa=http://greasp.com/blog/misc/u002Fjquery.form.js*/:1, "u002Fajax-3.js"/*tpa=http://greasp.com/blog/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-5.js"/*tpa=http://greasp.com/blog/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-5.js"/*tpa=http://greasp.com/blog/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-5.js"/*tpa=http://greasp.com/blog/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-5.js"/*tpa=http://greasp.com/blog/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-3.js"/*tpa=http://greasp.com/blog/misc/u002Fprogress.js*/:1, "u002Fis_useful-2.js"/*tpa=http://greasp.com/blog/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-5.css"/*tpa=http://greasp.com/blog/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-5.css"/*tpa=http://greasp.com/blog/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-5.css"/*tpa=http://greasp.com/blog/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-5.css"/*tpa=http://greasp.com/blog/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-5.css"/*tpa=http://greasp.com/blog/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-5.css"/*tpa=http://greasp.com/blog/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-5.css"/*tpa=http://greasp.com/blog/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-5.css"/*tpa=http://greasp.com/blog/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-5.css"/*tpa=http://greasp.com/blog/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-5.css"/*tpa=http://greasp.com/blog/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-5.css"/*tpa=http://greasp.com/blog/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-5.css"/*tpa=http://greasp.com/blog/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-5.css"/*tpa=http://greasp.com/blog/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-5.css"/*tpa=http://greasp.com/blog/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-5.css"/*tpa=http://greasp.com/blog/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-5.css"/*tpa=http://greasp.com/blog/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-5.css"/*tpa=http://greasp.com/blog/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-5.css"/*tpa=http://greasp.com/blog/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/blog/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012.n.v.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 09/19/2012 - 22:29
+ пользователем 
+bodhidharma
+
+
+
+
+
+
+ 
+ Этот пост живым людям которые намеренны жить дальше и совершать осознанные поступки. Как нам живым строить наше будущее наш мир и  среду обитания- попытаюсь дать общую картину видения хотя не уверен, что она будет полной. Для начала нам нужно определиться кто мы и к чему стремимся и без самообмана прикрывая общепринятыми  призывами  свою ущербность. В первую очередь нужно всем усвоить, что больше так как сейчас не будет и наш мир бесповоротно уходит от нас и в нашей воле принять готовые решения которые приняли за нас -как нам жить и что думать или начать созидать наш новый мир.Основопологающим в новой нашей реальности будет такое качество как самодостаточность во всех прикладных проявлениях Хайтек и Хайхьюм.
+
+
+Хайхьюм-гуманитарные  технологии как способность к самостоятельному мышлению получению и усваению информации и верному безошибочному применению. Пример для понимания моей мысли- поражение СССР в холодной войне было гуманитарным по Хайтек технологиям мы не уступали  и даже превосходили США и это при огромном колличестве засекреченных изобретений, но началось брожение в умах и разруха в головах советских людей и мы капитулировали -хотя реально могли победить в горячей войне. Тут правда еще  людей начали напрягать завышенные требования к своим моральным и физическим качествам народ устал быть хорошим постоянно находиться в мобилизованном напряженном состоянии -заниматься спортом,быть трезвыми, ходить на работу и учиться. Я помню то время моральное поражение перед западом было полное.Нам нужно учесть это в нашем новом обществе и предотвращать проявление разложения в будущих поколениях через методику гибкого своевременного реагирования на вызовы времени.Нам придется находится в постоянном мобильном состоянии и рефлексии в  меняющемся мире и быть способными подстраиваться и создавать свои миры(хотя как противостоять грубой силе религиозных фанатиков еще не совсем понятно-если это мимикрирующие хищники-суперэнимал-то уничтожать с суггесторами -сложнее). 
+
+
+Одним из проявлений  самодостаточности будет безстрашие-наш страх уйдет в прошлое в новом мире какбы мы этого не хотели нам прийдется вести борьбу и убивать других людей несущих нам угрозу -ведь наши родители не вечны и старшее покаление уйдет -состарятся и уйдут те кто нас кормит и защищает менты,военные,ученые итд и что-то мы задержались в подростковом возрасте интернет-супермены. Хайхьюм самодостаточность подразумевает свою правду что-то вроде-" я прав иниипет я есть тот кто я есть и за свое отвечу" также каждый будет покланятся своему богу-своей душе/пути  мой бох-мой путь,а внешнего Господа-Бога у нас не будет и вернется понятие бога в себе БОГатый, БОГатырь, в семейной жизни будет матриархат с женским культом Жива-Лада и Рода сменит Лада -признаем честно потери мужчин 1914-45г в войнах с потерей до 50% мужчин и сегодняшние потери привели к отрицательной селекции и мужчины уступили женщинам качественно. И поскольку детей в семье воспитывает женщина то и она будет формировать сознание детей и семейным культом станет женское начало -Лада. Форма управления будет  не иерархичной-ограниченной олигополии,а в форме военной демократии где каждый будет участвовать в принятии решений. Это будет матриархат коллективного сознательного и равных участников -роиды.Проживать роиды будут полностью автономных поселениях со своим иточниками энергии, воды и материалов
+
+
+Произойдет новая волна этногенеза ( Русские -московская нация, Синкретический суперэтнос) в условиях новой метисации (смешения с последующим созданием новой общности) Поскольку сегодняшние русские в РФ себя исчерпали генетически (право "первой брачной ночи" в крепостничестве, колоссальные потери мужского населения в 1914-1945г, алкоголизм, наркомания), духовно (ничего иного-идейной альтернативы не предложено) и морально-за рубежом русские не создают диаспор тоже симптом распада. Сегодня у нас возникает некий паралельный Русский народ (до 1917г было 400 субэтносов), смешение украинцев, татар(других тюркоязычных), угро-финнов между собой, влияние сильного радиационого фона (комбинат МАЯК,НПЗ) преодоление идейно-нравственной пустоты и вредных привычек уже создают иного человека (неандерталец- кроманьонец-хомо сапиенс сапиенс- неоантроп) психически и физически устойчивого к среде обитания, но есть угроза враждебной мимикрии . Правда это мое видение из Башкирии с самым смешанным населением.
+
+
+Так же я сторонник преобладающего фино-угорского происхождения русских и выскажу страшную правду скрываемую историками. Крепостными крестьянами в России были побежденные германцами-русами финноугры-русские от чьих вы - мы собственность русов-русские.В России бушевала страшная межрасовая война русов-германцев(господствующая этногруппа),русских(в те времена так называли православных угрофинов),славян-хохлов(разгром чисто славянской Речи посполитой в 1795г)и тюрко-угорских народов Поволжья-Урала. После победы угрофинов над германцами в гражданской(расово-геноцидной)войне появились в 1930ые годы современные русские(и другие народы ) и де-факто сегодняшних  русских создал Сталин. 
+Русские тоже созданы после революции(да да и не спорьте, проверьте сами)До 1917 существовало порядка 400 местечковых языковых субэтносов и единого русского языка не существовало. В гражданскую войну воевали две совершенно разные цивилизации русских -русские горожане и русские крестьяне и они не понимали друг-друга и говорили на разных языках(как сейчас немцы и китайцы-нет единого языка) и исповедовали разные системы ценностей. Вы переводите-проецируете своё сегодняшнее видение(всеобщего образования и коммуникаций)на время когда 90% населения не умело читать и писать-ЛикБезы и жило замнкнутыми общинами почти натуральным хозяйством. Русские крестьяне были скрытыми язычниками-двуеверие. Итого русские не понимали друг-друга говорили на разных языках и не умели читать и писать и не были православными. Миф о Русском православии легко опровергается абсолютной-физической победой не православных русских(бойцов РККА) над православными (белогвардейцами)- уж куда дальше спорить.
+ 
+ Реально крепостное рабство затянулось с 1862 по 1912г и еще 50лет крестьяне выкупали земли у помещиков и были рабами.Белогвардейцы не считали себя русскими и когда у белоэмигрантского дворянства спрашивали -"вы русские" -? они отвечали "нет мы питербуржцы".А финоугры русские не считали себя православными(двуеверие-скрытое язычество) и решительно покончили с пришлым еврейским христианством-православием религией для рабов. И с чего и кто это придумал типа русские это славяне-? Речь Посполитая(польско-литовско-украинско-белорусское государство) разгромлена и и вошла в состав России в 1795г и если возьмем  1654г это очень поздно Россия уже существовала в современных границах и московская армия уже вышла к российско-иранской,российско-китайской границе т.е. формирование Российского государства шло без участия Украины,Белоруссии.Так где сейчас -Украина и Белоруссия-.. отдельные государства и почему в самые важные переломные моменты нет их соучастия  также мы типа общность-славяне... Также в ВОВ Украина и Белоруссия оккупированные территории ни одного танка/самолета/винтовки СА не дали -тотальная мобиллизаия не проводилась -Белоруссия 300тыс партизан,Украина 400тыс призыва(оффициально) и кто уничтожил/взял в плен 10млн немцев/сателитов они или РСФСР-37млн мобилизованных и сравните оборону славянских Киева и Минска и финоугорских Ленинграда, Москвы, Мурманска,Сталинграда. Так кто строит и обороняет Россию -государствообразующие укры штоле-?  Германцы-русы вероятно пришли с территории кавказа(англоязычная наука называет европейскую расу-кавказкой) скандинавы предки шведов-точно. Банды германцев-русов вели себя точно также как сегодняшние кавказцы и жили беспределом пока им не вломили тюркоязычные кочевники.Казаков я отношу четко конкретно к тюркам(в Польше до 1млн татар-бывших казаков).Германцы-русы создали для себя рабовладельческое-крепостническое государство и в ходе гражданской войны их уничтожили угрофины которые и стали называться сегодняшними русскими. Так сейчас мы отмечаем 200летие  Бородино, а тогда офицеры,дворяне и помещики -говорили на французком и не понимали партизан и ополченцев из крестьян, а крестьяне не говорили по французки  и не понимали офицеров. А то всё  аннунаки/рептилоиды- вот где были паралельные биологические цивилизации -говорящих на разных языках и исповедующих разные системы ценостей как бы единого "русского" народа -мыж за правду  жизни и против самообмана как пишет  IMPERATOR. И зачем спорить сходите сдайте генетический анализ и выясните свою расовую пренадлежность.
+
+
+Про наработки личных качеств-сиддхи - каждый решит сам что ему будет нужно в будущем по его социализации. Также время христианства прошло безвозвратно и у РПЦ прихожане-паства бабульки скоро закончатся и придется клирикалам рекрутировать таджиков,китайцев, эфиопов. мое видение православных  Я-православный, я порочен и грешен, бряду я во мраке верой-сомнением в неизвестность ведомый.Я-православный, с рождения крещенный, рабом заклеменный, скотом-агнцем нареченный. Я-православный, кроток и смирен,слаб, жалок и невежественно глуп. Я-православный, и нет радости во мне ибо грех это и тело моё "слизь мерзкая". Я-православный, и нет разума во мне ибо словом церковным всё меряю. Я-православный, и нет воли во мне ибо вся воля снаружи, и нет силы во мне ибо ничтожен. Я-православный, я не личность, а ведомый ибо грех эта гордыня. Я-православный, немощен телесно, беден и груб ибо позже (наверно) воздасться. Я-православный, я каюсь всегда, я каюсь везде, я каюсь во всём ибо силы духа нет и на своём настоять не могу. Я-православный,я о смерти скорейшей мечтаю,и судорожно от страха-обреченности воздух глотаю.Я- православный, мольбой в яростной истерике эфир сотрясаю.  -И вот такие люди в нашем новом мире нам не нужны. Пусть мошиях заберает свою паству агнцев из нового мира осознанно живущих человеков нам балласт -рабы и бараны  Иеговы не нужны.                              
+
+
+З.Ы. продолжение следует ..                       
+
+
+
+
+Теги: 
+
+
+
+
+
+
+2012
+ 
+
+
+
+
+наше время
+ 
+
+
+
+
+человек
+ 
+
+
+
+
+славяне
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(2) Да
+(0) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Блог пользователя bodhidharma
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+Комментарии
+
+
+
+
+
+
+
+
+думаю что россия потенциально
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+пн, 12/10/2012 - 14:13
+ пользователем 
+francofioletty
+
+
+
+
+
+
+ 
+думаю что россия потенциально - прибежище буддизма
+
+
+ 
+
+
+жду приглашения
+
+
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+106
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+83
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/blog/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

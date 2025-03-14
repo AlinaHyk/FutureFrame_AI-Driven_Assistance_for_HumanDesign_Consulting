@@ -1,0 +1,1195 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47. Истощение | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"NxbsIAGg3y4TL8ptoxvXwsFgPWObSHWd7F4iqn1_3Gc", "js":{"u002Fjquery-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.js*/:1, "u002Fjquery.once-4.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-4.js"/*tpa=http://greasp.com/page/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-2.js"/*tpa=http://greasp.com/page/misc/u002Fjquery.form.js*/:1, "u002Fajax-2.js"/*tpa=http://greasp.com/page/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-4.js"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-4.js"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-2.js"/*tpa=http://greasp.com/page/misc/u002Fprogress.js*/:1, "u002Fis_useful-1.js"/*tpa=http://greasp.com/page/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-4.css"/*tpa=http://greasp.com/page/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-4.css"/*tpa=http://greasp.com/page/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-4.css"/*tpa=http://greasp.com/page/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-4.css"/*tpa=http://greasp.com/page/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-4.css"/*tpa=http://greasp.com/page/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-4.css"/*tpa=http://greasp.com/page/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-4.css"/*tpa=http://greasp.com/page/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-4.css"/*tpa=http://greasp.com/page/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-4.css"/*tpa=http://greasp.com/page/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-4.css"/*tpa=http://greasp.com/page/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-4.css"/*tpa=http://greasp.com/page/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-4.css"/*tpa=http://greasp.com/page/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-4.css"/*tpa=http://greasp.com/page/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-4.css"/*tpa=http://greasp.com/page/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-4.css"/*tpa=http://greasp.com/page/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/page/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47. Истощение
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Кунь (Истощение)
+: замкнутый, окруженный, огороженный; ограждать, ограничивать; наказание, уголовный кодекс, тюрьма; беспокойство, тревога, страх; усталость, истощение, исчерпанные ресурсы; пораженный [болезнью], обескураженный; бедность, нищета. Иероглиф изображает растущее дерево, огороженное со всех сторон.
+
+
+Свершение.
+ Стойкость. Великому человеку — счастье.
+ Будут речи, но они неверны.
+
+
+
+
+Вы изолированы, истощены или угнетены. Вы не можете доверять тем, кто вас окружает. Необходимо овладеть ситуацией изнутри, волевым усилием. Соберитесь с силами и ждите момента для решающего прорыва. Единственный выход — искать благородного человека в себе, найти внутренний источник энергии и вдохновения. Это откроет путь. Не рассчитывайте на помощь других людей и не доверяйте красивым словам. Не поддавайтесь отрицательным эмоциям. Цель вашего уединения заключается не в том, чтобы заставить вас страдать, а в том, чтобы вынудить вас найти личное связующее звено дао. В ситуации содержится обещание грядущих перемен. Вы сможете увидеть свою цель, если будете полагаться на собственные суждения. Если вы будете придавать большое значение словам окружающих, это лишь истощит ваши силы.
+
+
+Сколько бы ни было проявлено сил в предыдущей ситуации, но все-таки это какое-то ограниченное количество, ибо эти силы не бесконечны, рано или поздно в подъеме они будут исчерпаны. Вот почему подъем с полной необходимостью приводит к истощению. Но в этом истощении необходимо не столько констатировать самый факт истощения сил, сколько необходимо указать возможный выход из данной ситуации, ибо, как и всякая другая, она не может быть вечной. Уже это одно указывает на возможность развития, которое на техническом языке “Книги Перемен” называется свершением. Конечно, для преодоления данной ситуации человек должен быть достаточно развитым, как называет “Книга Перемен”, великим человеком; только для него возможен благоприятный исход. Пусть его деятельность в данном состоянии и вызовет толки, ибо не всем в его окружении будет понятна его деятельность, – этим толкам все же придавать значения не следует, ибо здесь человек должен полагаться только на самого себя.
+
+
+Внешний и Внутренний миры.
+ Водоем (Туман) и Вода
+
+
+Внешние связи и воздействия уносятся внутренним, препятствуя общению.
+
+
+Скрытая возможность:
+ 
+37 (Домашние)
+
+
+Изоляция и угнетение содержат скрытую возможность пребывания и сотрудничества с другими людьми в общем жилище.
+
+
+Последовательность
+
+
+Подъем без остановки приводит к истощению. Осознание этого позволяет пользоваться им.
+
+
+Определение
+
+
+Истощение означает замкнутость.
+
+
+Символ
+
+
+Туман над водой. Истощение.
+ Благородный человек вовлекает судьбу в достижение своей цели.
+
+
+Линии гексаграммы
+
+
+Линия 1
+
+
+Вначале шестерка
+
+
+Сидение затруднено на пне.
+ Войдешь в сумрачную долину.
+ Три года не будешь ничего видеть.
+
+
+Вы одиноки и обижены либо недовольны своим положением. Сумрачная долина и три года бездействия — дополнительные образы нижней триграммы Бездна — указывают на трудный путь, который предстоит пройти.
+
+
+В данной ситуации все окружение предрасполагает к тому, чтобы стойкости, указанной в общем, афоризме, были поставлены препятствия. На первой позиции это начинает уже давать себя чувствовать. Чтобы указать, что эта позиция не способствует стойкой деятельности, исходящей от самого человека, здесь говорится о том, как неудобно сидеть на пне. Более того, здесь указывается и путь, проходящий через сумрачную долину, и, кроме того, указывается на одиночество, на которое обречен в данной ситуации человек. Если здесь текст говорит о трех годах такого одиночества, то образно он указывает на три первые позиции, которые заняты триграммой – бездна или опасность. По-видимому, на этом основании здесь появляется образ сумрачной долины, понимаемой как бездна.
+
+
+Линия 2
+
+
+Девятка вторая
+
+
+Затруднение с вином и пищей.
+ Внезапно придет человек в алых наколенниках.
+ Время приносить жертвы.
+ Поход — к несчастью. Хулы не будет.
+
+
+Ваши таланты не признаны, хотя у вас есть возможность вести довольно обеспеченную жизнь. Однако перемены уже близятся. Сейчас вы не можете предпринимать никаких крупных дел, поскольку зависите от вышестоящих. Это служение выражается в образе жертвы ради общего дела.
+
+
+Уравновешенность, характерная для второй позиции, представляется здесь в известной стойкости пребывания на ней. Кроме того, ее связь с пятой позицией обнаруживается в образе дара, идущего от пятой позиции, т.е. по существу от человека, занимающего пятую позицию, дара, приносимого посланцем его. В таком положении, когда человек может в своей уравновешенности не сходить со своего места, в положении, когда ему ниспослано от вышестоящего, ему, конечно, не следует предпринимать никаких крупных дел и выждать время, пока не изменится вся ситуация. Здесь он может лишь служить чему-то, что он считает выше самого себя. Эта служба мыслится авторами “Книги Перемен” как некое культовое действие – жертвоприношение.
+
+
+Линия 3
+
+
+Шестерка третья
+
+
+Преткнешься о камень. Будешь держаться в терниях и шипах.
+ Войдешь в терем, но не увидишь своей жены.
+ Несчастье.
+
+
+Вы находитесь в крайне затруднительном положении. Путь вперед закрыт, но если вы попытаетесь обойти препятствие, то будете искать поддержку в том, что больно ранит вас. Возвращение лишь усугубит ваше одиночество. Это время для остановки и размышлений.
+
+
+На третьей позиции сказывается влияние предстоящей четвертой, которая занята сильной чертой. Эта сильная черта, как своего рода крепость, выражена в образе камня, загораживающего путь. Поэтому движение дальнейшего развития на этой позиции затруднено. Если бы человек на этой позиции повернул вспять, то он натолкнулся бы на стойкие, непреклонные силы первой позиции, которая, конечно, не способствует такому возвращению. Таким образом, человек здесь поставлен в крайне затруднительные обстоятельства, он не может двигаться ни вперед, ни назад. Кроме того, отсутствует соответствие с шестой позицией. Это выражено в образе одиночества человека, который, вернувшись домой, не находит своей жены.
+
+
+Линия 4
+
+
+Девятка четвертая
+
+
+Приход медлителен. Затруднишься из-за металлической повозки.
+ Сожаление. Но дело доведешь до конца.
+
+
+Помощь приходит к вам, но крайне медленно. Затруднение выражено в образе тяжелой повозки, которую приходится толкать перед собой. Вы сожалеете об упущенном времени, однако можете довести дело до конца.
+
+
+Стойкость, которая была отмечена как характерная черта первой позиции данной гексаграммы, приводит к тому, что если человек, занимающий первую позицию, и движется на помощь к тому, кто занимает четвертую позицию, то все же его приход, несущий с собой помощь, медлителен. Далее третья черта, которая охарактеризована достаточно мрачно, может служить той металлической повозкой, о которой говорит текст и которая вызывает затруднение. Однако тяготение четвертой черты к пятой, т.е. стремление вперед, здесь настолько сильно, что, несмотря на сожаление об упущенном времени, все же дело может быть доведено до своего завершения.
+
+
+Линия 5
+
+
+Девятка пятая
+
+
+Казня, отрежут нос и ноги.
+ Будет трудность от человека в алых наколенниках.
+ Но вот понемногу наступит радость.
+ Благоприятствует необходимости возносить жертвы и моления.
+
+
+Здесь ситуация истощения достигает максимума. Вы не можете двигаться вперед, так как это угрожает опасностью, но и оставаться на месте смерти подобно. Те, кто раньше стремился на помощь, теперь лишь затрудняют положение. Будьте очень осторожны. Ситуация должна разрешиться сама собой. Уповайте на высшие силы.
+
+
+Движение вперед на пятой позиции в данном случае затруднено истощением сил, которое характеризует шестую. Двигаться вперед здесь нельзя. Человек, который захотел бы двигаться вперед, здесь подвергся бы казни, у него отрезали бы нос как ту часть тела, которая впереди. Стоять на месте здесь тоже нельзя, ибо конечный фундамент – первая позиция – была бы охарактеризована как позиция, неудобная для пребывания на ней. Если бы человек все же хотел остановиться на этом фундаменте, то это было бы то же самое, как если бы он подвергся казни отсечения ног. Рассчитывать на помощь второй позиции здесь тоже не приходиться, потому что она такова, что ей самой должна быть оказана помощь. Мы видели, что человеку, занимающему вторую позицию, отправлен на помощь посланник в красных наколенниках. Таким образом, положение выглядит безвыходным. Единственное, на что можно рассчитывать – это на то, что пятая позиция уже близка к окончанию всего процесса, и, таким образом, может постепенно наступить радость от его окончания. Эта радость указана уже в самой верхней триграмме, которая обозначает именно радость. Но здесь можно только рассчитывать на помощь извне, как полагали комментаторы “Книги Перемен”, и потому здесь говорится о необходимости жертвоприношений.
+
+
+Линия 6
+
+
+Наверху шестерка
+
+
+Будет затруднение в запутанных зарослях.
+ В неустойчивости воскликнешь: «Движение к раскаянию!»
+ И будет раскаяние.
+ Но поход — к счастью.
+
+
+Движение затруднено, но вам мешает не внешняя сила, а ваша собственная слабость. Встряхнитесь, дайте себе хороший толчок. Ситуация уже заканчивается. Возможно, у вас будет повод для сожалений, но перед вами откроются новые горизонты.
+
+
+Шестая позиция здесь занята слабой чертой. Она выражена в образе зарослей. Если заросли могут быть восприняты как нечто слабое, мягкое, то все же, когда их набирается достаточное количество, они могут быть сильным препятствием к движению вперед, и могут привести человека в самое затруднительное положение. Увидя, что не сила, а слабость мешает ему двигаться вперед, человек может попасть в полное недоумение. Он может решить, что всякое движение приведет его к дурному исходу положения. Однако такое мнение было бы лишь заблуждением, ибо здесь, наконец, нужно найти в себе силы для того, чтобы окончательно освободиться от данной ситуации истощения.
+
+
+ 
+
+
+
+
+Теги: 
+
+
+
+
+
+
+Гексаграммы
+ 
+
+
+
+
+
+
+
+
+64: 
+
+
+
+
+
+
+47
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(0) Да
+(0) Не знаю
+(0) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/page/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1165 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Информационный Банк Вселенной | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"QI6tLlQXWu6zm7Nc_LP-3UrtKaoa9qgqFrAgtb_UQAw", "js":{"u002Fjquery-8.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.js*/:1, "u002Fjquery.once-8.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.once.js*/:1, "u002Fdrupal-8.js"/*tpa=http://greasp.com/post/misc/u002Fdrupal.js*/:1, "u002Fjquery.cookie-4.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.cookie.js*/:1, "u002Fjquery.form-4.js"/*tpa=http://greasp.com/post/misc/u002Fjquery.form.js*/:1, "u002Fajax-4.js"/*tpa=http://greasp.com/post/misc/u002Fajax.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min-8.js"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox-8.js"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome-8.js"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels-8.js"/*tpa=http://greasp.com/post/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1, "u002Fprogress-4.js"/*tpa=http://greasp.com/post/misc/u002Fprogress.js*/:1, "u002Fis_useful-3.js"/*tpa=http://greasp.com/post/modules/u002Fis_useful/u002Fis_useful.js*/:1}, "css":{"u002Fsystem.base-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme-8.css"/*tpa=http://greasp.com/post/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator-8.css"/*tpa=http://greasp.com/post/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment-8.css"/*tpa=http://greasp.com/post/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom-8.css"/*tpa=http://greasp.com/post/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield-8.css"/*tpa=http://greasp.com/post/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode-8.css"/*tpa=http://greasp.com/post/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll-8.css"/*tpa=http://greasp.com/post/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch-8.css"/*tpa=http://greasp.com/post/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser-8.css"/*tpa=http://greasp.com/post/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum-8.css"/*tpa=http://greasp.com/post/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews-8.css"/*tpa=http://greasp.com/post/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome-8.css"/*tpa=http://greasp.com/post/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools-8.css"/*tpa=http://greasp.com/post/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels-8.css"/*tpa=http://greasp.com/post/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels-8.css"/*tpa=http://greasp.com/post/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/post/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}, "ajax":{"edit-is-useful":{"callback":"is_useful_ajax_callback", "event":"change", "url":"\u002Fsystem\u002Fajax", "submit":{"_triggering_element_name":"is_useful"}}}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Информационный Банк Вселенной
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Опубликовано 
+пн, 07/23/2012 - 18:33
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Сейчас у вас на планете появились многочисленные системы коммуникаций, откуда вы можете черпать информацию не в метафизическом плане а физически, через книги, интернет , телевидение и пр. Это тоже не случайно. Все что происходит задано уровнем развития вашей планеты и вас лично. Ведь есть люди, живущие в Африке, и не знающие интернет. Есть женщины, живущие в арабских странах, которым не дают воспользоваться данными коммуникациями. Есть дети, которых родители не допускают к информации. А есть компьютерные гении, которые сами создают эти системы. Все это не случайно и зависит от степени вашего развития.
+
+
+	Появление множества средств внешней коммуникации взаимосвязано и с появлением множества средств внутренней коммуникации человека со вселенной и наоборот. Вы не задумывались над этим ? Произошел скачок технического прогресса, но все взаимосвязано. На вашей планете произошел скачок внутреннего прогресса. И что первичнее – не имеет значение, это грани одного процесса.
+
+
+	А именно многие люди стали получать информацию об устройстве вселенной, внутреннем божественном развитии, устройстве вашего мира взаимодействуя с другими сущностями во вселенной через так называемые ченеллинги. У многих из вас открылся канал связи с вселенной. Точнее сказать, он всегда был открыт, но вы им не пользовались, поскольку либо не верили в его существование, либо не знали о его наличии, либо боялись им пользоваться.
+
+
+	Все полученные исторически известные откровения вашими духовными лидерами происходили по этим каналам. Просто он у них работал непрерывно. Но и это для вас доступно. Многие из вас периодически пользуетесь этим неосознанно. Практически все. Когда вы обращаетесь к Богу за помощью или вам неожиданно приходит в голову гениальная мысль по поводу решения какой-то проблемы или вопроса. Это делают все. Причем вы напрасно думаете, что пользоваться данным каналом можно только в исключительно высокодуховных случаях – для спасения человека или планеты и пр.
+
+
+	Вы можете запросить любой вопрос. Например, как сварить суп. И вам каким-то образом придет информация: включите телевизор, а там кулинарная передача, позвонит подруга и поделится рецептом . т.д. Это ИНФОРМАЦИОННЫЙ БАНК ВСЕЛЕННОЙ . Там есть вся информация от устройства мира до рецепта супа. Не удивляйтесь. Вся информация как бы записывается, поскольку информация также обладает энергией, а энергия, как вас учили в школе никуда не исчезает, а лишь превращается из одной формы в другую ( одно из самых гениальных открытий ваших физиков, очень точно описывающий развитие вселенной). Так вот любая информация попадает в информационный банк вселенной и хранится там как в огромной библиотеке и в любой момент может быть получена. Поэтому пользуйтесь ею, не стесняясь. Ваше желание узнавать поддерживается всеми силами вселенной.
+
+
+	Воспользоваться этим каналом связи это почти то же самое, что настроиться на определенный диапазон волн, то есть на частоту радиостанции. Вы можете слышать физически множества радиостанций, которые передают музыку и информацию. Но степень охвата диапазона приема зависит от вашего приемника. Так же и здесь. Для того чтобы настроиться на диапазон приема информации вселенной, нужно развить приемник в себе. Получение информации о рецепте супа – диапазон доступный всем. Для более широкого спектра станций ( вернее волновых информационных каналов вселенной) необходимо развивать ваш канал приема как физически, так и духовно.
+
+	Эти практики множество раз описаны в различных книгах. Мы подведем лишь итог – необходимо остановить бег вашего внешнего мира ( хотя бы на те моменты, когда вы связываетесь со вселенной и установив тишину «внешних» радиостанций, остановив движение мыслей, вы услышите другие каналы связи. Также на это влияет повышение уровня вашей светимости. Говоря вашим языком повышении светимости позволяет вам слышать не всю какофонию звуков и информации, а получить ( вернее включить) выделенный канал связи, которым воспользоваться можете только вы, поскольку пароли входа – это ваш индивидуальный уровень светимости , это есть ваше имя. Видите как все похоже. Это на самом деле так.
+
+
+	Так вот, многие люди на Земле научились включать этот канал, поскольку сознательно искали его и стали получать информацию более высокого ранга. Это не эксклюзивные личности, хотя многие из них шли к этому почти всю свою жизнь. Это доступно каждому. Есть экстрасенсы и гадалки, это один аспект. А есть люди, открывшие канал для принятия информации от вселенной для передачи другим людям, которые еще не слышат.
+
+
+	У вас появилось множество книг на эти темы и это не случайно. Вам помогают развивать ваши коммуникации для того чтобы большинство людей на планете могло воспользоваться тем или иным способом данной ИНФОРМАЦИЕЙ. Тем более в преддверии величайшего события вашей планеты – энергетического перехода. Это важно.
+
+
+	Конечно, если вы не хотите получать эту информацию, это ваше право. В можете не читать эти книги, слушать эти передачи, и тем более обращаться к вашему внутреннему «я» за информацией. Это ваш выбор и ваше право. Получение информации через каналы связи со вселенной происходит по разному. Опять же это зависит от развития человека. Некоторые получают ее в состоянии транса.
+
+	Некоторые просто умеют отключить внутренний диалог и прислушаться к внутреннему голосу, некоторые могут беседовать со вселенной также просто как беседуют со своими друзьями. Некоторые делают это во сне. Диапазон большой. Это зависит от степени раскрытия канала.
+
+
+	В идеале это должен быть непрерывно открытый канал общения, которым вы можете воспользоваться в любой момент, поскольку он всегда с вами, как ваш мобильный телефон. «Алло, Вселенная а как мне …?» Но при трансовых состояниях есть вероятность, что вашим каналом воспользуются любые сущности вселенной, желающие поговорить с человечеством. Это практика медиумов – разговоры с умершими. Это верчение тарелочек и работа с определенными техниками. Это и то, что вы называете одержимостью.
+
+
+	Но не надо бояться. ВСЕ ЗАВИСИТ ИСКЛЮЧИТЕЛЬНО ОТ ВАШЕГО НАМЕРЕНИЯ! Если вы открыли для приема ваш канал, далее достаточно выразить желание с каким уровнем сущностей вы хотите и намереваетесь общаться. Это как бы поставит защиту на систему доступа в ваш компьютер . Нам так легче вам объяснить, поскольку многие из вас этим пользуются. С кем общаться – ваш выбор, только ваш.
+
+
+	Но поскольку для многих это вступление в новую стадию развития и они еще не очень знают правила и проблемы, которые могут возникнуть на этом этапе, наш совет: воспользуйтесь простым способом: обратитесь к вашей внутренней сущности ( к вашему внутреннему космосу и Богу) и попросите контролировать этот процесс, чтобы вашим каналом не воспользовались те сущности, общение с которыми вам не нужно и небезопасно. Тогда вы всегда будете различать с какого уровня приходит к вам информация.
+
+
+	Помогут вам в этом ваши чувства и конечно знаки. Общее правило: если после получения информации вы чувствуете подавленность, отсутствие энергии – вами воспользовались некие сущности для своих целей. Никто никого не осуждает. Вы сами не выстроили защиту и впустили их в себя осознанно или неосознанно.
+
+
+
+	Если при получении ИНФОРМАЦИИ ВЫ ЧУВСТВУЕТЕ СТАБИЛЬНОСТЬ, ЗНАЧИТ ПРОИЗОШЕЛ НОРМАЛЬНЫЙ ЭНЕРГЕТИЧЕСКИЙ ОБМЕН и вы получили информацию из общедоступного банка вселенной. Если после получения информации вы чувствуете необыкновенный подъем и умиротворение, вы смогли связаться с «верхними полками библиотеки». То есть с высшими сущностями. Ваш физический аппарат очень чутко на это реагирует.
+
+
+	Вспомните слезы¸ которые появляются у вас скажем перед иконами. Это уровни энергии. Божественная энергия вливаясь в вас вызвала перенастройку вашей системы и вы плачете. Или вы наоборот чувствуете прилив сил – вас зарядили энергией. Это автоматический процесс. Ведь когда вы подходите к костру, вы чувствуете тепло, как бы вы к этому не относились и кем бы вы не были. Так и здесь.
+
+
+	Так вот, прием информации можно регулировать по вашему усмотрению . Вы должны четко определить, какую ИНФОРМАЦИЮ ВЫ НАМЕРЕВАЕТЕСЬ ПОЛУЧИТЬ. Хорошо еще если вы определяете цель получения информации- это даст возможность получить вам ее более точно, поскольку ваша сущность знает какие каналы вам доступны и как вы сможете усвоить информацию. Это как поиск информации в библиотеке по ключевым словам или по заданной теме.
+
+
+	Тем работникам света, которые попросили вселенную передавать им информацию, чтобы о ней узнали другие люди, которые уже настроили свои каналы, вселенная благодарна. Вы как проводники радиостанции высокого вещания. Высокого в смысле энергетической окрашенности информации. Только тем, кто читает или получает эту информацию через ваши физические средства коммуникации нужно все таки понимать, что она немного различается в зависимости от человека ее принимающего. Условно говоря это его видение вселенной.
+
+
+	Таких видений миллиарды, поскольку каждый из вас видит по-своему все эти варианты существуют. Есть люди, которые видят и слышат похоже, есть другие. Не надо спорить. Выберете свой слой мира, а главное включите свой канал, и тогда вы сами без посредников увидите всю красоту и совершенство вселенной и сможете с радостью и осознанно жить и творить.
+
+
+Елена, Ассоциация Работников Света 
+
+
+http://espavo.ning.com/profiles/bl
+ogs/3776235:BlogPost:681683
+
+
+
+
+Tags: 
+
+
+
+
+
+
+ченнелинг
+ 
+
+
+
+
+частоты
+ 
+
+
+
+
+инфополе
+ 
+
+
+
+
+ноосфера
+ 
+
+
+
+
+эзотерический киберпанк
+ 
+
+
+
+
+
+
+
+
+Вскрыло? 
+
+
+(1) Да
+(0) Не знаю
+(1) Нет
+
+
+
+
+
+
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+Комментарии
+
+
+
+
+
+
+
+
+Ne vskrylo
+
+
+
+
+
+
+
+
+ 
+
+
+Опубликовано 
+ср, 09/12/2012 - 18:00
+ пользователем 
+Elena
+
+
+
+
+
+
+ 
+Slashavo....v duhe rabotnikov sveta......hotya.....komy to nyzno, ....blya..
+
+
+ 
+
+
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+106
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+83
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/post/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

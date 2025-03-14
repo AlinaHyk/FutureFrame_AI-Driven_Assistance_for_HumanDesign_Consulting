@@ -1,0 +1,8963 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Теги | Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"xuVj-8yuUKdLeg-K3gskKJGajSCT33wMw39W7t0Da1E", "js":{"u002Fjquery.js"/*tpa=http://greasp.com/misc/u002Fjquery.js*/:1, "u002Fjquery.once.js"/*tpa=http://greasp.com/misc/u002Fjquery.once.js*/:1, "u002Fdrupal.js"/*tpa=http://greasp.com/misc/u002Fdrupal.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels.js"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1}, "css":{"u002Fsystem.base.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator.css"/*tpa=http://greasp.com/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment.css"/*tpa=http://greasp.com/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom.css"/*tpa=http://greasp.com/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield.css"/*tpa=http://greasp.com/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode.css"/*tpa=http://greasp.com/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll.css"/*tpa=http://greasp.com/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch.css"/*tpa=http://greasp.com/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser.css"/*tpa=http://greasp.com/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum.css"/*tpa=http://greasp.com/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews.css"/*tpa=http://greasp.com/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome.css"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools.css"/*tpa=http://greasp.com/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels.css"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Теги
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Тег
+ 
+
+
+
+
+Опубликовано
+ 
+
+
+
+
+Просмотров
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+И-Цзин
+ 
+
+
+
+            3          
+
+
+
+            4,224          
+
+
+
+
+
+
+
+
+Val Valerian
+ 
+
+
+
+            1          
+
+
+
+            2,344          
+
+
+
+
+
+
+
+
+Роберт Монро
+ 
+
+
+
+            1          
+
+
+
+            2,344          
+
+
+
+
+
+
+
+
+Матрица
+ 
+
+
+
+            6          
+
+
+
+            2,344          
+
+
+
+
+
+
+
+
+Высшее Я
+ 
+
+
+
+            1          
+
+
+
+            2,344          
+
+
+
+
+
+
+
+
+Игра
+ 
+
+
+
+            1          
+
+
+
+            2,344          
+
+
+
+
+
+
+
+
+Астрал
+ 
+
+
+
+            7          
+
+
+
+            2,344          
+
+
+
+
+
+
+
+
+определённость
+ 
+
+
+
+            1          
+
+
+
+            2,090          
+
+
+
+
+
+
+
+
+принятие решений
+ 
+
+
+
+            2          
+
+
+
+            1,949          
+
+
+
+
+
+
+
+
+почитать
+ 
+
+
+
+            5          
+
+
+
+            1,491          
+
+
+
+
+
+
+
+
+Стюарт Свердлов
+ 
+
+
+
+            1          
+
+
+
+            1,140          
+
+
+
+
+
+
+
+
+Типы
+ 
+
+
+
+            6          
+
+
+
+            1,105          
+
+
+
+
+
+
+
+
+линии
+ 
+
+
+
+            2          
+
+
+
+            985          
+
+
+
+
+
+
+
+
+профили
+ 
+
+
+
+            13          
+
+
+
+            985          
+
+
+
+
+
+
+
+
+Глютамин
+ 
+
+
+
+            1          
+
+
+
+            957          
+
+
+
+
+
+
+
+
+Кольцо Иллюминатов
+ 
+
+
+
+            2          
+
+
+
+            957          
+
+
+
+
+
+
+
+
+Центры Сознания
+ 
+
+
+
+            11          
+
+
+
+            868          
+
+
+
+
+
+
+
+
+Брахман
+ 
+
+
+
+            1          
+
+
+
+            774          
+
+
+
+
+
+
+
+
+фрактальность
+ 
+
+
+
+            1          
+
+
+
+            774          
+
+
+
+
+
+
+
+
+внутренний авторитет
+ 
+
+
+
+            2          
+
+
+
+            722          
+
+
+
+
+
+
+
+
+Календарь майя
+ 
+
+
+
+            1          
+
+
+
+            690          
+
+
+
+
+
+
+
+
+Радужный мост
+ 
+
+
+
+            1          
+
+
+
+            690          
+
+
+
+
+
+
+
+
+День Вне Времени
+ 
+
+
+
+            1          
+
+
+
+            690          
+
+
+
+
+
+
+
+
+Джи-Центр
+ 
+
+
+
+            9          
+
+
+
+            668          
+
+
+
+
+
+
+
+
+Лизин
+ 
+
+
+
+            2          
+
+
+
+            647          
+
+
+
+
+
+
+
+
+Кольцо Огня
+ 
+
+
+
+            2          
+
+
+
+            647          
+
+
+
+
+
+
+
+
+кали юга
+ 
+
+
+
+            1          
+
+
+
+            643          
+
+
+
+
+
+
+
+
+время
+ 
+
+
+
+            5          
+
+
+
+            643          
+
+
+
+
+
+
+
+
+вселенная
+ 
+
+
+
+            8          
+
+
+
+            643          
+
+
+
+
+
+
+
+
+циклы
+ 
+
+
+
+            1          
+
+
+
+            643          
+
+
+
+
+
+
+
+
+ноосфера
+ 
+
+
+
+            3          
+
+
+
+            638          
+
+
+
+
+
+
+
+
+эзотерический киберпанк
+ 
+
+
+
+            7          
+
+
+
+            638          
+
+
+
+
+
+
+
+
+инфополе
+ 
+
+
+
+            1          
+
+
+
+            638          
+
+
+
+
+
+
+
+
+частоты
+ 
+
+
+
+            1          
+
+
+
+            638          
+
+
+
+
+
+
+
+
+Моторы тела
+ 
+
+
+
+            3          
+
+
+
+            637          
+
+
+
+
+
+
+
+
+Эго-центр
+ 
+
+
+
+            4          
+
+
+
+            637          
+
+
+
+
+
+
+
+
+Центры осознанности
+ 
+
+
+
+            3          
+
+
+
+            631          
+
+
+
+
+
+
+
+
+Иллюзии
+ 
+
+
+
+            1          
+
+
+
+            630          
+
+
+
+
+
+
+
+
+мж
+ 
+
+
+
+            1          
+
+
+
+            630          
+
+
+
+
+
+
+
+
+любовь
+ 
+
+
+
+            2          
+
+
+
+            630          
+
+
+
+
+
+
+
+
+секс
+ 
+
+
+
+            1          
+
+
+
+            630          
+
+
+
+
+
+
+
+
+Загоны
+ 
+
+
+
+            2          
+
+
+
+            630          
+
+
+
+
+
+
+
+
+2\4
+ 
+
+
+
+            1          
+
+
+
+            619          
+
+
+
+
+
+
+
+
+Цистеин
+ 
+
+
+
+            2          
+
+
+
+            593          
+
+
+
+
+
+
+
+
+Кольцо Преуспевания
+ 
+
+
+
+            2          
+
+
+
+            593          
+
+
+
+
+
+
+
+
+Центр селезёнки
+ 
+
+
+
+            8          
+
+
+
+            587          
+
+
+
+
+
+
+
+
+Каналы
+ 
+
+
+
+            36          
+
+
+
+            587          
+
+
+
+
+
+
+
+
+Контур Знания
+ 
+
+
+
+            26          
+
+
+
+            587          
+
+
+
+
+
+
+
+
+Проецируемые каналы
+ 
+
+
+
+            22          
+
+
+
+            587          
+
+
+
+
+
+
+
+
+Манифестируемые каналы
+ 
+
+
+
+            3          
+
+
+
+            570          
+
+
+
+
+
+
+
+
+5\1
+ 
+
+
+
+            2          
+
+
+
+            569          
+
+
+
+
+
+
+
+
+Сен Жермен
+ 
+
+
+
+            1          
+
+
+
+            560          
+
+
+
+
+
+
+
+
+Единство
+ 
+
+
+
+            1          
+
+
+
+            560          
+
+
+
+
+
+
+
+
+6\2
+ 
+
+
+
+            1          
+
+
+
+            547          
+
+
+
+
+
+
+
+
+4\6
+ 
+
+
+
+            1          
+
+
+
+            541          
+
+
+
+
+
+
+
+
+Контур Центрирования
+ 
+
+
+
+            6          
+
+
+
+            537          
+
+
+
+
+
+
+
+
+Манифестируемый Генерируемый канал
+ 
+
+
+
+            1          
+
+
+
+            536          
+
+
+
+
+
+
+
+
+Кольцо Союза
+ 
+
+
+
+            2          
+
+
+
+            522          
+
+
+
+
+
+
+
+
+3\5
+ 
+
+
+
+            2          
+
+
+
+            521          
+
+
+
+
+
+
+
+
+транзит
+ 
+
+
+
+            2          
+
+
+
+            513          
+
+
+
+
+
+
+
+
+Imperator & Harhor
+ 
+
+
+
+            1          
+
+
+
+            513          
+
+
+
+
+
+
+
+
+ужас
+ 
+
+
+
+            1          
+
+
+
+            498          
+
+
+
+
+
+
+
+
+CME
+ 
+
+
+
+            1          
+
+
+
+            490          
+
+
+
+
+
+
+
+
+Кольцо Источника
+ 
+
+
+
+            1          
+
+
+
+            486          
+
+
+
+
+
+
+
+
+Метионин
+ 
+
+
+
+            1          
+
+
+
+            486          
+
+
+
+
+
+
+
+
+Аспарагиновая кислота
+ 
+
+
+
+            1          
+
+
+
+            476          
+
+
+
+
+
+
+
+
+Кольцо Иллюзии
+ 
+
+
+
+            2          
+
+
+
+            476          
+
+
+
+
+
+
+
+
+Контур Интеграции
+ 
+
+
+
+            3          
+
+
+
+            473          
+
+
+
+
+
+
+
+
+Контроль
+ 
+
+
+
+            1          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+Кольцо Материи
+ 
+
+
+
+            4          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+Аргинин
+ 
+
+
+
+            5          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+рейвы
+ 
+
+
+
+            2          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+Власть
+ 
+
+
+
+            2          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+2030
+ 
+
+
+
+            1          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+Кольцо Человечества
+ 
+
+
+
+            2          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+Аланин
+ 
+
+
+
+            4          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+Генные Ключи
+ 
+
+
+
+            53          
+
+
+
+            463          
+
+
+
+
+
+
+
+
+Генерируемые каналы
+ 
+
+
+
+            9          
+
+
+
+            455          
+
+
+
+
+
+
+
+
+Лунные Узлы
+ 
+
+
+
+            2          
+
+
+
+            455          
+
+
+
+
+
+
+
+
+1\3
+ 
+
+
+
+            1          
+
+
+
+            453          
+
+
+
+
+
+
+
+
+2012 наше время
+ 
+
+
+
+            2          
+
+
+
+            448          
+
+
+
+
+
+
+
+
+Ричард Радд
+ 
+
+
+
+            1          
+
+
+
+            438          
+
+
+
+
+
+
+
+
+эксперимент
+ 
+
+
+
+            2          
+
+
+
+            438          
+
+
+
+
+
+
+
+
+Кольцо Гуманности
+ 
+
+
+
+            3          
+
+
+
+            427          
+
+
+
+
+
+
+
+
+industrial dub-step
+ 
+
+
+
+            2          
+
+
+
+            426          
+
+
+
+
+
+
+
+
+Пролин
+ 
+
+
+
+            3          
+
+
+
+            421          
+
+
+
+
+
+
+
+
+центр Солнечного сплетения
+ 
+
+
+
+            6          
+
+
+
+            421          
+
+
+
+
+
+
+
+
+Реинкарнация
+ 
+
+
+
+            1          
+
+
+
+            421          
+
+
+
+
+
+
+
+
+Кольцо Судьбы
+ 
+
+
+
+            2          
+
+
+
+            421          
+
+
+
+
+
+
+
+
+Карма
+ 
+
+
+
+            4          
+
+
+
+            421          
+
+
+
+
+
+
+
+
+апокалипсис
+ 
+
+
+
+            8          
+
+
+
+            418          
+
+
+
+
+
+
+
+
+фракталы
+ 
+
+
+
+            1          
+
+
+
+            418          
+
+
+
+
+
+
+
+
+Кольцо Невозврата
+ 
+
+
+
+            1          
+
+
+
+            401          
+
+
+
+
+
+
+
+
+Тирозин
+ 
+
+
+
+            1          
+
+
+
+            401          
+
+
+
+
+
+
+
+
+Контур Понимания
+ 
+
+
+
+            19          
+
+
+
+            400          
+
+
+
+
+
+
+
+
+Аминокислота Валин
+ 
+
+
+
+            1          
+
+
+
+            399          
+
+
+
+
+
+
+
+
+Кольцо Воды
+ 
+
+
+
+            2          
+
+
+
+            394          
+
+
+
+
+
+
+
+
+Фенилаланин
+ 
+
+
+
+            2          
+
+
+
+            394          
+
+
+
+
+
+
+
+
+виктор крючков
+ 
+
+
+
+            1          
+
+
+
+            385          
+
+
+
+
+
+
+
+
+будущее
+ 
+
+
+
+            5          
+
+
+
+            385          
+
+
+
+
+
+
+
+
+инкарнационный крест
+ 
+
+
+
+            1          
+
+
+
+            385          
+
+
+
+
+
+
+
+
+Кольцо испытаний
+ 
+
+
+
+            1          
+
+
+
+            384          
+
+
+
+
+
+
+
+
+Стоп-кодон
+ 
+
+
+
+            1          
+
+
+
+            384          
+
+
+
+
+
+
+
+
+Контур Ощущения
+ 
+
+
+
+            18          
+
+
+
+            382          
+
+
+
+
+
+
+
+
+диссоциация личности
+ 
+
+
+
+            2          
+
+
+
+            380          
+
+
+
+
+
+
+
+
+переход
+ 
+
+
+
+            40          
+
+
+
+            377          
+
+
+
+
+
+
+
+
+трансмутация
+ 
+
+
+
+            3          
+
+
+
+            377          
+
+
+
+
+
+
+
+
+огонь
+ 
+
+
+
+            1          
+
+
+
+            377          
+
+
+
+
+
+
+
+
+Кольцо Стремления
+ 
+
+
+
+            1          
+
+
+
+            374          
+
+
+
+
+
+
+
+
+Серин
+ 
+
+
+
+            5          
+
+
+
+            374          
+
+
+
+
+
+
+
+
+Глицин
+ 
+
+
+
+            4          
+
+
+
+            374          
+
+
+
+
+
+
+
+
+Кольцо Алхимии
+ 
+
+
+
+            4          
+
+
+
+            374          
+
+
+
+
+
+
+
+
+Кольцо Поиска
+ 
+
+
+
+            4          
+
+
+
+            371          
+
+
+
+
+
+
+
+
+Контур Эго
+ 
+
+
+
+            15          
+
+
+
+            369          
+
+
+
+
+
+
+
+
+ворота
+ 
+
+
+
+            64          
+
+
+
+            369          
+
+
+
+
+
+
+
+
+Корневой центр
+ 
+
+
+
+            10          
+
+
+
+            369          
+
+
+
+
+
+
+
+
+авторское
+ 
+
+
+
+            2          
+
+
+
+            368          
+
+
+
+
+
+
+
+
+дурка
+ 
+
+
+
+            21          
+
+
+
+            368          
+
+
+
+
+
+
+
+
+Триптофан
+ 
+
+
+
+            1          
+
+
+
+            365          
+
+
+
+
+
+
+
+
+Кольцо Чудес
+ 
+
+
+
+            1          
+
+
+
+            365          
+
+
+
+
+
+
+
+
+Аспаргин
+ 
+
+
+
+            2          
+
+
+
+            361          
+
+
+
+
+
+
+
+
+Гексаграммы
+ 
+
+
+
+            64          
+
+
+
+            359          
+
+
+
+
+
+
+
+
+Кольцо Божественности
+ 
+
+
+
+            2          
+
+
+
+            357          
+
+
+
+
+
+
+
+
+Кольцо Света
+ 
+
+
+
+            4          
+
+
+
+            355          
+
+
+
+
+
+
+
+
+Треонин
+ 
+
+
+
+            4          
+
+
+
+            355          
+
+
+
+
+
+
+
+
+многомерность
+ 
+
+
+
+            1          
+
+
+
+            354          
+
+
+
+
+
+
+
+
+голова
+ 
+
+
+
+            1          
+
+
+
+            352          
+
+
+
+
+
+
+
+
+Контур Защиты
+ 
+
+
+
+            4          
+
+
+
+            337          
+
+
+
+
+
+
+
+
+Нибиру
+ 
+
+
+
+            1          
+
+
+
+            335          
+
+
+
+
+
+
+
+
+гипноз
+ 
+
+
+
+            3          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+ментал-анархия
+ 
+
+
+
+            1          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+атлантида
+ 
+
+
+
+            1          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+Валин
+ 
+
+
+
+            3          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+Кольцо Единства
+ 
+
+
+
+            2          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+другой
+ 
+
+
+
+            1          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+Высшее
+ 
+
+
+
+            1          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+демоны
+ 
+
+
+
+            1          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+хрустальный череп
+ 
+
+
+
+            1          
+
+
+
+            332          
+
+
+
+
+
+
+
+
+Русский Мастер
+ 
+
+
+
+            1          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+человек
+ 
+
+
+
+            5          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+славяне
+ 
+
+
+
+            2          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+ложь
+ 
+
+
+
+            1          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+иллюзия
+ 
+
+
+
+            1          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+космос
+ 
+
+
+
+            2          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+Теменной Центр
+ 
+
+
+
+            3          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+Кольцо Очищения
+ 
+
+
+
+            1          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+Глутамин
+ 
+
+
+
+            2          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+истина
+ 
+
+
+
+            1          
+
+
+
+            326          
+
+
+
+
+
+
+
+
+сотония
+ 
+
+
+
+            2          
+
+
+
+            325          
+
+
+
+
+
+
+
+
+они
+ 
+
+
+
+            6          
+
+
+
+            325          
+
+
+
+
+
+
+
+
+Русь
+ 
+
+
+
+            2          
+
+
+
+            325          
+
+
+
+
+
+
+
+
+код
+ 
+
+
+
+            4          
+
+
+
+            325          
+
+
+
+
+
+
+
+
+язык
+ 
+
+
+
+            1          
+
+
+
+            325          
+
+
+
+
+
+
+
+
+industrial hardcore
+ 
+
+
+
+            3          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+power noise
+ 
+
+
+
+            1          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+speedcore
+ 
+
+
+
+            1          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+trance
+ 
+
+
+
+            1          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+hard techno
+ 
+
+
+
+            6          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+mashup
+ 
+
+
+
+            1          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+dubstep
+ 
+
+
+
+            1          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+acidcore
+ 
+
+
+
+            2          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+acidtechno
+ 
+
+
+
+            1          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+freeform
+ 
+
+
+
+            3          
+
+
+
+            321          
+
+
+
+
+
+
+
+
+RAVE
+ 
+
+
+
+            1          
+
+
+
+            319          
+
+
+
+
+
+
+
+
+crossbreed
+ 
+
+
+
+            1          
+
+
+
+            319          
+
+
+
+
+
+
+
+
+mentaltek. hardtek
+ 
+
+
+
+            1          
+
+
+
+            319          
+
+
+
+
+
+
+
+
+коллективное
+ 
+
+
+
+            3          
+
+
+
+            316          
+
+
+
+
+
+
+
+
+4D
+ 
+
+
+
+            1          
+
+
+
+            315          
+
+
+
+
+
+
+
+
+коды
+ 
+
+
+
+            1          
+
+
+
+            315          
+
+
+
+
+
+
+
+
+5D
+ 
+
+
+
+            2          
+
+
+
+            315          
+
+
+
+
+
+
+
+
+Аркутрианцы
+ 
+
+
+
+            1          
+
+
+
+            315          
+
+
+
+
+
+
+
+
+пажоще
+ 
+
+
+
+            3          
+
+
+
+            307          
+
+
+
+
+
+
+
+
+нло
+ 
+
+
+
+            4          
+
+
+
+            307          
+
+
+
+
+
+
+
+
+Р.И.Попов
+ 
+
+
+
+            1          
+
+
+
+            307          
+
+
+
+
+
+
+
+
+Кольцо Жизни и Смерти
+ 
+
+
+
+            4          
+
+
+
+            304          
+
+
+
+
+
+
+
+
+Лейцин
+ 
+
+
+
+            4          
+
+
+
+            304          
+
+
+
+
+
+
+
+
+статьи
+ 
+
+
+
+            2          
+
+
+
+            303          
+
+
+
+
+
+
+
+
+Россия
+ 
+
+
+
+            2          
+
+
+
+            303          
+
+
+
+
+
+
+
+
+Алекс Рон Гонзалес
+ 
+
+
+
+            2          
+
+
+
+            303          
+
+
+
+
+
+
+
+
+тьма
+ 
+
+
+
+            1          
+
+
+
+            303          
+
+
+
+
+
+
+
+
+Изолейцин
+ 
+
+
+
+            2          
+
+
+
+            302          
+
+
+
+
+
+
+
+
+Кольцо Гайи
+ 
+
+
+
+            2          
+
+
+
+            302          
+
+
+
+
+
+
+
+
+post-industrial
+ 
+
+
+
+            1          
+
+
+
+            300          
+
+
+
+
+
+
+
+
+aggrotech
+ 
+
+
+
+            1          
+
+
+
+            300          
+
+
+
+
+
+
+
+
+powernoise
+ 
+
+
+
+            2          
+
+
+
+            300          
+
+
+
+
+
+
+
+
+HD
+ 
+
+
+
+            58          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+Галактика
+ 
+
+
+
+            1          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+фотонный пояс
+ 
+
+
+
+            1          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+генератор
+ 
+
+
+
+            4          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+манифестирующий генератор
+ 
+
+
+
+            5          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+зеркало
+ 
+
+
+
+            1          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+Манифестор
+ 
+
+
+
+            2          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+Проектор
+ 
+
+
+
+            6          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+Рефлектор
+ 
+
+
+
+            3          
+
+
+
+            299          
+
+
+
+
+
+
+
+
+киты
+ 
+
+
+
+            1          
+
+
+
+            295          
+
+
+
+
+
+
+
+
+дельфины
+ 
+
+
+
+            1          
+
+
+
+            295          
+
+
+
+
+
+
+
+
+подключки
+ 
+
+
+
+            3          
+
+
+
+            295          
+
+
+
+
+
+
+
+
+кислота
+ 
+
+
+
+            1          
+
+
+
+            293          
+
+
+
+
+
+
+
+
+просветление
+ 
+
+
+
+            1          
+
+
+
+            293          
+
+
+
+
+
+
+
+
+зуд мира
+ 
+
+
+
+            1          
+
+
+
+            293          
+
+
+
+
+
+
+
+
+Путь
+ 
+
+
+
+            1          
+
+
+
+            293          
+
+
+
+
+
+
+
+
+мистицизм
+ 
+
+
+
+            1          
+
+
+
+            293          
+
+
+
+
+
+
+
+
+джин
+ 
+
+
+
+            2          
+
+
+
+            291          
+
+
+
+
+
+
+
+
+зомбирование
+ 
+
+
+
+            3          
+
+
+
+            291          
+
+
+
+
+
+
+
+
+Сознание
+ 
+
+
+
+            6          
+
+
+
+            291          
+
+
+
+
+
+
+
+
+подселение
+ 
+
+
+
+            4          
+
+
+
+            291          
+
+
+
+
+
+
+
+
+Сакральный Центр
+ 
+
+
+
+            10          
+
+
+
+            286          
+
+
+
+
+
+
+
+
+психонавтика
+ 
+
+
+
+            1          
+
+
+
+            285          
+
+
+
+
+
+
+
+
+drum'n'bass
+ 
+
+
+
+            1          
+
+
+
+            277          
+
+
+
+
+
+
+
+
+goa-trance
+ 
+
+
+
+            1          
+
+
+
+            277          
+
+
+
+
+
+
+
+
+dark psy
+ 
+
+
+
+            1          
+
+
+
+            277          
+
+
+
+
+
+
+
+
+full-on
+ 
+
+
+
+            1          
+
+
+
+            277          
+
+
+
+
+
+
+
+
+mentaltek
+ 
+
+
+
+            3          
+
+
+
+            277          
+
+
+
+
+
+
+
+
+Солнечное сплетение
+ 
+
+
+
+            3          
+
+
+
+            275          
+
+
+
+
+
+
+
+
+отношения
+ 
+
+
+
+            1          
+
+
+
+            271          
+
+
+
+
+
+
+
+
+Шива
+ 
+
+
+
+            2          
+
+
+
+            267          
+
+
+
+
+
+
+
+
+смерть
+ 
+
+
+
+            2          
+
+
+
+            267          
+
+
+
+
+
+
+
+
+Агхора
+ 
+
+
+
+            1          
+
+
+
+            267          
+
+
+
+
+
+
+
+
+религия
+ 
+
+
+
+            1          
+
+
+
+            267          
+
+
+
+
+
+
+
+
+Земля
+ 
+
+
+
+            12          
+
+
+
+            262          
+
+
+
+
+
+
+
+
+Крайон
+ 
+
+
+
+            2          
+
+
+
+            262          
+
+
+
+
+
+
+
+
+Сефера
+ 
+
+
+
+            2          
+
+
+
+            262          
+
+
+
+
+
+
+
+
+электро-магнетизм
+ 
+
+
+
+            1          
+
+
+
+            262          
+
+
+
+
+
+
+
+
+Сердченый центр
+ 
+
+
+
+            1          
+
+
+
+            259          
+
+
+
+
+
+
+
+
+нижний астрал
+ 
+
+
+
+            1          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+порталы
+ 
+
+
+
+            2          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+энергетический вампиризм
+ 
+
+
+
+            1          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+иная реальность
+ 
+
+
+
+            2          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+джинн
+ 
+
+
+
+            1          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+взаимодействие
+ 
+
+
+
+            2          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+2Д
+ 
+
+
+
+            1          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+композит
+ 
+
+
+
+            2          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+5Д
+ 
+
+
+
+            2          
+
+
+
+            251          
+
+
+
+
+
+
+
+
+опыт
+ 
+
+
+
+            1          
+
+
+
+            248          
+
+
+
+
+
+
+
+
+1\4
+ 
+
+
+
+            1          
+
+
+
+            242          
+
+
+
+
+
+
+
+
+ариман
+ 
+
+
+
+            1          
+
+
+
+            242          
+
+
+
+
+
+
+
+
+серые
+ 
+
+
+
+            1          
+
+
+
+            242          
+
+
+
+
+
+
+
+
+рептилии
+ 
+
+
+
+            1          
+
+
+
+            242          
+
+
+
+
+
+
+
+
+очищение
+ 
+
+
+
+            1          
+
+
+
+            242          
+
+
+
+
+
+
+
+
+Псилоцибин
+ 
+
+
+
+            1          
+
+
+
+            241          
+
+
+
+
+
+
+
+
+Марихуана
+ 
+
+
+
+            1          
+
+
+
+            241          
+
+
+
+
+
+
+
+
+Хранители
+ 
+
+
+
+            3          
+
+
+
+            241          
+
+
+
+
+
+
+
+
+DMT
+ 
+
+
+
+            1          
+
+
+
+            241          
+
+
+
+
+
+
+
+
+речь
+ 
+
+
+
+            1          
+
+
+
+            240          
+
+
+
+
+
+
+
+
+оккультизм
+ 
+
+
+
+            1          
+
+
+
+            240          
+
+
+
+
+
+
+
+
+ментал
+ 
+
+
+
+            1          
+
+
+
+            240          
+
+
+
+
+
+
+
+
+русский язык
+ 
+
+
+
+            1          
+
+
+
+            240          
+
+
+
+
+
+
+
+
+Горло
+ 
+
+
+
+            13          
+
+
+
+            240          
+
+
+
+
+
+
+
+
+Звук
+ 
+
+
+
+            2          
+
+
+
+            240          
+
+
+
+
+
+
+
+
+Аджна
+ 
+
+
+
+            8          
+
+
+
+            240          
+
+
+
+
+
+
+
+
+голограмма
+ 
+
+
+
+            1          
+
+
+
+            233          
+
+
+
+
+
+
+
+
+5д общество
+ 
+
+
+
+            1          
+
+
+
+            233          
+
+
+
+
+
+
+
+
+энергия
+ 
+
+
+
+            1          
+
+
+
+            233          
+
+
+
+
+
+
+
+
+радужная нация
+ 
+
+
+
+            1          
+
+
+
+            233          
+
+
+
+
+
+
+
+
+ченнелинг
+ 
+
+
+
+            20          
+
+
+
+            232          
+
+
+
+
+
+
+
+
+Лорен Горго
+ 
+
+
+
+            2          
+
+
+
+            232          
+
+
+
+
+
+
+
+
+Плеядианский Высший Совет
+ 
+
+
+
+            1          
+
+
+
+            232          
+
+
+
+
+
+
+
+
+Ян Лысаков
+ 
+
+
+
+            3          
+
+
+
+            232          
+
+
+
+
+
+
+
+
+память
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+Петр Первый
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+Парад планет
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+6\3
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+Питер
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+Эрмитаж
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+нудный хранитель
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+Три дня темноты
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+база светлых
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+Сценарии истории
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+Лемурия
+ 
+
+
+
+            1          
+
+
+
+            231          
+
+
+
+
+
+
+
+
+rhythmic noise
+ 
+
+
+
+            3          
+
+
+
+            229          
+
+
+
+
+
+
+
+
+dark electro
+ 
+
+
+
+            4          
+
+
+
+            229          
+
+
+
+
+
+
+
+
+industrial
+ 
+
+
+
+            7          
+
+
+
+            229          
+
+
+
+
+
+
+
+
+5\2
+ 
+
+
+
+            1          
+
+
+
+            229          
+
+
+
+
+
+
+
+
+electronic
+ 
+
+
+
+            3          
+
+
+
+            229          
+
+
+
+
+
+
+
+
+2012
+ 
+
+
+
+            18          
+
+
+
+            228          
+
+
+
+
+
+
+
+
+Солнце
+ 
+
+
+
+            5          
+
+
+
+            228          
+
+
+
+
+
+
+
+
+ДНК
+ 
+
+
+
+            3          
+
+
+
+            224          
+
+
+
+
+
+
+
+
+кибернетика
+ 
+
+
+
+            1          
+
+
+
+            224          
+
+
+
+
+
+
+
+
+вибрация
+ 
+
+
+
+            1          
+
+
+
+            223          
+
+
+
+
+
+
+
+
+страх
+ 
+
+
+
+            2          
+
+
+
+            223          
+
+
+
+
+
+
+
+
+пробуждение
+ 
+
+
+
+            1          
+
+
+
+            223          
+
+
+
+
+
+
+
+
+блоки
+ 
+
+
+
+            2          
+
+
+
+            223          
+
+
+
+
+
+
+
+
+видео-игры
+ 
+
+
+
+            1          
+
+
+
+            220          
+
+
+
+
+
+
+
+
+Олдос Хаксли
+ 
+
+
+
+            1          
+
+
+
+            220          
+
+
+
+
+
+
+
+
+Новый Мировой Порядок
+ 
+
+
+
+            4          
+
+
+
+            220          
+
+
+
+
+
+
+
+
+ментальный контроль
+ 
+
+
+
+            5          
+
+
+
+            220          
+
+
+
+
+
+
+
+
+Тимоти Лири
+ 
+
+
+
+            1          
+
+
+
+            220          
+
+
+
+
+
+
+
+
+диктатура
+ 
+
+
+
+            1          
+
+
+
+            220          
+
+
+
+
+
+
+
+
+киберпространство
+ 
+
+
+
+            3          
+
+
+
+            220          
+
+
+
+
+
+
+
+
+большой взрыв
+ 
+
+
+
+            1          
+
+
+
+            217          
+
+
+
+
+
+
+
+
+наука
+ 
+
+
+
+            1          
+
+
+
+            217          
+
+
+
+
+
+
+
+
+квантовые компьютеры
+ 
+
+
+
+            1          
+
+
+
+            217          
+
+
+
+
+
+
+
+
+гитлер
+ 
+
+
+
+            1          
+
+
+
+            216          
+
+
+
+
+
+
+
+
+история
+ 
+
+
+
+            1          
+
+
+
+            216          
+
+
+
+
+
+
+
+
+текущие энергии
+ 
+
+
+
+            11          
+
+
+
+            214          
+
+
+
+
+
+
+
+
+астрология
+ 
+
+
+
+            2          
+
+
+
+            214          
+
+
+
+
+
+
+
+
+Юпитер
+ 
+
+
+
+            2          
+
+
+
+            214          
+
+
+
+
+
+
+
+
+мосты
+ 
+
+
+
+            2          
+
+
+
+            213          
+
+
+
+
+
+
+
+
+Целое
+ 
+
+
+
+            1          
+
+
+
+            213          
+
+
+
+
+
+
+
+
+hardstyle
+ 
+
+
+
+            1          
+
+
+
+            212          
+
+
+
+
+
+
+
+
+киберсфера
+ 
+
+
+
+            2          
+
+
+
+            211          
+
+
+
+
+
+
+
+
+Раскрытие
+ 
+
+
+
+            1          
+
+
+
+            208          
+
+
+
+
+
+
+
+
+три дня мрака
+ 
+
+
+
+            1          
+
+
+
+            208          
+
+
+
+
+
+
+
+
+вскрывушка
+ 
+
+
+
+            3          
+
+
+
+            208          
+
+
+
+
+
+
+
+
+Салуса
+ 
+
+
+
+            1          
+
+
+
+            208          
+
+
+
+
+
+
+
+
+2\5
+ 
+
+
+
+            1          
+
+
+
+            208          
+
+
+
+
+
+
+
+
+Сириус
+ 
+
+
+
+            1          
+
+
+
+            208          
+
+
+
+
+
+
+
+
+4\1
+ 
+
+
+
+            1          
+
+
+
+            205          
+
+
+
+
+
+
+
+
+другие измерения
+ 
+
+
+
+            1          
+
+
+
+            201          
+
+
+
+
+
+
+
+
+7Д
+ 
+
+
+
+            1          
+
+
+
+            201          
+
+
+
+
+
+
+
+
+9Д
+ 
+
+
+
+            1          
+
+
+
+            201          
+
+
+
+
+
+
+
+
+Абсолют
+ 
+
+
+
+            4          
+
+
+
+            200          
+
+
+
+
+
+
+
+
+дежавю
+ 
+
+
+
+            1          
+
+
+
+            200          
+
+
+
+
+
+
+
+
+симптомы перехода
+ 
+
+
+
+            1          
+
+
+
+            200          
+
+
+
+
+
+
+
+
+предиктор
+ 
+
+
+
+            1          
+
+
+
+            199          
+
+
+
+
+
+
+
+
+пришельцы
+ 
+
+
+
+            1          
+
+
+
+            199          
+
+
+
+
+
+
+
+
+затмение
+ 
+
+
+
+            1          
+
+
+
+            197          
+
+
+
+
+
+
+
+
+Глобальный Предиктор
+ 
+
+
+
+            4          
+
+
+
+            192          
+
+
+
+
+
+
+
+
+Аштар
+ 
+
+
+
+            1          
+
+
+
+            190          
+
+
+
+
+
+
+
+
+вспышка
+ 
+
+
+
+            3          
+
+
+
+            190          
+
+
+
+
+
+
+
+
+волна
+ 
+
+
+
+            2          
+
+
+
+            190          
+
+
+
+
+
+
+
+
+transit
+ 
+
+
+
+            1          
+
+
+
+            187          
+
+
+
+
+
+
+
+
+Мать Мария
+ 
+
+
+
+            1          
+
+
+
+            186          
+
+
+
+
+
+
+
+
+дети
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+астральные путешествия
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+другая реальность
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+7D
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+другие миры
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+мультиверсум
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+огненное тело
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+вознесение
+ 
+
+
+
+            1          
+
+
+
+            185          
+
+
+
+
+
+
+
+
+freetek
+ 
+
+
+
+            1          
+
+
+
+            180          
+
+
+
+
+
+
+
+
+ambient
+ 
+
+
+
+            2          
+
+
+
+            178          
+
+
+
+
+
+
+
+
+Idm
+ 
+
+
+
+            2          
+
+
+
+            178          
+
+
+
+
+
+
+
+
+psy-techno
+ 
+
+
+
+            1          
+
+
+
+            178          
+
+
+
+
+
+
+
+
+techno
+ 
+
+
+
+            1          
+
+
+
+            178          
+
+
+
+
+
+
+
+
+Гайя
+ 
+
+
+
+            1          
+
+
+
+            177          
+
+
+
+
+
+
+
+
+psy-schranz
+ 
+
+
+
+            1          
+
+
+
+            176          
+
+
+
+
+
+
+
+
+random
+ 
+
+
+
+            1          
+
+
+
+            172          
+
+
+
+
+
+
+
+
+дети звезд
+ 
+
+
+
+            3          
+
+
+
+            171          
+
+
+
+
+
+
+
+
+сайентология
+ 
+
+
+
+            1          
+
+
+
+            171          
+
+
+
+
+
+
+
+
+плеяды
+ 
+
+
+
+            1          
+
+
+
+            171          
+
+
+
+
+
+
+
+
+основатели
+ 
+
+
+
+            1          
+
+
+
+            171          
+
+
+
+
+
+
+
+
+рон хаббард
+ 
+
+
+
+            1          
+
+
+
+            171          
+
+
+
+
+
+
+
+
+РИТМ
+ 
+
+
+
+            1          
+
+
+
+            170          
+
+
+
+
+
+
+
+
+космический разум
+ 
+
+
+
+            1          
+
+
+
+            168          
+
+
+
+
+
+
+
+
+мультверсум
+ 
+
+
+
+            1          
+
+
+
+            168          
+
+
+
+
+
+
+
+
+цивилизация
+ 
+
+
+
+            1          
+
+
+
+            168          
+
+
+
+
+
+
+
+
+безсмертие
+ 
+
+
+
+            1          
+
+
+
+            168          
+
+
+
+
+
+
+
+
+творец
+ 
+
+
+
+            2          
+
+
+
+            168          
+
+
+
+
+
+
+
+
+тексты
+ 
+
+
+
+            1          
+
+
+
+            167          
+
+
+
+
+
+
+
+
+В.А. Мизиано
+ 
+
+
+
+            1          
+
+
+
+            167          
+
+
+
+
+
+
+
+
+общество
+ 
+
+
+
+            2          
+
+
+
+            167          
+
+
+
+
+
+
+
+
+культура
+ 
+
+
+
+            1          
+
+
+
+            167          
+
+
+
+
+
+
+
+
+тусовка
+ 
+
+
+
+            1          
+
+
+
+            167          
+
+
+
+
+
+
+
+
+Кольцо Тайн
+ 
+
+
+
+            1          
+
+
+
+            166          
+
+
+
+
+
+
+
+
+сны
+ 
+
+
+
+            4          
+
+
+
+            166          
+
+
+
+
+
+
+
+
+tbm
+ 
+
+
+
+            7          
+
+
+
+            165          
+
+
+
+
+
+
+
+
+Muzak
+ 
+
+
+
+            1          
+
+
+
+            165          
+
+
+
+
+
+
+
+
+электроника
+ 
+
+
+
+            1          
+
+
+
+            163          
+
+
+
+
+
+
+
+
+киберпанк
+ 
+
+
+
+            3          
+
+
+
+            163          
+
+
+
+
+
+
+
+
+dub
+ 
+
+
+
+            1          
+
+
+
+            162          
+
+
+
+
+
+
+
+
+dub-techno
+ 
+
+
+
+            1          
+
+
+
+            162          
+
+
+
+
+
+
+
+
+chill-out
+ 
+
+
+
+            1          
+
+
+
+            162          
+
+
+
+
+
+
+
+
+смена полярности
+ 
+
+
+
+            1          
+
+
+
+            161          
+
+
+
+
+
+
+
+
+tribecore
+ 
+
+
+
+            1          
+
+
+
+            161          
+
+
+
+
+
+
+
+
+hardtek
+ 
+
+
+
+            2          
+
+
+
+            161          
+
+
+
+
+
+
+
+
+pumpcore
+ 
+
+
+
+            1          
+
+
+
+            161          
+
+
+
+
+
+
+
+
+Система
+ 
+
+
+
+            3          
+
+
+
+            160          
+
+
+
+
+
+
+
+
+Сатурн
+ 
+
+
+
+            2          
+
+
+
+            160          
+
+
+
+
+
+
+
+
+Harhor
+ 
+
+
+
+            1          
+
+
+
+            159          
+
+
+
+
+
+
+
+
+Anthracitic Moths
+ 
+
+
+
+            1          
+
+
+
+            159          
+
+
+
+
+
+
+
+
+Роиды вперёд!
+ 
+
+
+
+            1          
+
+
+
+            159          
+
+
+
+
+
+
+
+
+ebm
+ 
+
+
+
+            3          
+
+
+
+            159          
+
+
+
+
+
+
+
+
+Тишина
+ 
+
+
+
+            1          
+
+
+
+            154          
+
+
+
+
+
+
+
+
+Бабаджи
+ 
+
+
+
+            1          
+
+
+
+            153          
+
+
+
+
+
+
+
+
+экзамен
+ 
+
+
+
+            1          
+
+
+
+            153          
+
+
+
+
+
+
+
+
+Сурия
+ 
+
+
+
+            1          
+
+
+
+            153          
+
+
+
+
+
+
+
+
+наше время
+ 
+
+
+
+            9          
+
+
+
+            152          
+
+
+
+
+
+
+
+
+майя
+ 
+
+
+
+            2          
+
+
+
+            152          
+
+
+
+
+
+
+
+
+industrial uptempo
+ 
+
+
+
+            1          
+
+
+
+            150          
+
+
+
+
+
+
+
+
+frenchcore
+ 
+
+
+
+            1          
+
+
+
+            150          
+
+
+
+
+
+
+
+
+hardcore
+ 
+
+
+
+            3          
+
+
+
+            150          
+
+
+
+
+
+
+
+
+breakcore
+ 
+
+
+
+            4          
+
+
+
+            150          
+
+
+
+
+
+
+
+
+Сердце
+ 
+
+
+
+            1          
+
+
+
+            149          
+
+
+
+
+
+
+
+
+яд
+ 
+
+
+
+            1          
+
+
+
+            149          
+
+
+
+
+
+
+
+
+psy-trance
+ 
+
+
+
+            3          
+
+
+
+            149          
+
+
+
+
+
+
+
+
+группа 12
+ 
+
+
+
+            2          
+
+
+
+            147          
+
+
+
+
+
+
+
+
+виртуальность
+ 
+
+
+
+            3          
+
+
+
+            145          
+
+
+
+
+
+
+
+
+мистика
+ 
+
+
+
+            1          
+
+
+
+            145          
+
+
+
+
+
+
+
+
+Вещества
+ 
+
+
+
+            11          
+
+
+
+            145          
+
+
+
+
+
+
+
+
+Нептун
+ 
+
+
+
+            1          
+
+
+
+            145          
+
+
+
+
+
+
+
+
+Максим Садовник
+ 
+
+
+
+            5          
+
+
+
+            145          
+
+
+
+
+
+
+
+
+hardware
+ 
+
+
+
+            1          
+
+
+
+            144          
+
+
+
+
+
+
+
+
+freeform hardcore
+ 
+
+
+
+            5          
+
+
+
+            123          
+
+
+
+
+
+
+
+
+darkform
+ 
+
+
+
+            8          
+
+
+
+            123          
+
+
+
+
+
+
+
+
+uk hardcore
+ 
+
+
+
+            2          
+
+
+
+            123          
+
+
+
+
+
+
+
+
+ворорта
+ 
+
+
+
+            1          
+
+
+
+            118          
+
+
+
+
+
+
+
+
+Data
+ 
+
+
+
+            1          
+
+
+
+            118          
+
+
+
+
+
+
+
+
+Arginine
+ 
+
+
+
+            1          
+
+
+
+            104          
+
+
+
+
+
+
+
+
+The Ring of Humanity
+ 
+
+
+
+            1          
+
+
+
+            104          
+
+
+
+
+
+
+
+
+дизайн креста
+ 
+
+
+
+            1          
+
+
+
+            103          
+
+
+
+
+
+
+
+
+контакт
+ 
+
+
+
+            1          
+
+
+
+            99          
+
+
+
+
+
+
+
+
+Телос
+ 
+
+
+
+            2          
+
+
+
+            99          
+
+
+
+
+
+
+
+
+Адама
+ 
+
+
+
+            2          
+
+
+
+            99          
+
+
+
+
+
+
+
+
+полая Земля
+ 
+
+
+
+            2          
+
+
+
+            99          
+
+
+
+
+
+
+
+
+Генетическая Память
+ 
+
+
+
+            1          
+
+
+
+            92          
+
+
+
+
+
+
+
+
+Генетическая Сеть
+ 
+
+
+
+            1          
+
+
+
+            92          
+
+
+
+
+
+
+
+
+Рейв
+ 
+
+
+
+            1          
+
+
+
+            86          
+
+
+
+
+
+
+
+
+Вечность
+ 
+
+
+
+            1          
+
+
+
+            86          
+
+
+
+
+
+
+
+
+Рой
+ 
+
+
+
+            1          
+
+
+
+            86          
+
+
+
+
+
+
+
+
+манипуляция
+ 
+
+
+
+            1          
+
+
+
+            82          
+
+
+
+
+
+
+
+
+групповое взаимодействие
+ 
+
+
+
+            1          
+
+
+
+            82          
+
+
+
+
+
+
+
+
+rage
+ 
+
+
+
+            1          
+
+
+
+            82          
+
+
+
+
+
+
+
+
+Кольцо Бури
+ 
+
+
+
+            1          
+
+
+
+            78          
+
+
+
+
+
+
+
+
+Гистидин
+ 
+
+
+
+            1          
+
+
+
+            78          
+
+
+
+
+
+
+
+
+gothic rock
+ 
+
+
+
+            2          
+
+
+
+            68          
+
+
+
+
+
+
+
+
+synth rock
+ 
+
+
+
+            2          
+
+
+
+            68          
+
+
+
+
+
+
+
+
+gates
+ 
+
+
+
+            66          
+
+
+
+            57          
+
+
+
+
+
+
+
+
+Throat Center
+ 
+
+
+
+            5          
+
+
+
+            55          
+
+
+
+
+
+
+
+
+Knowing Circuit
+ 
+
+
+
+            8          
+
+
+
+            55          
+
+
+
+
+
+
+
+
+Solar Plexus. Sensing Circuit
+ 
+
+
+
+            1          
+
+
+
+            51          
+
+
+
+
+
+
+
+
+Glycine
+ 
+
+
+
+            1          
+
+
+
+            50          
+
+
+
+
+
+
+
+
+transit-thumb
+ 
+
+
+
+            1          
+
+
+
+            50          
+
+
+
+
+
+
+
+
+Sensing Circuit
+ 
+
+
+
+            3          
+
+
+
+            50          
+
+
+
+
+
+
+
+
+The Ring of Alchemy
+ 
+
+
+
+            1          
+
+
+
+            50          
+
+
+
+
+
+
+
+
+Gene Keys
+ 
+
+
+
+            2          
+
+
+
+            50          
+
+
+
+
+
+
+
+
+noise
+ 
+
+
+
+            1          
+
+
+
+            49          
+
+
+
+
+
+
+
+
+Sacral Center
+ 
+
+
+
+            6          
+
+
+
+            47          
+
+
+
+
+
+
+
+
+Centering Circuit
+ 
+
+
+
+            2          
+
+
+
+            47          
+
+
+
+
+
+
+
+
+Ego Circuit
+ 
+
+
+
+            5          
+
+
+
+            46          
+
+
+
+
+
+
+
+
+G-Center
+ 
+
+
+
+            3          
+
+
+
+            45          
+
+
+
+
+
+
+
+
+Defense Circuit
+ 
+
+
+
+            3          
+
+
+
+            42          
+
+
+
+
+
+
+
+
+Solar Plexus Center
+ 
+
+
+
+            1          
+
+
+
+            42          
+
+
+
+
+
+
+
+
+Head Center
+ 
+
+
+
+            2          
+
+
+
+            40          
+
+
+
+
+
+
+
+
+Solar Plexus
+ 
+
+
+
+            1          
+
+
+
+            40          
+
+
+
+
+
+
+
+
+Heart Center
+ 
+
+
+
+            1          
+
+
+
+            36          
+
+
+
+
+
+
+
+
+Understanding Circuit
+ 
+
+
+
+            6          
+
+
+
+            34          
+
+
+
+
+
+
+
+
+Throat
+ 
+
+
+
+            2          
+
+
+
+            32          
+
+
+
+
+
+
+
+
+Ajna Center
+ 
+
+
+
+            1          
+
+
+
+            32          
+
+
+
+
+
+
+
+
+G Center
+ 
+
+
+
+            1          
+
+
+
+            31          
+
+
+
+
+
+
+
+
+Root Center
+ 
+
+
+
+            3          
+
+
+
+            24          
+
+
+
+
+
+
+
+
+Splenic Center
+ 
+
+
+
+            5          
+
+
+
+            23          
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+17
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+103
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+86
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

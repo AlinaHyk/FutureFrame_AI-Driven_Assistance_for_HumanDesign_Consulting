@@ -1,0 +1,1689 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  VK.init({apiId: 2762477, onlyWidgets: true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+@import url("system.base.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.base.css?mgcj6r*/;
+@import url("system.menus.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.menus.css?mgcj6r*/;
+@import url("system.messages.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.messages.css?mgcj6r*/;
+@import url("system.theme.css-mgcj6r.css")/*tpa=http://greasp.com/modules/system/system.theme.css?mgcj6r*/;
+
+
+@import url("aggregator.css-mgcj6r.css")/*tpa=http://greasp.com/modules/aggregator/aggregator.css?mgcj6r*/;
+@import url("comment.css-mgcj6r.css")/*tpa=http://greasp.com/modules/comment/comment.css?mgcj6r*/;
+@import url("jquery-ui-1.8.14.custom.css-mgcj6r.css")/*tpa=http://greasp.com/modules/date-time-field/css/smoothness/jquery-ui-1.8.14.custom.css?mgcj6r*/;
+@import url("field.css-mgcj6r.css")/*tpa=http://greasp.com/modules/field/theme/field.css?mgcj6r*/;
+@import url("node.css-mgcj6r.css")/*tpa=http://greasp.com/modules/node/node.css?mgcj6r*/;
+@import url("poll.css-mgcj6r.css")/*tpa=http://greasp.com/modules/poll/poll.css?mgcj6r*/;
+@import url("search.css-mgcj6r.css")/*tpa=http://greasp.com/modules/search/search.css?mgcj6r*/;
+@import url("user.css-mgcj6r.css")/*tpa=http://greasp.com/modules/user/user.css?mgcj6r*/;
+@import url("forum.css-mgcj6r.css")/*tpa=http://greasp.com/modules/forum/forum.css?mgcj6r*/;
+@import url("views.css-mgcj6r.css")/*tpa=http://greasp.com/modules/views/css/views.css?mgcj6r*/;
+
+
+@import url("colorbox_stockholmsyndrome.css-mgcj6r.css")/*tpa=http://greasp.com/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?mgcj6r*/;
+@import url("ctools.css-mgcj6r.css")/*tpa=http://greasp.com/modules/ctools/css/ctools.css?mgcj6r*/;
+@import url("panels.css-mgcj6r.css")/*tpa=http://greasp.com/modules/panels/css/panels.css?mgcj6r*/;
+
+
+@import url("at.base.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.base.css?mgcj6r*/;
+@import url("at.layout.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.layout.css?mgcj6r*/;
+@import url("at.messages.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme/css/at.messages.css?mgcj6r*/;
+@import url("html-elements.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/html-elements.css?mgcj6r*/;
+@import url("forms.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/forms.css?mgcj6r*/;
+@import url("tables.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/tables.css?mgcj6r*/;
+@import url("fields.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/fields.css?mgcj6r*/;
+@import url("page.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/page.css?mgcj6r*/;
+@import url("navigation.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/navigation.css?mgcj6r*/;
+@import url("articles.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/articles.css?mgcj6r*/;
+@import url("comments.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/comments.css?mgcj6r*/;
+@import url("blocks.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/blocks.css?mgcj6r*/;
+
+
+@import url("print.css-mgcj6r.css")/*tpa=http://greasp.com/themes/adaptivetheme_subtheme/css/print.css?mgcj6r*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"adaptivetheme_subtheme", "theme_token":"7rSUz9VHTsiQlgQKMw8dTBDwyLjVwzZE4WJAkZjcVxI", "js":{"u002Fjquery.js"/*tpa=http://greasp.com/misc/u002Fjquery.js*/:1, "u002Fjquery.once.js"/*tpa=http://greasp.com/misc/u002Fjquery.once.js*/:1, "u002Fdrupal.js"/*tpa=http://greasp.com/misc/u002Fdrupal.js*/:1, "public:\u002F\u002Flanguages\u002Fru_fpIwzeWrpxgmoaAfui2yBgyguZcXktKxhe4OFp6OZRc.js":1, "u002Fjquery.colorbox-min.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fcolorbox/u002Fjquery.colorbox-min.js*/:1, "u002Fcolorbox.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fjs/u002Fcolorbox.js*/:1, "u002Fcolorbox_stockholmsyndrome.js"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.js*/:1, "u002Fpanels.js"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fjs/u002Fpanels.js*/:1}, "css":{"u002Fsystem.base.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.base.css*/:1, "u002Fsystem.menus.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.menus.css*/:1, "u002Fsystem.messages.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.messages.css*/:1, "u002Fsystem.theme.css"/*tpa=http://greasp.com/modules/u002Fsystem/u002Fsystem.theme.css*/:1, "u002Faggregator.css"/*tpa=http://greasp.com/modules/u002Faggregator/u002Faggregator.css*/:1, "u002Fcomment.css"/*tpa=http://greasp.com/modules/u002Fcomment/u002Fcomment.css*/:1, "u002Fjquery-ui-1.8.14.custom.css"/*tpa=http://greasp.com/modules/u002Fdate-time-field/u002Fcss/u002Fsmoothness/u002Fjquery-ui-1.8.14.custom.css*/:1, "u002Ffield.css"/*tpa=http://greasp.com/modules/u002Ffield/u002Ftheme/u002Ffield.css*/:1, "u002Fnode.css"/*tpa=http://greasp.com/modules/u002Fnode/u002Fnode.css*/:1, "u002Fpoll.css"/*tpa=http://greasp.com/modules/u002Fpoll/u002Fpoll.css*/:1, "u002Fsearch.css"/*tpa=http://greasp.com/modules/u002Fsearch/u002Fsearch.css*/:1, "u002Fuser.css"/*tpa=http://greasp.com/modules/u002Fuser/u002Fuser.css*/:1, "u002Fforum.css"/*tpa=http://greasp.com/modules/u002Fforum/u002Fforum.css*/:1, "u002Fviews.css"/*tpa=http://greasp.com/modules/u002Fviews/u002Fcss/u002Fviews.css*/:1, "u002Fcolorbox_stockholmsyndrome.css"/*tpa=http://greasp.com/modules/u002Fcolorbox/u002Fstyles/u002Fstockholmsyndrome/u002Fcolorbox_stockholmsyndrome.css*/:1, "u002Fctools.css"/*tpa=http://greasp.com/modules/u002Fctools/u002Fcss/u002Fctools.css*/:1, "u002Fpanels.css"/*tpa=http://greasp.com/modules/u002Fpanels/u002Fcss/u002Fpanels.css*/:1, "u002Fat.base.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.base.css*/:1, "u002Fat.layout.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.layout.css*/:1, "u002Fat.messages.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme/u002Fcss/u002Fat.messages.css*/:1, "u002Fhtml-elements.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fhtml-elements.css*/:1, "u002Fforms.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fforms.css*/:1, "u002Ftables.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ftables.css*/:1, "u002Ffields.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Ffields.css*/:1, "u002Fpage.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fpage.css*/:1, "u002Fnavigation.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fnavigation.css*/:1, "u002Farticles.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Farticles.css*/:1, "u002Fcomments.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fcomments.css*/:1, "u002Fblocks.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fblocks.css*/:1, "u002Fprint.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fprint.css*/:1, "u002Fadaptivetheme_subtheme.responsive.style.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.style.css*/:1, "u002Fadaptivetheme_subtheme.responsive.gpanels.css"/*tpa=http://greasp.com/themes/u002Fadaptivetheme_subtheme/u002Fcss/u002Fadaptivetheme_subtheme.responsive.gpanels.css*/:1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.responsive.layout.css":1, "public:\u002F\u002Fat_css\u002Fadaptivetheme_subtheme.lt-ie9.layout.css":1}}, "colorbox":{"opacity":"http://greasp.com/0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"100%", "maxHeight":"100%", "fixed":true}});
+
+
+
+
+
+
+
+
+
+
+Перейти к основному содержанию
+
+
+
+
+
+
+
+
+
+
+Greasp Community Digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Для зарегистрированных пользователей доступен чат!
+
+
+При регистрации вы можете добавить свою рейв-карту в профиль. Список всех, кто добавил свою рейв-карту, можно посмотреть в разделе 
+Сообщество
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Всё дозволено Юпитеру
+
+
+
+
+
+
+
+
+Опубликовано 
+пн, 07/16/2012 - 20:40
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+
+
+Есть ли сейчас существенный гармонизирующий фактор, энергетический потенциал которого добавляет нам энергии для конструктивных действий? Есть! Это Юпитер, который уже к 17 июля сформирует точный трин с Марсом, а к 22 и секстиль с Ураном. Недаром в астрологии Юпитер величают «Большое счастье», по уровню сознания – это практически уже второе Солнце в солнечной системе. Так что настраивайтесь на его вибрации, это отведет избыток энергии от натянутой струны оппозиции между Марсом и Ураном, на которой разместилась сейчас наша Земля. Так как ретроградный Меркурий словно специально «тормознулся», чтобы сформировать в течение первой четверти Луны секстили к Марсу и Юпитеру и трин к Урану, то перво-наперво не спешите никуда и ни с чем и гармонизируйте мысли, следите за своими словами, не давайте им расходиться с делом.
+
+
+	Гармонизирующие цвета: васильковый, синий, небесно-голубой, переходящий в серебристый с оттенками розово-лилового (но размытого белым). И еще: золото на голубом. И белый мрамор…
+
+	Потенциал аспекта связан с активизацией 6 энергетического вихревого центра в сопровождающем человека поле.
+
+	Резонансно настраивающие запахи: базилик, герань, лимон, эвкалипт, иланг-иланг, мелисса, петит грейн.
+
+
+
+
+
+
+
+
+Юпитер
+ 
+
+
+
+
+текущие энергии
+ 
+
+
+
+
+астрология
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Всё дозволено Юпитеру
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Кали Юга
+
+
+
+
+
+
+
+
+Опубликовано 
+пн, 07/16/2012 - 14:54
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Я надеюсь, что смысл и значение этой книги, написанной в таком стиле по указанию моего Парамгурудэвы, не будут упущены теми, для кого она предназначается. На это тем более отрадно надеяться, что век Двапара-Юги характеризуется быстрым развитием во всех областях знаний.
+
+
+	Для пояснения того, что переживаемый современным миром период является именно Двапара-Югой и что на сегодняшний день (1894 год) уже минуло 194 года этой юги, принеся с собой быстрое развитие человеческих знаний, обратимся к счислению юг и путем несложных математических расчетов покажем это.
+
+
+
+
+
+
+
+
+
+
+кали юга
+ 
+
+
+
+
+время
+ 
+
+
+
+
+циклы
+ 
+
+
+
+
+вселенная
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Кали Юга
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Окаянная Шаматха
+
+
+
+
+
+
+
+
+Опубликовано 
+пт, 07/13/2012 - 22:47
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Самая эффективная молитва – это ясное видение-понимание истинных причин того или иного явления.
+
+
+В Науке принято проверять, насколько точно и ясно мы увидели причины явления повторением эксперимента с иными условиями. Это так-же называется воспроизводимостью опыта.
+
+	И ясное видение причин называется не больше и не меньше как научное открытие.
+
+	За это дают Нобелевские премии и мощное финансирование, рыцарские кресты и королевские звания.
+
+	Научные открытия оказывают очень сильное влияние на нашу цивилизацию.
+
+
+
+
+
+
+
+
+демоны
+ 
+
+
+
+
+другой
+ 
+
+
+
+
+Высшее
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Окаянная Шаматха
+1 комментарий
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Трансмутация человека. Мы не умрем, но изменимся.
+
+
+
+
+
+
+
+
+Опубликовано 
+пт, 07/13/2012 - 11:24
+ пользователем 
+Harhor
+
+
+
+
+
+
+О предстоящем рождении Шестой человеческой Расы рассказывают последователи Агни-Йоги.
+
+
+	Исследованиями процессов трансмутации занимается симферопольский Центр Знаний о Трансмутации и Огненном Преображении. Вы, конечно же, чувствуете ветер Великих Перемен, врывающийся в нашу жизнь? Кризис экономический, политический, духовно-нравственный - это все сигналы одной болезни, признаки уходящего века. Наш Железный Век сменяется Веком Золотым, или Эпохой Света. - Но где же эта Эпоха Света, - может спросить недоумевающий читатель, - когда жизнь становится все хуже и хуже? Ответ прост. Тьма перед рассветом особенно черна. А потому нашему взору явлены все судороги тьмы, с неохотой покидающей нашу планету. Всё, закончилось её время. Настал срок пролиться Свету на нашу планету и всех ее обитателей. Это - космическая закономерность, которая называется сменой Мировых Циклов, или Эволюцией. Эволюция есть движение всего живого от простого ко все более сложному, совершенному.
+
+
+	Это движение происходит по спирали. Золотой, Серебряный, Бронзовый, Железный Век - один виток спирали. Потом снова: Золотой, Серебряный, Бронзовый, Железный Век - другой виток спирали эволюции, но уже на более высоком уровне. И так - до бесконечности развития всего живого, в том числе и человека. Мы не раз уже приходили на эту планету, чтобы совершенствовать свою душу, нарабатывать свои духовные качества.
+
+
+
+
+
+
+
+
+трансмутация
+ 
+
+
+
+
+переход
+ 
+
+
+
+
+огонь
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Трансмутация человека. Мы не умрем, но изменимся.
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Воды Нептуна
+
+
+
+
+
+
+
+
+Опубликовано 
+пн, 06/18/2012 - 13:00
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Какие ощущения могут возникать от изливания вод Нептуна в структуре Земли – сказать трудно однозначно: уж слишком многозначным будет это влияние. У меня оно проходит как заполнение головы энергиями плотной воды фисташкового цвета. Ощущения очень похоже как плывешь в открытый океан и понимаешь что впереди огромный мир со своей жизнью, пугающий и таинственный, со своими существами и законами.
+
+
+
+
+
+
+Вещества
+ 
+
+
+
+
+виртуальность
+ 
+
+
+
+
+мистика
+ 
+
+
+
+
+Нептун
+ 
+
+
+
+
+Максим Садовник
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Воды Нептуна
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Разговор о любви и отношениях между мужчиной и женщиной
+
+
+
+
+
+
+
+
+ 
+Мужчина и женщина
+ забыли, как заниматься физической любовью. Это величайшая трагедия нашего времени. И так же это причина большинства несчастий на земле. Это забывание медленно продолжалось и постепенно ухудшалось на протяжении тысячелетий. И сейчас это актуальная проблема. Это значит, что только отдельные мужчина и женщина имеют какой-то шанс начать исправлять это. Здесь не может быть коллективного решения. Проблема слишком персональна и слишком глубока. Каждый должен сделать это для себя, иначе это невозможно.
+
+
+Основное несчастье женщины — это ее постоянная неудовлетворенность, из-за того, что мужчина не может достаточно долго быть с ней физически. Ее избыток эмоций, депрессии, слезные расстройства и даже предменструальные напряжения, и в конце концов условия ведущие к истерии и другим обычным проблемам все из-за сексуальной неспособности мужчины при занятиях любовью высвободить ее тончайшую основную женскую энергию. Эта невероятно красивая, божественная энергия, будучи невысвобожденной, производит физические и эмоциональные нарушения, и в конце концов это кристаллизуется в физических отклонениях. Эта рана дает рождение всем этим вещам.
+
+
+Основное несчастье мужчины его постоянное беспокойство из-за того, что он забыл, как правильно заниматься любовью с женщиной. Он потерял свой подлинный божественный авторитет и вместе с этим сексуальный самоконтроль. Его эмоциональное и физическое вырождение проявляет себя в сексуальной озабоченности. Все мужчины без исключения сексуально озабочены, одержимы. Сексуальная одержимость в мужчине вызывает навязчивое сексуальное фантазирование, хроническую мастурбацию, даже если он живет с подружкой. Сексуальное подавление, ведущее к гневу и насилию и всеобщая тенденция к потере себя в работе и в накоплении богатств происходят, чтобы скомпенсировать его несостоятельность, как настоящего любовника. Занятость и накопление богатства замещают (скрывают) неспособность или страх обоих полов к прекрасной физической любви. Через его пренебрежение к любви и к женщине, мужчина страдает от преждевременной эякуляции, чувства вины, неуверенности в себе, перевозбужденности, импотенции, сексуальной атрофии, маскирующей потерю интереса к сексу, сексуального воздержания, как способ избежания страха неудачи, сексуальной бравады вместо истинной мудрости. Все это он получает и навязывает женщине в попытке скрыть ее основную неудовлетвороенность и собственное беспокойство.
+
+
+ 
+
+
+Подробнее
+ о Разговор о любви и отношениях между мужчиной и женщиной
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Harhor - Tzolkin’ end of cycle mix
+
+
+
+
+
+
+
+
+Опубликовано 
+пн, 05/28/2012 - 00:00
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Harhor - Tzolkin’ End of Galaktik Cycle Mix 28.05.2012
+
+
+
+
+(Live on Pioneer CMX-3000 + Ableton Live edit & mastering)
+
+
+Поздравляю Всех с завершением Галактического цикла!
+
+
+Пусть следующий цикл принесёт Вам долгожданные изменения в Ваших жизнях!
+
+
+
+
+OM MANE PADME HUM! SHIWA OM!
+
+
+
+
+ 
+
+
+Подробнее
+ о Harhor - Tzolkin’ end of cycle mix
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Генератор: отклик или ум?
+
+
+
+
+
+
+
+
+Опубликовано 
+ср, 05/23/2012 - 00:00
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Огромный вклад Генераторов в то, что происходит на этой планете может с легкостью почувствовать проживающий свой дизайн Проектор, Манифестор или Рефлектор. Многие представители типов с открытым Сакральным центром достаточно чувствительны к фону, энергиям, или – если вы не против слова “вибрациям”, – города в зависимости от дня недели. Порой это может отдавать фантастикой.
+
+
+
+
+
+
+HD
+ 
+
+
+
+
+генератор
+ 
+
+
+
+
+манифестирующий генератор
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Генератор: отклик или ум?
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Первый год HD. Проектор 5 \ 1
+
+
+
+
+
+
+
+
+Опубликовано 
+вт, 05/22/2012 - 00:00
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Эксперимент, который я начал после получения базового прочтения, сначала не отличался какой-либо радикальностью. Если честно, он не отличался и осмысленностью. Его вообще почти не было. Human Design – это нечто очень “вкусное” и интересное. Поэтому после read-инга я вбухал огромное количество денег в обучающие курсы, купил огромнейшее количество книг, лекций и видео Ра Уру Ху и погрузился в изучение этой системы. И конечно же, я полностью “забил” на какое-либо проживание своего дизайна. Я проживаю эту жизнь Проектором с профилем 5/1. Я всегда умел и любил учиться.
+
+
+
+
+
+
+HD
+ 
+
+
+
+
+Проектор
+ 
+
+
+
+
+5\1
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Первый год HD. Проектор 5 \ 1
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Что такое Дизайн Человека?
+
+
+
+
+
+
+
+
+Опубликовано 
+сб, 05/12/2012 - 00:00
+ пользователем 
+Harhor
+
+
+
+
+
+
+ 
+Многие постулаты синтеза «Дизайна человека» основаны на том, что гораздо проще проверить на себе, чем воспринять на веру или доказать на ментальном уровне.
+
+
+
+
+
+
+HD
+ 
+
+
+
+
+
+
+
+
+Подробнее
+ о Что такое Дизайн Человека?
+Войдите
+ или 
+зарегистрируйтесь
+, чтобы отправлять комментарии
+
+
+
+
+
+
+
+
+Страницы
+« первая
+‹ предыдущая
+…
+8
+9
+10
+11
+12
+13
+14
+15
+16
+следующая ›
+последняя »
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Навигация
+
+
+
+
+Сообщество
+Muzak
+Human Design
+Что такое Дизайн Человека?
+Создать рейв-карту
+Самое главное в рейв-карте
+Типы
+Профили
+Определённости
+Центры, ложное я, внутренний авторитет
+Ворота
+Каналы
+Генные Ключи
+Гексаграммы "И-Цзин"
+F.A.Q. Как прочитать свою жизнь
+Блоги
+Дурдом
+Скачать
+Теги
+Форум
+О сайте
+Правила создания постов
+8x8 Hex
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+<!--//--><![CDATA[// ><!--
+
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "290"}, 26487008);
+
+//--><!]]>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Release
+
+
+
+
+
+
+
+
+
+
+ 
+DeZtructor - End of Era (2012)
+ 
+
+
+ 
+ 
+
+
+ 
+bmp
+ 
+
+
+ 
+rhythmic noise
+, 
+industrial
+, 
+noise
+, 
+tbm
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Вход на сайт
+
+
+
+
+
+
+Имя пользователя 
+*
+
+
+
+
+
+
+
+
+Пароль 
+*
+
+
+
+
+
+
+Регистрация
+Забыли пароль?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Посты в блогах
+
+
+
+
+
+
+
+
+
+
+ 
+О крестах
+ 
+
+
+ 
+02/12/2013 - 22:24
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+18
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 12:21
+ 
+
+
+ 
+Барбара
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+104
+ 
+
+
+ 
+Комментов: 
+ 
+1
+ 
+ 
+
+
+
+
+ 
+rg01.6213
+ 
+
+
+ 
+02/06/2013 - 13:30
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+82
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+aa020.28113
+ 
+
+
+ 
+01/28/2013 - 07:30
+ 
+
+
+ 
+Digitallangell
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+171
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+asIlum.IV.26113
+ 
+
+
+ 
+01/26/2013 - 03:34
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+
+
+ 
+Просмотров: 
+ 
+87
+ 
+
+
+ 
+Комментов: 
+ 
+0
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Новые комментарии
+
+
+
+
+
+
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/15/2013 - 12:53
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+это просто две полярности проявления одного и того же качества. в зависимости от положения планет в какой-то момент времени (будь то время...
+ 
+ 
+
+
+
+
+ 
+01. Ворота Самовыражения
+ 
+
+
+ 
+02/14/2013 - 22:46
+ 
+
+
+ 
+Oblakaizsnega
+ 
+
+
+ 
+ 
+Подскажите как разобраться с эими экзальтациями и падениями планет?
+
+
+ 
+ 
+
+
+
+
+ 
+Инкарнационные кресты
+ 
+
+
+ 
+02/12/2013 - 21:51
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+А я то уж подумала, что кто-то сподобился по доброте душевной выложить бесценную инфу!
+
+
+Чтобы найти свой просто выпиши числа определяющие...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/29/2013 - 00:26
+ 
+
+
+ 
+Gyngerred
+ 
+
+
+ 
+ 
+Ну... как минимум 22% общественности сам Создатель велел молчать "в тряпочку", пока не пригласят высказаться!:))
+
+
+А еще бывает - смотришь в...
+ 
+ 
+
+
+
+
+ 
+hd007.25113
+ 
+
+
+ 
+01/28/2013 - 23:55
+ 
+
+
+ 
+Harhor
+ 
+
+
+ 
+ 
+Именно )))))))) Как только общественность мимо такого молча ходит - не понятно)))
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Сейчас на сайте
+
+
+
+
+Пользователей онлайн: 0.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Форма поиска
+
+
+
+
+Поиск 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+GREASP COMMUNITY DIGITAL
+
+
+
+
+Все права защищены ©
+
+
+Любой материал и\или перевод, а также его авторство принадлежит Greasp Community Digital, если не указана ссылка на источник или материал не подписан. 
+
+
+Полное или частичное копирование авторских материалов разрешено только с согласия администратора сайта. 
+
+
+Копирование не-авторских материалов разрешено только со ссылкой на источник. 
+
+
+Все аудиоматериалы распространяются по лицензии Creative Commons BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t20.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//-->
+
+
+
+
+
+
+
+var sc_project=7587961; 
+var sc_invisible=0; 
+var sc_security="36bfb458"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var referer = (document.referrer != undefined) ? escape(document.referrer) : '';
+var script = 'http://www.sunhome.ru/counter.php';
+var q = '?id=9834&c=18' 
++ '&uri=' + escape(document.URL)
++ '&referer=' + referer
++ '&rand=' + Math.random();
+document.write('<a href="http://www.sunhome.ru/" target="_blank" title="Рейтинг сайтов SunHome.ru (Дом Солнца)">' 
+    + '<img src="' + script + q + '" border="0" width="88" height="31" alt="Рейтинг сайтов SunHome.ru (Дом Солнца)">'
+    + '</a>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{document.write('<a href="http://top.mail.ru/jump?from=2187340">'+
+'<img src="http://d0.c6.b1.a2.top.mail.ru/counter?id=2187340;t=132;js='+js+a+';rand='+Math.random()+
+'" alt="http://greasp.com/Рейтинг@Mail.ru" style="border:0;" height="40" width="88" \/><\/a>');}catch(e){}//]]>
+
+
+
+
+
+
+
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12830392 = new Ya.Metrika({id:12830392, enableAll: true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
