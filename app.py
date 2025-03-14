@@ -2053,40 +2053,78 @@
 
 
 import streamlit as st
-import openai
 import json
 import numpy as np
 import time
-import random
-try:
-    from openai.error import RateLimitError
-except ModuleNotFoundError:
-    from openai import RateLimitError
-
-from datetime import datetime
+import os
+import re
+import tempfile
 import base64
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
+from datetime import datetime
+
+# Handle all optional dependencies with try/except blocks
+try:
+    import openai
+    from openai.error import RateLimitError
+    OPENAI_AVAILABLE = True
+except (ImportError, ModuleNotFoundError):
+    try:
+        import openai
+        # For newer versions of the OpenAI package
+        OPENAI_AVAILABLE = True
+    except (ImportError, ModuleNotFoundError):
+        OPENAI_AVAILABLE = False
+
+try:
+    import pandas as pd
+    PANDAS_AVAILABLE = True
+except ImportError:
+    PANDAS_AVAILABLE = False
+
+try:
+    import plotly.express as px
+    import plotly.graph_objects as go
+    PLOTLY_AVAILABLE = True
+except ImportError:
+    PLOTLY_AVAILABLE = False
 
 try:
     import pdfkit
     PDFKIT_AVAILABLE = True
 except ImportError:
     PDFKIT_AVAILABLE = False
-import networkx as nx
+
 try:
     import networkx as nx
+    NETWORKX_AVAILABLE = True
+except ImportError:
+    NETWORKX_AVAILABLE = False
+
+try:
     from pyvis.network import Network
     PYVIS_AVAILABLE = True
 except ImportError:
-    import networkx as nx  # Keep networkx as it should be available
     PYVIS_AVAILABLE = False
-import tempfile
-import os
-import re
-from streamlit_elements import elements, dashboard, mui, html
 
+try:
+    from streamlit_elements import elements, dashboard, mui, html
+    STREAMLIT_ELEMENTS_AVAILABLE = True
+except ImportError:
+    STREAMLIT_ELEMENTS_AVAILABLE = False
+
+try:
+    from dotenv import load_dotenv
+    DOTENV_AVAILABLE = True
+except ImportError:
+    DOTENV_AVAILABLE = False
+
+# Load environment variables if possible
+if DOTENV_AVAILABLE:
+    load_dotenv()
+
+# Set API key if available
+if OPENAI_AVAILABLE:
+    openai.api_key = os.getenv("OPENAI_API_KEY")
 import os
 from dotenv import load_dotenv
 
