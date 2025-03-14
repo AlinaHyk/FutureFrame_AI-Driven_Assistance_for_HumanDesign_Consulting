@@ -1,0 +1,19 @@
+Strucure
+#
+# It looks like you may be committing a cherry-pick.
+# If this is not correct, please run
+#	git update-ref -d CHERRY_PICK_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+
+
+
+#
+# Date:      Fri Mar 14 05:32:31 2025 -0700
+# Committer: Alina Hyk <alinahyk@Alinas-MacBook-Air.local>
+#
+# On branch main
+# You are currently cherry-picking commit 3f59dde.
+#

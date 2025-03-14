@@ -1,462 +1,80 @@
-# import streamlit as st
-# import openai
-# import json
-# import numpy as np
-# import time
-# from openai.error import RateLimitError
-
-# st.set_page_config(
-#     page_title="Human-Design AI Assistant",
-#     page_icon="🤖",
-#     layout="centered"
-# )
-# import os
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-# GPT_MODEL = "gpt-4"
-
-# def load_embedded_data(json_path="embedded_data.json"):
-#     """Load previously embedded data from a JSON file."""
-#     with open(json_path, "r", encoding="utf-8") as f:
-#         data = json.load(f)
-#     return data
-
-# def embed_query(query, model="text-embedding-ada-002"):
-#     """Create an embedding for the user query."""
-#     response = openai.Embedding.create(
-#         input=query,
-#         model=model
-#     )
-#     return response["data"][0]["embedding"]
-
-# def cosine_similarity(vec_a, vec_b):
-#     """Compute cosine similarity between two vectors."""
-#     a = np.array(vec_a)
-#     b = np.array(vec_b)
-#     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
-# def find_top_chunks(query, embedded_data, top_k=5):
-#     """Retrieve the top matching chunks based on the user query."""
-#     query_vec = embed_query(query)
-#     scored = []
-#     for item in embedded_data:
-#         score = cosine_similarity(query_vec, item["embedding"])
-#         scored.append((score, item))
-#     scored.sort(key=lambda x: x[0], reverse=True)
-#     return scored[:top_k]
-
-# def build_chat_prompt(query, top_chunks):
-#     """Construct the prompt that includes the relevant context chunks."""
-#     context_texts = []
-#     for i, (score, chunk) in enumerate(top_chunks):
-#         snippet = f"[CHUNK #{i} | Score: {score:.4f}]\n{chunk['chunk_text']}\n"
-#         context_texts.append(snippet)
-
-#     context_block = "\n\n".join(context_texts)
-#     system_message = (
-#         "You are a helpful assistant. Use the provided CONTEXT and your own knowledge to answer the question. "
-#         "If you are unsure, say so. Give a detailed answer. Your answer should be at least 6 paragraphs long.\n\n"
-#     )
-#     prompt = (
-#         f"{system_message}"
-#         f"CONTEXT:\n{context_block}\n"
-#         f"USER QUESTION:\n{query}\n"
-#         "Please provide a clear and detailed answer."
-#     )
-#     return prompt
-
-# def ask_gpt(prompt, model=GPT_MODEL):
-#     """Call the OpenAI ChatCompletion API with the constructed prompt."""
-#     messages = [
-#         {"role": "system", "content": "You are a helpful assistant."},
-#         {"role": "user", "content": prompt}
-#     ]
-#     response = openai.ChatCompletion.create(
-#         model=model,
-#         messages=messages,
-#         temperature=0.3
-#     )
-#     return response["choices"][0]["message"]["content"]
-
-# def get_response(user_query, embedded_data):
-#     """Combine chunk retrieval and GPT call to get a response to the user query."""
-#     top_chunks = find_top_chunks(user_query, embedded_data, top_k=5)
-#     prompt = build_chat_prompt(user_query, top_chunks)
-#     answer = ask_gpt(prompt)
-#     return answer, top_chunks
-
-# # Client Main Function (st.set_page_config() call removed here)
-# def main_client():
-#     st.markdown(
-#         """
-#         <style>
-#         /* Main background */
-#         .main {
-#             background-color: #1E1E1E !important;
-#             color: #FFFFFF !important;
-#         }
-#         /* Chat bubble style (optional) */
-#         .chat-bubble {
-#             background-color: #2f2f2f;
-#             border-radius: 10px;
-#             padding: 10px;
-#             margin-bottom: 10px;
-#         }
-#         </style>
-#         """,
-#         unsafe_allow_html=True
-#     )
-
-#     # Initializes session state for messages
-#     if "messages_client" not in st.session_state:
-#         st.session_state["messages_client"] = []
-
-#     # Loading embedded data only once
-#     if "embedded_data_client" not in st.session_state:
-#         st.session_state["embedded_data_client"] = load_embedded_data("embedded_data.json")
-
-#     # App title and description
-#     st.title("🤖 Human-Design AI Assistant")
-#     st.write("Ask me anything about human-design consulting!")
-
-#     # Input area
-#     user_input = st.text_input("Type your message here...", key="client_input")
-
-#     # Buttons
-#     col1, col2 = st.columns([1, 1])
-#     with col1:
-#         send_pressed = st.button("Send", key="client_send")
-#     with col2:
-#         clear_pressed = st.button("Clear Chat", key="client_clear")
-
-#     # If "Clear Chat" is pressed, reset messages
-#     if clear_pressed:
-#         st.session_state["messages_client"] = []
-#         st.experimental_rerun()
-
-#     # If "Send" is pressed, process user input
-#     if send_pressed and user_input.strip():
-#         # Store the user message in session state
-#         st.session_state["messages_client"].append({"role": "user", "content": user_input})
-
-#         # Gets the response from GPT using your chunk retrieval
-#         with st.spinner("Thinking..."):
-#             answer, top_chunks = get_response(
-#                 user_input,
-#                 st.session_state["embedded_data_client"]
-#             )
-
-#         # Stores the assistant's response
-#         st.session_state["messages_client"].append({"role": "assistant", "content": answer})
-
-#     # --- Display the conversation history ---
-#     for msg in st.session_state["messages_client"]:
-#         if msg["role"] == "user":
-#             st.markdown("**You:**")
-#             st.markdown(f"<div class='chat-bubble'>{msg['content']}</div>", unsafe_allow_html=True)
-#         else:
-#             st.markdown("**Assistant:**")
-#             st.markdown(f"<div class='chat-bubble'>{msg['content']}</div>", unsafe_allow_html=True)
-
-
-# import os
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-# GPT_MODEL = "gpt-4.5-preview"
-
-# def load_embedded_data_consultant(json_path="embedded_data.json"):
-#     """Load previously embedded data from a JSON file."""
-#     with open(json_path, "r", encoding="utf-8") as f:
-#         data = json.load(f)
-#     return data
-
-# def embed_query_consultant(query, model="text-embedding-ada-002"):
-#     """Create an embedding for the given query."""
-#     response = openai.Embedding.create(
-#         input=query,
-#         model=model
-#     )
-#     return response["data"][0]["embedding"]
-
-# def cosine_similarity_consultant(vec_a, vec_b):
-#     """Compute cosine similarity between two vectors."""
-#     a = np.array(vec_a)
-#     b = np.array(vec_b)
-#     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
-# def find_top_chunks_consultant(query, embedded_data, top_k=5):
-#     """
-#     Retrieve the top matching chunks based on the user query.
-#     Returns a list of tuples: (score, chunk).
-#     """
-#     query_vec = embed_query_consultant(query)
-#     scored = []
-#     for item in embedded_data:
-#         score = cosine_similarity_consultant(query_vec, item["embedding"])
-#         scored.append((score, item))
-#     scored.sort(key=lambda x: x[0], reverse=True)
-#     return scored[:top_k]
-
-# def ask_gpt_consultant(prompt, model=GPT_MODEL, temperature=0.3, retry_delay=5, max_retries=3):
-#     """
-#     Call the OpenAI ChatCompletion API with a retry mechanism for rate-limit errors.
-#     """
-#     messages = [
-#         {"role": "system", "content": "You are a knowledgeable assistant."},
-#         {"role": "user", "content": prompt}
-#     ]
-#     retries = 0
-#     while retries < max_retries:
-#         try:
-#             response = openai.ChatCompletion.create(
-#                 model=model,
-#                 messages=messages,
-#                 temperature=temperature
-#             )
-#             return response["choices"][0]["message"]["content"]
-#         except RateLimitError:
-#             wait_time = retry_delay * (2 ** retries)
-#             st.warning(f"Rate limit reached, retrying in {wait_time} seconds...")
-#             time.sleep(wait_time)
-#             retries += 1
-#     raise RateLimitError("Rate limit exceeded after several retries.")
-
-# def extract_keywords_for_chunk(chunk_text, user_query):
-#     """
-#     Extract exactly 10 keywords from the given chunk that are most relevant to the user query.
-#     Returns a comma-separated list of 10 words.
-#     """
-#     prompt = (
-#         "You are an expert at extracting keywords. Given the following text and user query, "
-#         "list exactly 10 single-word keywords (separated by commas) that are most relevant to the user's query.\n\n"
-#         f"TEXT:\n{chunk_text}\n\n"
-#         f"USER QUERY:\n{user_query}\n\n"
-#         "Return exactly 10 keywords, separated by commas."
-#     )
-#     response = ask_gpt_consultant(prompt, temperature=0.5)
-#     keywords = [kw.strip() for kw in response.split(",") if kw.strip()]
-#     return keywords[:10]
-
-# def select_relevant_keywords(all_keywords, user_query):
-#     """
-#     Given a combined list of keywords, ask GPT-4 to select the 10 most relevant unique keywords 
-#     that best capture the essence of the user query.
-#     """
-#     keywords_str = ", ".join(all_keywords)
-#     prompt = (
-#         "You are an expert at analyzing keyword relevance. Given the following list of keywords and a user query, "
-#         "select the 10 most relevant unique keywords that best capture the essence of the user query. "
-#         "Return exactly 10 keywords as a comma-separated list.\n\n"
-#         f"KEYWORDS:\n{keywords_str}\n\n"
-#         f"USER QUERY:\n{user_query}\n\n"
-#         "Return exactly 10 keywords."
-#     )
-#     response = ask_gpt_consultant(prompt, temperature=0.5)
-#     selected = [kw.strip() for kw in response.split(",") if kw.strip()]
-#     return selected[:10]
-
-# def get_response_consultant(user_query, embedded_data):
-#     """
-#     Process the user query in one go by:
-#       1. Retrieving top-k chunks using the original query.
-#       2. Extracting keywords from those chunks and selecting the top 10.
-#       3. Forming an expanded query from those keywords.
-#       4. Retrieving a secondary set of top-k chunks using the expanded query.
-#       5. Combining both sets of chunks and calling once to produce a detailed answer.
-#     """
-#     # Step 1: Original top-k retrieval
-#     original_top_chunks = find_top_chunks_consultant(user_query, embedded_data, top_k=5)
-    
-#     # Step 2: Extract keywords from each retrieved chunk
-#     all_keywords = []
-#     for score, chunk in original_top_chunks:
-#         keywords = extract_keywords_for_chunk(chunk['chunk_text'], user_query)
-#         all_keywords.extend(keywords)
-    
-#     # Step 3: Select the 10 most relevant keywords and form an expanded query
-#     expanded_keywords = select_relevant_keywords(all_keywords, user_query)
-#     expanded_query = " ".join(expanded_keywords)
-    
-#     # Step 4: Secondary retrieval using the expanded query
-#     secondary_top_chunks = find_top_chunks_consultant(expanded_query, embedded_data, top_k=5)
-    
-#     # Step 5: Combine both sets of chunks into a single context block with enhanced citation metadata
-#     context_texts = []
-#     for i, (score, chunk) in enumerate(original_top_chunks):
-#         context_texts.append(
-#             f"<div class='citation'><strong>Original Source #{i} (Score: {score:.4f}):</strong><br>{chunk['chunk_text']}</div>"
-#         )
-#     for i, (score, chunk) in enumerate(secondary_top_chunks):
-#         context_texts.append(
-#             f"<div class='citation'><strong>Expanded Source #{i} (Score: {score:.4f}):</strong><br>{chunk['chunk_text']}</div>"
-#         )
-#     context_block = "\n".join(context_texts)
-    
-#     # Build a system prompt with instructions for an extended answer (no less than 4000 words)
-#     system_prompt = (
-#         "You are a highly knowledgeable assistant. Use all the CONTEXT provided below to answer the USER QUESTION. "
-#         "In your answer, integrate information from all provided sources and clearly cite them using the metadata provided "
-#         "(e.g., [Source: Original Source #X]). Your final answer should be extremely detailed and no less than 4000 words."
-#     )
-    
-#     # Final prompt combining context and the user query
-#     final_prompt = (
-#         f"{system_prompt}\n\n"
-#         f"CONTEXT:\n{context_block}\n\n"
-#         f"USER QUESTION:\n{user_query}\n\n"
-#         "Please provide your answer below."
-#     )
-    
-#     # One call to GPT‑4‑32k to produce the final extended answer
-#     final_answer = ask_gpt_consultant(final_prompt, temperature=0.7)
-#     return final_answer, {
-#         "original_top_chunks": original_top_chunks,
-#         "secondary_top_chunks": secondary_top_chunks,
-#         "expanded_keywords": expanded_keywords,
-#         "expanded_query": expanded_query
-#     }
-
-# # Consultant Main Function (st.set_page_config() call removed here)
-# def main_consultant():
-#     st.markdown(
-#         """
-#         <style>
-#         /* Overall page styling */
-#         body {
-#             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-#             background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
-#             color: #f5f5f5;
-#         }
-#         /* Container for chat messages */
-#         .chat-bubble {
-#             background-color: rgba(50, 50, 50, 0.85);
-#             border-radius: 8px;
-#             padding: 15px;
-#             margin: 10px 0;
-#             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-#         }
-#         /* Styling for citations with metadata */
-#         .citation {
-#             background-color: rgba(30, 30, 30, 0.9);
-#             border-left: 4px solid #ff9800;
-#             padding: 10px 15px;
-#             margin: 10px 0;
-#             font-size: 0.85em;
-#         }
-#         /* Button styling */
-#         .stButton>button {
-#             background-color: #ff9800;
-#             color: #1e1e1e;
-#             border: none;
-#             padding: 10px 20px;
-#             border-radius: 5px;
-#             font-weight: bold;
-#         }
-#         .stButton>button:hover {
-#             background-color: #e68900;
-#         }
-#         </style>
-#         """,
-#         unsafe_allow_html=True
-#     )
-    
-#     # Sidebar with meta information about the app
-#     st.sidebar.title("About")
-#     st.sidebar.info(
-#         "This Human-Design AI Assistant leverages advanced AI and embedded metadata from various text sources to provide "
-#         "detailed answers with properly formatted citations."
-#     )
-    
-#     # Initialize session state for messages and embedded data
-#     if "messages_consultant" not in st.session_state:
-#         st.session_state["messages_consultant"] = []
-#     if "embedded_data_consultant" not in st.session_state:
-#         st.session_state["embedded_data_consultant"] = load_embedded_data_consultant("embedded_data.json")
-    
-#     st.title("🤖 Human-Design AI Assistant")
-#     st.write("Ask me anything about human-design consulting!")
-    
-#     user_input = st.text_input("Type your message here...", key="consultant_input")
-    
-#     col1, col2 = st.columns([1, 1])
-#     with col1:
-#         send_pressed = st.button("Send", key="consultant_send")
-#     with col2:
-#         clear_pressed = st.button("Clear Chat", key="consultant_clear")
-    
-#     if clear_pressed:
-#         st.session_state["messages_consultant"] = []
-#         st.experimental_rerun()
-    
-#     debug_info = None
-#     if send_pressed and user_input.strip():
-#         st.session_state["messages_consultant"].append({"role": "user", "content": user_input})
-#         with st.spinner("Thinking..."):
-#             final_answer, debug_info = get_response_consultant(user_input, st.session_state["embedded_data_consultant"])
-#         st.session_state["messages_consultant"].append({"role": "assistant", "content": final_answer})
-    
-#     # Display chat messages
-#     for msg in st.session_state["messages_consultant"]:
-#         if msg["role"] == "user":
-#             st.markdown("**You:**")
-#             st.markdown(f"<div class='chat-bubble'>{msg['content']}</div>", unsafe_allow_html=True)
-#         else:
-#             st.markdown("**Assistant:**")
-#             st.markdown(f"<div class='chat-bubble'>{msg['content']}</div>", unsafe_allow_html=True)
-    
-#     # Display citations with metadata for transparency
-#     if debug_info:
-#         st.markdown("### Citations and Sources")
-#         for i, (score, chunk) in enumerate(debug_info["original_top_chunks"]):
-#             st.markdown(
-#                 f"<div class='citation'><strong>Original Source #{i} (Score: {score:.4f}):</strong><br>{chunk['chunk_text']}</div>",
-#                 unsafe_allow_html=True
-#             )
-#         for i, (score, chunk) in enumerate(debug_info["secondary_top_chunks"]):
-#             st.markdown(
-#                 f"<div class='citation'><strong>Expanded Source #{i} (Score: {score:.4f}):</strong><br>{chunk['chunk_text']}</div>",
-#                 unsafe_allow_html=True
-#             )
-
-# # ==============================================
-# # Global Application Entry Point
-# # ==============================================
-# def main():
-#     st.title("Human-Design AI Assistant")
-#     role = st.radio("Are you a consultant or a client?", options=["Consultant", "Client"])
-#     if role == "Client":
-#         main_client()
-#     else:
-#         main_consultant()
-
-# if __name__ == "__main__":
-#     main()
-
 
 import streamlit as st
-import openai
 import json
 import numpy as np
 import time
-import random
-try:
-    from openai.error import RateLimitError
-except ModuleNotFoundError:
-    from openai import RateLimitError
-
-from datetime import datetime
-import base64
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-import pdfkit
-import networkx as nx
-from pyvis.network import Network
-import tempfile
 import os
 import re
-from streamlit_elements import elements, dashboard, mui, html
+import tempfile
+import base64
+from datetime import datetime
 
+# Handle all optional dependencies with try/except blocks
+try:
+    import openai
+    from openai.error import RateLimitError
+    OPENAI_AVAILABLE = True
+except (ImportError, ModuleNotFoundError):
+    try:
+        import openai
+        # For newer versions of the OpenAI package
+        OPENAI_AVAILABLE = True
+    except (ImportError, ModuleNotFoundError):
+        OPENAI_AVAILABLE = False
+
+try:
+    import pandas as pd
+    PANDAS_AVAILABLE = True
+except ImportError:
+    PANDAS_AVAILABLE = False
+
+try:
+    import plotly.express as px
+    import plotly.graph_objects as go
+    PLOTLY_AVAILABLE = True
+except ImportError:
+    PLOTLY_AVAILABLE = False
+
+try:
+    import pdfkit
+    PDFKIT_AVAILABLE = True
+except ImportError:
+    PDFKIT_AVAILABLE = False
+
+try:
+    import networkx as nx
+    NETWORKX_AVAILABLE = True
+except ImportError:
+    NETWORKX_AVAILABLE = False
+
+try:
+    from pyvis.network import Network
+    PYVIS_AVAILABLE = True
+except ImportError:
+    PYVIS_AVAILABLE = False
+
+try:
+    from streamlit_elements import elements, dashboard, mui, html
+    STREAMLIT_ELEMENTS_AVAILABLE = True
+except ImportError:
+    STREAMLIT_ELEMENTS_AVAILABLE = False
+
+try:
+    from dotenv import load_dotenv
+    DOTENV_AVAILABLE = True
+except ImportError:
+    DOTENV_AVAILABLE = False
+
+# Load environment variables if possible
+if DOTENV_AVAILABLE:
+    load_dotenv()
+
+# Set API key if available
+if OPENAI_AVAILABLE:
+    openai.api_key = os.getenv("OPENAI_API_KEY")
 import os
 from dotenv import load_dotenv
+import random
 
 # Load environment variables from .env file
 load_dotenv()
@@ -1261,7 +879,7 @@ def create_metrics_dashboard(chat_history):
             f"""
             <div class="metric-card">
                 <div class="metric-label">Session Time</div>
-                <div class="metric-value">{random.randint(5, 30)} min</div>
+                <div class="metric-value">-- min</div>
             </div>
             """, 
             unsafe_allow_html=True
@@ -1346,7 +964,9 @@ def display_chunk_relevance(top_chunks):
 # PDF Report Generation function
 def generate_pdf_report(chat_history, analysis_data=None, user_name="User"):
     """Generate a PDF report from the chat history and analysis data."""
-    current_date = datetime.now().strftime("%B %d, %Y")
+    if not PDFKIT_AVAILABLE:
+        st.error("PDF generation is not available in this environment.")
+        return None
     
     # Create HTML content for the report
     html_content = f"""
@@ -1526,10 +1146,28 @@ def build_knowledge_graph(embedded_data, max_nodes=30):
             continue
     
     return G
-
-# Function to visualize the knowledge graph
+#Function to visualize the knowledge graph
 def visualize_knowledge_graph(G):
     """Create an interactive visualization of the knowledge graph."""
+    if not PYVIS_AVAILABLE:
+        st.error("Interactive graph visualization is not available in this environment.")
+        
+        # Create a simple text representation instead
+        nodes = list(G.nodes())
+        edges = list(G.edges())
+        
+        st.write(f"Graph contains {len(nodes)} concepts and {len(edges)} connections")
+        st.write("Top concepts by connections:")
+        
+        # Show top nodes by degree
+        degrees = dict(G.degree())
+        top_nodes = sorted(degrees.items(), key=lambda x: x[1], reverse=True)[:10]
+        
+        for node, degree in top_nodes:
+            st.write(f"- {node}: {degree} connections")
+            
+        return None
+        
     # Create a Pyvis network
     net = Network(height="500px", width="100%", bgcolor="#1E1E2E", font_color="white")
     
@@ -1556,6 +1194,7 @@ def visualize_knowledge_graph(G):
         os.unlink(temp_path)
         
         return graph_html
+        
 # Function to find related concepts
 def find_related_concepts(G, concept, max_distance=2):
     """Find concepts related to a given concept up to a certain distance in the graph."""
@@ -2005,14 +1644,17 @@ def main():
                         - Click on nodes to focus
                     """, unsafe_allow_html=True
                 )
-            
-            # Generate the graph visualization
-            try:
-                graph_html = visualize_knowledge_graph(G)
-                
+
+            if PYVIS_AVAILABLE:
+                try:
+                    graph_html = visualize_knowledge_graph(G)
+        
                 # Display the graph
-                st.components.v1.html(graph_html, height=600)
-                
+                    if graph_html:
+                        st.components.v1.html(graph_html, height=600)
+                except Exception as e:
+                    st.error(f"Error rendering knowledge graph: {str(e)}")
+
                 # Option to download the graph data
                 graph_data = export_knowledge_graph(G)
                 download_json = json.dumps(graph_data)
@@ -2022,8 +1664,11 @@ def main():
                     file_name="human_design_knowledge_graph.json",
                     mime="application/json"
                 )
-            except Exception as e:
-                st.error(f"Error rendering knowledge graph: {str(e)}")
+            # except Exception as e:
+            #     st.error(f"Error rendering knowledge graph: {str(e)}")
+            else:
+                st.warning("Interactive graph visualization requires pyvis which is not available. Using simplified visualization instead.")
+                visualize_knowledge_graph(G)  # Will show the text-based alternative
     else:
         # Show a placeholder and instructions when the graph hasn't been generated yet
         st.info("Click the 'Generate Knowledge Graph' button to build and visualize relationships between Human Design concepts.")
